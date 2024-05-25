@@ -1,0 +1,2 @@
+Train Silhouette Score: 0.4880201859408698
+Test Silhouette Score: 0.497984149157356

@@ -1,0 +1,20 @@
+Cluster 0:
+  Support: U Statistic = 1232.0, P-Value = 1.6411848143840786e-20
+  Confidence: U Statistic = 5769.5, P-Value = 0.9382602601857009
+  Lift: U Statistic = 8948.0, P-Value = 2.5511372279145463e-11
+
+Cluster 1:
+  Support: U Statistic = 772.0, P-Value = 1.0128712620555137e-24
+  Confidence: U Statistic = 6006.0, P-Value = 0.6581168503576516
+  Lift: U Statistic = 10746.0, P-Value = 2.1857197714107483e-24
+
+Cluster 2:
+  Support: U Statistic = 120.0, P-Value = 1.488418432100087e-20
+  Confidence: U Statistic = 1890.0, P-Value = 0.4415403834668743
+  Lift: U Statistic = 3911.0, P-Value = 5.418550933202662e-19
+
+Cluster -1:
+  Support: U Statistic = 55818.0, P-Value = 7.72939748611937e-208
+  Confidence: U Statistic = 49173.0, P-Value = 2.455745784639898e-156
+  Lift: U Statistic = 28352.0, P-Value = 0.6256948684012008
+
