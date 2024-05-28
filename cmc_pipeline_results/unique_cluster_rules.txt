@@ -1,0 +1,32 @@
+Cluster 0:
+Rule: frozenset({'standard_of_living_index_3', 'wife_edu_2'}) -> frozenset({'husband_occupation_4'})
+Support: 0.010638297872340425, Confidence: 1.0, Lift: 18.8, Coverage: 0.010638297872340425 
+
+Rule: frozenset({'wife_age_(26.0, 32.0]', 'standard_of_living_index_3'}) -> frozenset({'husband_occupation_4'})
+Support: 0.010638297872340425, Confidence: 1.0, Lift: 18.8, Coverage: 0.010638297872340425 
+
+Rule: frozenset({'age_children_interaction_(90.0, 168.0]', 'edu_interaction_(12.0, 16.0]'}) -> frozenset({'wife_edu_4'})
+Support: 0.02127659574468085, Confidence: 1.0, Lift: 18.8, Coverage: 0.02127659574468085 
+
+Rule: frozenset({'wife_edu_4', 'wife_age_(39.0, 49.0]'}) -> frozenset({'edu_interaction_(12.0, 16.0]'})
+Support: 0.010638297872340425, Confidence: 1.0, Lift: 18.8, Coverage: 0.010638297872340425 
+
+Rule: frozenset({'wife_age_(39.0, 49.0]', 'edu_interaction_(12.0, 16.0]'}) -> frozenset({'wife_edu_4'})
+Support: 0.010638297872340425, Confidence: 1.0, Lift: 18.8, Coverage: 0.010638297872340425 
+
+Cluster 1:
+Rule: frozenset({'wife_age_(39.0, 49.0]', 'num_children_(2.0, 3.0]'}) -> frozenset({'age_children_interaction_(90.0, 168.0]'})
+Support: 0.03228782287822878, Confidence: 1.0, Lift: 4.029739776951673, Coverage: 0.03228782287822878 
+
+Rule: frozenset({'wife_age_(26.0, 32.0]', 'num_children_(3.0, 5.0]'}) -> frozenset({'age_children_interaction_(90.0, 168.0]'})
+Support: 0.06734317343173432, Confidence: 1.0, Lift: 4.029739776951673, Coverage: 0.06734317343173432 
+
+Rule: frozenset({'wife_age_(32.0, 39.0]', 'num_children_(2.0, 3.0]'}) -> frozenset({'age_children_interaction_(90.0, 168.0]'})
+Support: 0.05350553505535055, Confidence: 1.0, Lift: 4.029739776951673, Coverage: 0.05350553505535055 
+
+Rule: frozenset({'num_children_(5.0, 16.0]', 'wife_age_(32.0, 39.0]'}) -> frozenset({'age_children_interaction_(168.0, 768.0]'})
+Support: 0.052583025830258305, Confidence: 1.0, Lift: 4.284584980237154, Coverage: 0.052583025830258305 
+
+Rule: frozenset({'husband_occupation_2', 'num_children_(5.0, 16.0]'}) -> frozenset({'age_children_interaction_(168.0, 768.0]'})
+Support: 0.04428044280442804, Confidence: 1.0, Lift: 4.284584980237154, Coverage: 0.04428044280442804 
+

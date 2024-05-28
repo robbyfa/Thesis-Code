@@ -1,0 +1,40 @@
+    Cluster                                               Rule  Rule Coverage  \
+54        1  (num_children_(5.0, 16.0], age_children_intera...       0.233395   
+53        1  (num_children_(5.0, 16.0], age_children_intera...       0.153137   
+57        1  (num_children_(5.0, 16.0], age_children_intera...       0.153137   
+68        1  (num_children_(5.0, 16.0], age_children_intera...       0.153137   
+71        1  (num_children_(5.0, 16.0], husband_edu_4, age_...       0.153137   
+..      ...                                                ...            ...   
+24        0  (wife_edu_4, edu_interaction_(12.0, 16.0], wif...       0.021277   
+13        0  (husband_occupation_3, wife_edu_4, edu_interac...       0.021277   
+19        0  (wife_edu_4, age_children_interaction_(90.0, 1...       0.021277   
+12        0  (wife_edu_4, standard_of_living_index_4, edu_i...       0.021277   
+11        0  (wife_edu_4, standard_of_living_index_4, edu_i...       0.021277   
+
+    Cluster Mean Coverage  Coverage Difference from Mean  \
+54               0.079599                   1.537955e-01   
+53               0.079599                   7.353716e-02   
+57               0.079599                   7.353716e-02   
+68               0.079599                   7.353716e-02   
+71               0.079599                   7.353716e-02   
+..                    ...                            ...   
+24               0.021277                   6.938894e-18   
+13               0.021277                   6.938894e-18   
+19               0.021277                   6.938894e-18   
+12               0.021277                   6.938894e-18   
+11               0.021277                   6.938894e-18   
+
+    Abs Coverage Difference  
+54             1.537955e-01  
+53             7.353716e-02  
+57             7.353716e-02  
+68             7.353716e-02  
+71             7.353716e-02  
+..                      ...  
+24             6.938894e-18  
+13             6.938894e-18  
+19             6.938894e-18  
+12             6.938894e-18  
+11             6.938894e-18  
+
+[92 rows x 6 columns]

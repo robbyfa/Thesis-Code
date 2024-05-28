@@ -1,0 +1,40 @@
+      Cluster                                               Rule  \
+367         2  (education-num_(10.0, 13.0], education_Bachelo...   
+33          0  (education-num_(10.0, 13.0], education_Bachelo...   
+29          0  (education_Bachelors, education-num_(10.0, 13....   
+4           0  (education-num_(10.0, 13.0], education_Bachelors)   
+12          0  (education-num_(10.0, 13.0], education_Bachelo...   
+...       ...                                                ...   
+729        -1  (workclass_State-gov, race_White, native_count...   
+730        -1  (workclass_State-gov, race_White, native_count...   
+731        -1  (workclass_State-gov, race_White, native_count...   
+732        -1  (workclass_State-gov, race_White, native_count...   
+1316       -1  (workclass_State-gov, relationship_Other-relat...   
+
+      Rule Coverage  Cluster Mean Coverage  Coverage Difference from Mean  \
+367        0.247863               0.066535                       0.181328   
+33         0.243411               0.080317                       0.163094   
+29         0.243411               0.080317                       0.163094   
+4          0.243411               0.080317                       0.163094   
+12         0.243411               0.080317                       0.163094   
+...             ...                    ...                            ...   
+729        0.500000               0.500000                       0.000000   
+730        0.500000               0.500000                       0.000000   
+731        0.500000               0.500000                       0.000000   
+732        0.500000               0.500000                       0.000000   
+1316       0.500000               0.500000                       0.000000   
+
+      Abs Coverage Difference  
+367                  0.181328  
+33                   0.163094  
+29                   0.163094  
+4                    0.163094  
+12                   0.163094  
+...                       ...  
+729                  0.000000  
+730                  0.000000  
+731                  0.000000  
+732                  0.000000  
+1316                 0.000000  
+
+[1317 rows x 6 columns]

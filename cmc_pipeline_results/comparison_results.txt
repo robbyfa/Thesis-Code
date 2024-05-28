@@ -1,0 +1,10 @@
+Cluster 0:
+  Support: U Statistic = 0.0, P-Value = 1.465677320443674e-13
+  Confidence: U Statistic = 1044.0, P-Value = 4.709102989641713e-08
+  Lift: U Statistic = 1296.0, P-Value = 6.260249190321986e-15
+
+Cluster 1:
+  Support: U Statistic = 32.0, P-Value = 5.5582433878837855e-15
+  Confidence: U Statistic = 597.0, P-Value = 0.00089406842102649
+  Lift: U Statistic = 1988.0, P-Value = 4.454832224395789e-15
+

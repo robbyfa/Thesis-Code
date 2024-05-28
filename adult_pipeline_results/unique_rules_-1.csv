@@ -1,0 +1,865 @@
+level_1,antecedents,consequents,antecedent support,consequent support,support,confidence,lift,leverage,conviction,zhangs_metric,total_items,coverage
+7,frozenset({'sex_Male'}),frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+8,frozenset({'workclass_Private'}),frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+12,"frozenset({'sex_Male', 'race_White'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+13,"frozenset({'workclass_Private', 'race_White'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+14,frozenset({'sex_Male'}),"frozenset({'workclass_Private', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+15,frozenset({'workclass_Private'}),"frozenset({'sex_Male', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+16,"frozenset({'relationship_Other-relative', 'sex_Male'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+17,"frozenset({'relationship_Other-relative', 'workclass_Private'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+19,frozenset({'sex_Male'}),"frozenset({'relationship_Other-relative', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+20,frozenset({'workclass_Private'}),"frozenset({'relationship_Other-relative', 'sex_Male'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+35,frozenset({'sex_Male'}),frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+36,frozenset({'occupation_aggregated_Other'}),frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+37,frozenset({'occupation_aggregated_Other'}),frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+38,frozenset({'workclass_Private'}),frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+41,"frozenset({'sex_Male', 'occupation_aggregated_Other'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+42,"frozenset({'sex_Male', 'workclass_Private'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+43,"frozenset({'occupation_aggregated_Other', 'workclass_Private'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+44,frozenset({'sex_Male'}),"frozenset({'occupation_aggregated_Other', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+45,frozenset({'occupation_aggregated_Other'}),"frozenset({'sex_Male', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+46,frozenset({'workclass_Private'}),"frozenset({'sex_Male', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+48,"frozenset({'sex_Male', 'race_White'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+49,"frozenset({'occupation_aggregated_Other', 'race_White'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+50,frozenset({'sex_Male'}),"frozenset({'occupation_aggregated_Other', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+51,frozenset({'occupation_aggregated_Other'}),"frozenset({'sex_Male', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+52,"frozenset({'relationship_Other-relative', 'sex_Male'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+53,"frozenset({'relationship_Other-relative', 'occupation_aggregated_Other'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+55,frozenset({'sex_Male'}),"frozenset({'relationship_Other-relative', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+56,frozenset({'occupation_aggregated_Other'}),"frozenset({'relationship_Other-relative', 'sex_Male'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+58,"frozenset({'occupation_aggregated_Other', 'race_White'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+59,"frozenset({'workclass_Private', 'race_White'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+60,frozenset({'occupation_aggregated_Other'}),"frozenset({'workclass_Private', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+61,frozenset({'workclass_Private'}),"frozenset({'occupation_aggregated_Other', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+62,"frozenset({'relationship_Other-relative', 'occupation_aggregated_Other'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+63,"frozenset({'relationship_Other-relative', 'workclass_Private'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+65,frozenset({'occupation_aggregated_Other'}),"frozenset({'relationship_Other-relative', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+66,frozenset({'workclass_Private'}),"frozenset({'relationship_Other-relative', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+145,frozenset({'native_country_aggregated_Mexico'}),frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+146,frozenset({'occupation_aggregated_Other'}),frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+147,frozenset({'native_country_aggregated_Mexico'}),frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+148,frozenset({'sex_Male'}),frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+149,frozenset({'native_country_aggregated_Mexico'}),frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+150,frozenset({'workclass_Private'}),frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+153,"frozenset({'native_country_aggregated_Mexico', 'sex_Male'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+154,"frozenset({'native_country_aggregated_Mexico', 'occupation_aggregated_Other'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+155,"frozenset({'sex_Male', 'occupation_aggregated_Other'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+156,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'sex_Male', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+157,frozenset({'sex_Male'}),"frozenset({'native_country_aggregated_Mexico', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+158,frozenset({'occupation_aggregated_Other'}),"frozenset({'native_country_aggregated_Mexico', 'sex_Male'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+159,"frozenset({'native_country_aggregated_Mexico', 'occupation_aggregated_Other'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+160,"frozenset({'native_country_aggregated_Mexico', 'workclass_Private'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+161,"frozenset({'occupation_aggregated_Other', 'workclass_Private'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+162,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'occupation_aggregated_Other', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+163,frozenset({'occupation_aggregated_Other'}),"frozenset({'native_country_aggregated_Mexico', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+164,frozenset({'workclass_Private'}),"frozenset({'native_country_aggregated_Mexico', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+166,"frozenset({'native_country_aggregated_Mexico', 'race_White'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+167,"frozenset({'occupation_aggregated_Other', 'race_White'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+168,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'occupation_aggregated_Other', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+169,frozenset({'occupation_aggregated_Other'}),"frozenset({'native_country_aggregated_Mexico', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+170,"frozenset({'native_country_aggregated_Mexico', 'relationship_Other-relative'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+172,"frozenset({'relationship_Other-relative', 'occupation_aggregated_Other'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+173,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'relationship_Other-relative', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+174,frozenset({'occupation_aggregated_Other'}),"frozenset({'native_country_aggregated_Mexico', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+175,"frozenset({'native_country_aggregated_Mexico', 'sex_Male'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+176,"frozenset({'native_country_aggregated_Mexico', 'workclass_Private'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+177,"frozenset({'sex_Male', 'workclass_Private'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+178,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'sex_Male', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+179,frozenset({'sex_Male'}),"frozenset({'native_country_aggregated_Mexico', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+180,frozenset({'workclass_Private'}),"frozenset({'native_country_aggregated_Mexico', 'sex_Male'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+182,"frozenset({'native_country_aggregated_Mexico', 'race_White'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+183,"frozenset({'sex_Male', 'race_White'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+184,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'sex_Male', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+185,frozenset({'sex_Male'}),"frozenset({'native_country_aggregated_Mexico', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+186,"frozenset({'native_country_aggregated_Mexico', 'relationship_Other-relative'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+188,"frozenset({'relationship_Other-relative', 'sex_Male'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+189,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'relationship_Other-relative', 'sex_Male'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+190,frozenset({'sex_Male'}),"frozenset({'native_country_aggregated_Mexico', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+192,"frozenset({'native_country_aggregated_Mexico', 'race_White'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+193,"frozenset({'workclass_Private', 'race_White'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+194,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'workclass_Private', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+195,frozenset({'workclass_Private'}),"frozenset({'native_country_aggregated_Mexico', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+196,"frozenset({'native_country_aggregated_Mexico', 'relationship_Other-relative'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+198,"frozenset({'relationship_Other-relative', 'workclass_Private'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+199,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'relationship_Other-relative', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+200,frozenset({'workclass_Private'}),"frozenset({'native_country_aggregated_Mexico', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+527,frozenset({'native_country_aggregated_Mexico'}),frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+528,frozenset({'marital-status_Married-civ-spouse'}),frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+529,frozenset({'marital-status_Married-civ-spouse'}),frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+530,frozenset({'occupation_aggregated_Other'}),frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+531,frozenset({'sex_Male'}),frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+532,frozenset({'marital-status_Married-civ-spouse'}),frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+533,frozenset({'marital-status_Married-civ-spouse'}),frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+534,frozenset({'workclass_Private'}),frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+537,"frozenset({'native_country_aggregated_Mexico', 'marital-status_Married-civ-spouse'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+538,"frozenset({'native_country_aggregated_Mexico', 'occupation_aggregated_Other'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+539,"frozenset({'marital-status_Married-civ-spouse', 'occupation_aggregated_Other'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+540,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'marital-status_Married-civ-spouse', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+541,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'native_country_aggregated_Mexico', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+542,frozenset({'occupation_aggregated_Other'}),"frozenset({'native_country_aggregated_Mexico', 'marital-status_Married-civ-spouse'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+543,"frozenset({'native_country_aggregated_Mexico', 'sex_Male'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+544,"frozenset({'native_country_aggregated_Mexico', 'marital-status_Married-civ-spouse'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+545,"frozenset({'sex_Male', 'marital-status_Married-civ-spouse'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+546,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'sex_Male', 'marital-status_Married-civ-spouse'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+547,frozenset({'sex_Male'}),"frozenset({'native_country_aggregated_Mexico', 'marital-status_Married-civ-spouse'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+548,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'native_country_aggregated_Mexico', 'sex_Male'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+549,"frozenset({'native_country_aggregated_Mexico', 'marital-status_Married-civ-spouse'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+550,"frozenset({'native_country_aggregated_Mexico', 'workclass_Private'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+551,"frozenset({'marital-status_Married-civ-spouse', 'workclass_Private'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+552,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'marital-status_Married-civ-spouse', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+553,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'native_country_aggregated_Mexico', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+554,frozenset({'workclass_Private'}),"frozenset({'native_country_aggregated_Mexico', 'marital-status_Married-civ-spouse'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+556,"frozenset({'native_country_aggregated_Mexico', 'race_White'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+557,"frozenset({'marital-status_Married-civ-spouse', 'race_White'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+558,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'marital-status_Married-civ-spouse', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+559,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'native_country_aggregated_Mexico', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+560,"frozenset({'native_country_aggregated_Mexico', 'relationship_Other-relative'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+562,"frozenset({'relationship_Other-relative', 'marital-status_Married-civ-spouse'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+563,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'relationship_Other-relative', 'marital-status_Married-civ-spouse'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+564,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'native_country_aggregated_Mexico', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+565,"frozenset({'sex_Male', 'marital-status_Married-civ-spouse'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+566,"frozenset({'sex_Male', 'occupation_aggregated_Other'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+567,"frozenset({'marital-status_Married-civ-spouse', 'occupation_aggregated_Other'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+568,frozenset({'sex_Male'}),"frozenset({'marital-status_Married-civ-spouse', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+569,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'sex_Male', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+570,frozenset({'occupation_aggregated_Other'}),"frozenset({'sex_Male', 'marital-status_Married-civ-spouse'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+571,"frozenset({'marital-status_Married-civ-spouse', 'occupation_aggregated_Other'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+572,"frozenset({'marital-status_Married-civ-spouse', 'workclass_Private'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+573,"frozenset({'occupation_aggregated_Other', 'workclass_Private'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+574,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'occupation_aggregated_Other', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+575,frozenset({'occupation_aggregated_Other'}),"frozenset({'marital-status_Married-civ-spouse', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+576,frozenset({'workclass_Private'}),"frozenset({'marital-status_Married-civ-spouse', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+578,"frozenset({'marital-status_Married-civ-spouse', 'race_White'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+579,"frozenset({'occupation_aggregated_Other', 'race_White'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+580,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'occupation_aggregated_Other', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+581,frozenset({'occupation_aggregated_Other'}),"frozenset({'marital-status_Married-civ-spouse', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+582,"frozenset({'relationship_Other-relative', 'marital-status_Married-civ-spouse'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+583,"frozenset({'relationship_Other-relative', 'occupation_aggregated_Other'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+585,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'relationship_Other-relative', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+586,frozenset({'occupation_aggregated_Other'}),"frozenset({'relationship_Other-relative', 'marital-status_Married-civ-spouse'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+587,"frozenset({'sex_Male', 'marital-status_Married-civ-spouse'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+588,"frozenset({'sex_Male', 'workclass_Private'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+589,"frozenset({'marital-status_Married-civ-spouse', 'workclass_Private'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+590,frozenset({'sex_Male'}),"frozenset({'marital-status_Married-civ-spouse', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+591,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'sex_Male', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+592,frozenset({'workclass_Private'}),"frozenset({'sex_Male', 'marital-status_Married-civ-spouse'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+594,"frozenset({'sex_Male', 'race_White'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+595,"frozenset({'marital-status_Married-civ-spouse', 'race_White'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+596,frozenset({'sex_Male'}),"frozenset({'marital-status_Married-civ-spouse', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+597,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'sex_Male', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+598,"frozenset({'relationship_Other-relative', 'sex_Male'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+599,"frozenset({'relationship_Other-relative', 'marital-status_Married-civ-spouse'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+601,frozenset({'sex_Male'}),"frozenset({'relationship_Other-relative', 'marital-status_Married-civ-spouse'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+602,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'relationship_Other-relative', 'sex_Male'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+604,"frozenset({'marital-status_Married-civ-spouse', 'race_White'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+605,"frozenset({'workclass_Private', 'race_White'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+606,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'workclass_Private', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+607,frozenset({'workclass_Private'}),"frozenset({'marital-status_Married-civ-spouse', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+608,"frozenset({'relationship_Other-relative', 'marital-status_Married-civ-spouse'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+609,"frozenset({'relationship_Other-relative', 'workclass_Private'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+611,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'relationship_Other-relative', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+612,frozenset({'workclass_Private'}),"frozenset({'relationship_Other-relative', 'marital-status_Married-civ-spouse'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1777,frozenset({'marital-status_Married-civ-spouse'}),frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+1778,frozenset({'education_Preschool'}),frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+1779,frozenset({'native_country_aggregated_Mexico'}),frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+1780,frozenset({'education_Preschool'}),frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+1781,frozenset({'occupation_aggregated_Other'}),frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+1782,frozenset({'education_Preschool'}),frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+1783,frozenset({'sex_Male'}),frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+1784,frozenset({'education_Preschool'}),frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+1785,frozenset({'education_Preschool'}),frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+1786,frozenset({'workclass_Private'}),frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+1789,"frozenset({'native_country_aggregated_Mexico', 'marital-status_Married-civ-spouse'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1790,"frozenset({'native_country_aggregated_Mexico', 'education_Preschool'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1791,"frozenset({'marital-status_Married-civ-spouse', 'education_Preschool'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1792,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'marital-status_Married-civ-spouse', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1793,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'native_country_aggregated_Mexico', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1794,frozenset({'education_Preschool'}),"frozenset({'native_country_aggregated_Mexico', 'marital-status_Married-civ-spouse'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1795,"frozenset({'marital-status_Married-civ-spouse', 'occupation_aggregated_Other'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1796,"frozenset({'marital-status_Married-civ-spouse', 'education_Preschool'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1797,"frozenset({'occupation_aggregated_Other', 'education_Preschool'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1798,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'occupation_aggregated_Other', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1799,frozenset({'occupation_aggregated_Other'}),"frozenset({'marital-status_Married-civ-spouse', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1800,frozenset({'education_Preschool'}),"frozenset({'marital-status_Married-civ-spouse', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1801,"frozenset({'sex_Male', 'marital-status_Married-civ-spouse'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1802,"frozenset({'sex_Male', 'education_Preschool'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1803,"frozenset({'marital-status_Married-civ-spouse', 'education_Preschool'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1804,frozenset({'sex_Male'}),"frozenset({'marital-status_Married-civ-spouse', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1805,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'sex_Male', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1806,frozenset({'education_Preschool'}),"frozenset({'sex_Male', 'marital-status_Married-civ-spouse'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1807,"frozenset({'marital-status_Married-civ-spouse', 'education_Preschool'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1808,"frozenset({'marital-status_Married-civ-spouse', 'workclass_Private'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1809,"frozenset({'education_Preschool', 'workclass_Private'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1810,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'education_Preschool', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1811,frozenset({'education_Preschool'}),"frozenset({'marital-status_Married-civ-spouse', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1812,frozenset({'workclass_Private'}),"frozenset({'marital-status_Married-civ-spouse', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1814,"frozenset({'marital-status_Married-civ-spouse', 'race_White'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1815,"frozenset({'education_Preschool', 'race_White'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1816,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'education_Preschool', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1817,frozenset({'education_Preschool'}),"frozenset({'marital-status_Married-civ-spouse', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1818,"frozenset({'relationship_Other-relative', 'marital-status_Married-civ-spouse'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1819,"frozenset({'relationship_Other-relative', 'education_Preschool'})",frozenset({'marital-status_Married-civ-spouse'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1821,frozenset({'marital-status_Married-civ-spouse'}),"frozenset({'relationship_Other-relative', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1822,frozenset({'education_Preschool'}),"frozenset({'relationship_Other-relative', 'marital-status_Married-civ-spouse'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1823,"frozenset({'native_country_aggregated_Mexico', 'occupation_aggregated_Other'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1824,"frozenset({'native_country_aggregated_Mexico', 'education_Preschool'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1825,"frozenset({'occupation_aggregated_Other', 'education_Preschool'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1826,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'occupation_aggregated_Other', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1827,frozenset({'occupation_aggregated_Other'}),"frozenset({'native_country_aggregated_Mexico', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1828,frozenset({'education_Preschool'}),"frozenset({'native_country_aggregated_Mexico', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1829,"frozenset({'native_country_aggregated_Mexico', 'sex_Male'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1830,"frozenset({'native_country_aggregated_Mexico', 'education_Preschool'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1831,"frozenset({'sex_Male', 'education_Preschool'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1832,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'sex_Male', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1833,frozenset({'sex_Male'}),"frozenset({'native_country_aggregated_Mexico', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1834,frozenset({'education_Preschool'}),"frozenset({'native_country_aggregated_Mexico', 'sex_Male'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1835,"frozenset({'native_country_aggregated_Mexico', 'education_Preschool'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1836,"frozenset({'native_country_aggregated_Mexico', 'workclass_Private'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1837,"frozenset({'education_Preschool', 'workclass_Private'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1838,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'education_Preschool', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1839,frozenset({'education_Preschool'}),"frozenset({'native_country_aggregated_Mexico', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1840,frozenset({'workclass_Private'}),"frozenset({'native_country_aggregated_Mexico', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1842,"frozenset({'native_country_aggregated_Mexico', 'race_White'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1843,"frozenset({'education_Preschool', 'race_White'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1844,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'education_Preschool', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1845,frozenset({'education_Preschool'}),"frozenset({'native_country_aggregated_Mexico', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1846,"frozenset({'native_country_aggregated_Mexico', 'relationship_Other-relative'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1848,"frozenset({'relationship_Other-relative', 'education_Preschool'})",frozenset({'native_country_aggregated_Mexico'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1849,frozenset({'native_country_aggregated_Mexico'}),"frozenset({'relationship_Other-relative', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1850,frozenset({'education_Preschool'}),"frozenset({'native_country_aggregated_Mexico', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1851,"frozenset({'sex_Male', 'occupation_aggregated_Other'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1852,"frozenset({'sex_Male', 'education_Preschool'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1853,"frozenset({'occupation_aggregated_Other', 'education_Preschool'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1854,frozenset({'sex_Male'}),"frozenset({'occupation_aggregated_Other', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1855,frozenset({'occupation_aggregated_Other'}),"frozenset({'sex_Male', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1856,frozenset({'education_Preschool'}),"frozenset({'sex_Male', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1857,"frozenset({'occupation_aggregated_Other', 'education_Preschool'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1858,"frozenset({'occupation_aggregated_Other', 'workclass_Private'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1859,"frozenset({'education_Preschool', 'workclass_Private'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1860,frozenset({'occupation_aggregated_Other'}),"frozenset({'education_Preschool', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1861,frozenset({'education_Preschool'}),"frozenset({'occupation_aggregated_Other', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1862,frozenset({'workclass_Private'}),"frozenset({'occupation_aggregated_Other', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1864,"frozenset({'occupation_aggregated_Other', 'race_White'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1865,"frozenset({'education_Preschool', 'race_White'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1866,frozenset({'occupation_aggregated_Other'}),"frozenset({'education_Preschool', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1867,frozenset({'education_Preschool'}),"frozenset({'occupation_aggregated_Other', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1868,"frozenset({'relationship_Other-relative', 'occupation_aggregated_Other'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1869,"frozenset({'relationship_Other-relative', 'education_Preschool'})",frozenset({'occupation_aggregated_Other'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1871,frozenset({'occupation_aggregated_Other'}),"frozenset({'relationship_Other-relative', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1872,frozenset({'education_Preschool'}),"frozenset({'relationship_Other-relative', 'occupation_aggregated_Other'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1873,"frozenset({'sex_Male', 'education_Preschool'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1874,"frozenset({'sex_Male', 'workclass_Private'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1875,"frozenset({'education_Preschool', 'workclass_Private'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1876,frozenset({'sex_Male'}),"frozenset({'education_Preschool', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1877,frozenset({'education_Preschool'}),"frozenset({'sex_Male', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1878,frozenset({'workclass_Private'}),"frozenset({'sex_Male', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1880,"frozenset({'sex_Male', 'race_White'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1881,"frozenset({'education_Preschool', 'race_White'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1882,frozenset({'sex_Male'}),"frozenset({'education_Preschool', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1883,frozenset({'education_Preschool'}),"frozenset({'sex_Male', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1884,"frozenset({'relationship_Other-relative', 'sex_Male'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1885,"frozenset({'relationship_Other-relative', 'education_Preschool'})",frozenset({'sex_Male'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1887,frozenset({'sex_Male'}),"frozenset({'relationship_Other-relative', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1888,frozenset({'education_Preschool'}),"frozenset({'relationship_Other-relative', 'sex_Male'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1890,"frozenset({'workclass_Private', 'race_White'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1891,"frozenset({'education_Preschool', 'race_White'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1892,frozenset({'workclass_Private'}),"frozenset({'education_Preschool', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1893,frozenset({'education_Preschool'}),"frozenset({'workclass_Private', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1894,"frozenset({'relationship_Other-relative', 'education_Preschool'})",frozenset({'workclass_Private'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1895,"frozenset({'relationship_Other-relative', 'workclass_Private'})",frozenset({'education_Preschool'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1897,frozenset({'education_Preschool'}),"frozenset({'relationship_Other-relative', 'workclass_Private'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+1898,frozenset({'workclass_Private'}),"frozenset({'relationship_Other-relative', 'education_Preschool'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5740,frozenset({'workclass_State-gov'}),frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+5741,frozenset({'occupation_aggregated_Prof-specialty'}),frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+5745,"frozenset({'workclass_State-gov', 'race_White'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5746,"frozenset({'occupation_aggregated_Prof-specialty', 'race_White'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5747,frozenset({'workclass_State-gov'}),"frozenset({'occupation_aggregated_Prof-specialty', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5748,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'workclass_State-gov', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5749,"frozenset({'workclass_State-gov', 'relationship_Other-relative'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5751,"frozenset({'relationship_Other-relative', 'occupation_aggregated_Prof-specialty'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5752,frozenset({'workclass_State-gov'}),"frozenset({'relationship_Other-relative', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5753,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'workclass_State-gov', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5768,frozenset({'occupation_aggregated_Prof-specialty'}),frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+5769,frozenset({'native_country_aggregated_United-States'}),frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+5770,frozenset({'workclass_State-gov'}),frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+5771,frozenset({'native_country_aggregated_United-States'}),frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+5774,"frozenset({'workclass_State-gov', 'occupation_aggregated_Prof-specialty'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5775,"frozenset({'workclass_State-gov', 'native_country_aggregated_United-States'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5776,"frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5777,frozenset({'workclass_State-gov'}),"frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5778,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'workclass_State-gov', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5779,frozenset({'native_country_aggregated_United-States'}),"frozenset({'workclass_State-gov', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5780,"frozenset({'occupation_aggregated_Prof-specialty', 'race_White'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5782,"frozenset({'race_White', 'native_country_aggregated_United-States'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5783,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'race_White', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5784,frozenset({'native_country_aggregated_United-States'}),"frozenset({'occupation_aggregated_Prof-specialty', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5785,"frozenset({'relationship_Other-relative', 'occupation_aggregated_Prof-specialty'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5786,"frozenset({'relationship_Other-relative', 'native_country_aggregated_United-States'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5788,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'relationship_Other-relative', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5789,frozenset({'native_country_aggregated_United-States'}),"frozenset({'relationship_Other-relative', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5790,"frozenset({'workclass_State-gov', 'race_White'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5792,"frozenset({'race_White', 'native_country_aggregated_United-States'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5793,frozenset({'workclass_State-gov'}),"frozenset({'race_White', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5794,frozenset({'native_country_aggregated_United-States'}),"frozenset({'workclass_State-gov', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5795,"frozenset({'workclass_State-gov', 'relationship_Other-relative'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5797,"frozenset({'relationship_Other-relative', 'native_country_aggregated_United-States'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5798,frozenset({'workclass_State-gov'}),"frozenset({'relationship_Other-relative', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5799,frozenset({'native_country_aggregated_United-States'}),"frozenset({'workclass_State-gov', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5878,frozenset({'marital-status_Never-married'}),frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+5879,frozenset({'native_country_aggregated_United-States'}),frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+5880,frozenset({'marital-status_Never-married'}),frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+5881,frozenset({'occupation_aggregated_Prof-specialty'}),frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+5882,frozenset({'marital-status_Never-married'}),frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+5883,frozenset({'workclass_State-gov'}),frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+5886,"frozenset({'marital-status_Never-married', 'occupation_aggregated_Prof-specialty'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5887,"frozenset({'marital-status_Never-married', 'native_country_aggregated_United-States'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5888,"frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5889,frozenset({'marital-status_Never-married'}),"frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5890,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'marital-status_Never-married', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5891,frozenset({'native_country_aggregated_United-States'}),"frozenset({'marital-status_Never-married', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5892,"frozenset({'marital-status_Never-married', 'workclass_State-gov'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5893,"frozenset({'marital-status_Never-married', 'native_country_aggregated_United-States'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5894,"frozenset({'workclass_State-gov', 'native_country_aggregated_United-States'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5895,frozenset({'marital-status_Never-married'}),"frozenset({'workclass_State-gov', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5896,frozenset({'workclass_State-gov'}),"frozenset({'marital-status_Never-married', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5897,frozenset({'native_country_aggregated_United-States'}),"frozenset({'marital-status_Never-married', 'workclass_State-gov'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5898,"frozenset({'marital-status_Never-married', 'race_White'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5900,"frozenset({'race_White', 'native_country_aggregated_United-States'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5901,frozenset({'marital-status_Never-married'}),"frozenset({'race_White', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5902,frozenset({'native_country_aggregated_United-States'}),"frozenset({'marital-status_Never-married', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5903,"frozenset({'marital-status_Never-married', 'relationship_Other-relative'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5905,"frozenset({'relationship_Other-relative', 'native_country_aggregated_United-States'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5906,frozenset({'marital-status_Never-married'}),"frozenset({'relationship_Other-relative', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5907,frozenset({'native_country_aggregated_United-States'}),"frozenset({'marital-status_Never-married', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5908,"frozenset({'marital-status_Never-married', 'workclass_State-gov'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5909,"frozenset({'marital-status_Never-married', 'occupation_aggregated_Prof-specialty'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5910,"frozenset({'workclass_State-gov', 'occupation_aggregated_Prof-specialty'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5911,frozenset({'marital-status_Never-married'}),"frozenset({'workclass_State-gov', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5912,frozenset({'workclass_State-gov'}),"frozenset({'marital-status_Never-married', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5913,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'marital-status_Never-married', 'workclass_State-gov'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5915,"frozenset({'marital-status_Never-married', 'race_White'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5916,"frozenset({'occupation_aggregated_Prof-specialty', 'race_White'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5917,frozenset({'marital-status_Never-married'}),"frozenset({'occupation_aggregated_Prof-specialty', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5918,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'marital-status_Never-married', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5919,"frozenset({'marital-status_Never-married', 'relationship_Other-relative'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5921,"frozenset({'relationship_Other-relative', 'occupation_aggregated_Prof-specialty'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5922,frozenset({'marital-status_Never-married'}),"frozenset({'relationship_Other-relative', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5923,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'marital-status_Never-married', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5925,"frozenset({'marital-status_Never-married', 'race_White'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5926,"frozenset({'workclass_State-gov', 'race_White'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5927,frozenset({'marital-status_Never-married'}),"frozenset({'workclass_State-gov', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5928,frozenset({'workclass_State-gov'}),"frozenset({'marital-status_Never-married', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5929,"frozenset({'marital-status_Never-married', 'relationship_Other-relative'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5931,"frozenset({'workclass_State-gov', 'relationship_Other-relative'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5932,frozenset({'marital-status_Never-married'}),"frozenset({'workclass_State-gov', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+5933,frozenset({'workclass_State-gov'}),"frozenset({'marital-status_Never-married', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6260,frozenset({'marital-status_Never-married'}),frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+6261,frozenset({'education_Doctorate'}),frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+6262,frozenset({'education_Doctorate'}),frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+6263,frozenset({'native_country_aggregated_United-States'}),frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+6264,frozenset({'occupation_aggregated_Prof-specialty'}),frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+6265,frozenset({'education_Doctorate'}),frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+6266,frozenset({'workclass_State-gov'}),frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+6267,frozenset({'education_Doctorate'}),frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+6270,"frozenset({'marital-status_Never-married', 'education_Doctorate'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6271,"frozenset({'marital-status_Never-married', 'native_country_aggregated_United-States'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6272,"frozenset({'education_Doctorate', 'native_country_aggregated_United-States'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6273,frozenset({'marital-status_Never-married'}),"frozenset({'education_Doctorate', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6274,frozenset({'education_Doctorate'}),"frozenset({'marital-status_Never-married', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6275,frozenset({'native_country_aggregated_United-States'}),"frozenset({'marital-status_Never-married', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6276,"frozenset({'marital-status_Never-married', 'occupation_aggregated_Prof-specialty'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6277,"frozenset({'marital-status_Never-married', 'education_Doctorate'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6278,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Doctorate'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6279,frozenset({'marital-status_Never-married'}),"frozenset({'occupation_aggregated_Prof-specialty', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6280,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'marital-status_Never-married', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6281,frozenset({'education_Doctorate'}),"frozenset({'marital-status_Never-married', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6282,"frozenset({'marital-status_Never-married', 'workclass_State-gov'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6283,"frozenset({'marital-status_Never-married', 'education_Doctorate'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6284,"frozenset({'workclass_State-gov', 'education_Doctorate'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6285,frozenset({'marital-status_Never-married'}),"frozenset({'workclass_State-gov', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6286,frozenset({'workclass_State-gov'}),"frozenset({'marital-status_Never-married', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6287,frozenset({'education_Doctorate'}),"frozenset({'marital-status_Never-married', 'workclass_State-gov'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6289,"frozenset({'marital-status_Never-married', 'race_White'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6290,"frozenset({'education_Doctorate', 'race_White'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6291,frozenset({'marital-status_Never-married'}),"frozenset({'education_Doctorate', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6292,frozenset({'education_Doctorate'}),"frozenset({'marital-status_Never-married', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6293,"frozenset({'marital-status_Never-married', 'relationship_Other-relative'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6295,"frozenset({'relationship_Other-relative', 'education_Doctorate'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6296,frozenset({'marital-status_Never-married'}),"frozenset({'relationship_Other-relative', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6297,frozenset({'education_Doctorate'}),"frozenset({'marital-status_Never-married', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6298,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Doctorate'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6299,"frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6300,"frozenset({'education_Doctorate', 'native_country_aggregated_United-States'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6301,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'education_Doctorate', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6302,frozenset({'education_Doctorate'}),"frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6303,frozenset({'native_country_aggregated_United-States'}),"frozenset({'occupation_aggregated_Prof-specialty', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6304,"frozenset({'workclass_State-gov', 'education_Doctorate'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6305,"frozenset({'workclass_State-gov', 'native_country_aggregated_United-States'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6306,"frozenset({'education_Doctorate', 'native_country_aggregated_United-States'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6307,frozenset({'workclass_State-gov'}),"frozenset({'education_Doctorate', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6308,frozenset({'education_Doctorate'}),"frozenset({'workclass_State-gov', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6309,frozenset({'native_country_aggregated_United-States'}),"frozenset({'workclass_State-gov', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6310,"frozenset({'education_Doctorate', 'race_White'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6312,"frozenset({'race_White', 'native_country_aggregated_United-States'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6313,frozenset({'education_Doctorate'}),"frozenset({'race_White', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6314,frozenset({'native_country_aggregated_United-States'}),"frozenset({'education_Doctorate', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6315,"frozenset({'relationship_Other-relative', 'education_Doctorate'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6316,"frozenset({'relationship_Other-relative', 'native_country_aggregated_United-States'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6318,frozenset({'education_Doctorate'}),"frozenset({'relationship_Other-relative', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6319,frozenset({'native_country_aggregated_United-States'}),"frozenset({'relationship_Other-relative', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6320,"frozenset({'workclass_State-gov', 'occupation_aggregated_Prof-specialty'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6321,"frozenset({'workclass_State-gov', 'education_Doctorate'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6322,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Doctorate'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6323,frozenset({'workclass_State-gov'}),"frozenset({'occupation_aggregated_Prof-specialty', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6324,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'workclass_State-gov', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6325,frozenset({'education_Doctorate'}),"frozenset({'workclass_State-gov', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6326,"frozenset({'occupation_aggregated_Prof-specialty', 'race_White'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6328,"frozenset({'education_Doctorate', 'race_White'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6329,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'education_Doctorate', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6330,frozenset({'education_Doctorate'}),"frozenset({'occupation_aggregated_Prof-specialty', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6331,"frozenset({'relationship_Other-relative', 'occupation_aggregated_Prof-specialty'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6332,"frozenset({'relationship_Other-relative', 'education_Doctorate'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6334,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'relationship_Other-relative', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6335,frozenset({'education_Doctorate'}),"frozenset({'relationship_Other-relative', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6337,"frozenset({'workclass_State-gov', 'race_White'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6338,"frozenset({'education_Doctorate', 'race_White'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6339,frozenset({'workclass_State-gov'}),"frozenset({'education_Doctorate', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6340,frozenset({'education_Doctorate'}),"frozenset({'workclass_State-gov', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6341,"frozenset({'workclass_State-gov', 'relationship_Other-relative'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6343,"frozenset({'relationship_Other-relative', 'education_Doctorate'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6344,frozenset({'workclass_State-gov'}),"frozenset({'relationship_Other-relative', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+6345,frozenset({'education_Doctorate'}),"frozenset({'workclass_State-gov', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7511,"frozenset({'education-num_(13.0, 16.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+7512,frozenset({'marital-status_Never-married'}),"frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+7513,"frozenset({'education-num_(13.0, 16.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+7514,"frozenset({'education-num_(13.0, 16.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+7515,frozenset({'native_country_aggregated_United-States'}),"frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+7516,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+7518,frozenset({'workclass_State-gov'}),"frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+7519,"frozenset({'education-num_(13.0, 16.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+7522,"frozenset({'marital-status_Never-married', 'education_Doctorate'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7523,"frozenset({'marital-status_Never-married', 'education-num_(13.0, 16.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7524,"frozenset({'education_Doctorate', 'education-num_(13.0, 16.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7525,frozenset({'marital-status_Never-married'}),"frozenset({'education_Doctorate', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7526,frozenset({'education_Doctorate'}),"frozenset({'marital-status_Never-married', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7527,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'marital-status_Never-married', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7528,"frozenset({'education_Doctorate', 'education-num_(13.0, 16.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7529,"frozenset({'native_country_aggregated_United-States', 'education-num_(13.0, 16.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7531,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'education_Doctorate', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7533,frozenset({'native_country_aggregated_United-States'}),"frozenset({'education_Doctorate', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7535,"frozenset({'occupation_aggregated_Prof-specialty', 'education-num_(13.0, 16.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7536,"frozenset({'education_Doctorate', 'education-num_(13.0, 16.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7537,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'education_Doctorate', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7539,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'occupation_aggregated_Prof-specialty', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7540,"frozenset({'workclass_State-gov', 'education_Doctorate'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7541,"frozenset({'workclass_State-gov', 'education-num_(13.0, 16.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7542,"frozenset({'education_Doctorate', 'education-num_(13.0, 16.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7543,frozenset({'workclass_State-gov'}),"frozenset({'education_Doctorate', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7544,frozenset({'education_Doctorate'}),"frozenset({'workclass_State-gov', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7545,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'workclass_State-gov', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7548,"frozenset({'race_White', 'education-num_(13.0, 16.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7550,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'education_Doctorate', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7551,"frozenset({'relationship_Other-relative', 'education_Doctorate'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7552,"frozenset({'relationship_Other-relative', 'education-num_(13.0, 16.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7554,frozenset({'education_Doctorate'}),"frozenset({'relationship_Other-relative', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7555,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'relationship_Other-relative', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7556,"frozenset({'marital-status_Never-married', 'education-num_(13.0, 16.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7557,"frozenset({'marital-status_Never-married', 'native_country_aggregated_United-States'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7558,"frozenset({'native_country_aggregated_United-States', 'education-num_(13.0, 16.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7559,frozenset({'marital-status_Never-married'}),"frozenset({'native_country_aggregated_United-States', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7560,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'marital-status_Never-married', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7561,frozenset({'native_country_aggregated_United-States'}),"frozenset({'marital-status_Never-married', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7562,"frozenset({'marital-status_Never-married', 'occupation_aggregated_Prof-specialty'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7563,"frozenset({'marital-status_Never-married', 'education-num_(13.0, 16.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7564,"frozenset({'occupation_aggregated_Prof-specialty', 'education-num_(13.0, 16.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7565,frozenset({'marital-status_Never-married'}),"frozenset({'occupation_aggregated_Prof-specialty', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7566,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'marital-status_Never-married', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7567,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'marital-status_Never-married', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7568,"frozenset({'marital-status_Never-married', 'workclass_State-gov'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7569,"frozenset({'marital-status_Never-married', 'education-num_(13.0, 16.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7570,"frozenset({'workclass_State-gov', 'education-num_(13.0, 16.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7571,frozenset({'marital-status_Never-married'}),"frozenset({'workclass_State-gov', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7572,frozenset({'workclass_State-gov'}),"frozenset({'marital-status_Never-married', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7573,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'marital-status_Never-married', 'workclass_State-gov'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7574,"frozenset({'marital-status_Never-married', 'race_White'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7576,"frozenset({'race_White', 'education-num_(13.0, 16.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7577,frozenset({'marital-status_Never-married'}),"frozenset({'race_White', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7578,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'marital-status_Never-married', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7579,"frozenset({'marital-status_Never-married', 'relationship_Other-relative'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7581,"frozenset({'relationship_Other-relative', 'education-num_(13.0, 16.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7582,frozenset({'marital-status_Never-married'}),"frozenset({'relationship_Other-relative', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7583,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'marital-status_Never-married', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7584,"frozenset({'occupation_aggregated_Prof-specialty', 'education-num_(13.0, 16.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7586,"frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7588,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'native_country_aggregated_United-States', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7589,frozenset({'native_country_aggregated_United-States'}),"frozenset({'occupation_aggregated_Prof-specialty', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7590,"frozenset({'workclass_State-gov', 'education-num_(13.0, 16.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7591,"frozenset({'workclass_State-gov', 'native_country_aggregated_United-States'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7592,"frozenset({'native_country_aggregated_United-States', 'education-num_(13.0, 16.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7593,frozenset({'workclass_State-gov'}),"frozenset({'native_country_aggregated_United-States', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7594,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'workclass_State-gov', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7595,frozenset({'native_country_aggregated_United-States'}),"frozenset({'workclass_State-gov', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7596,"frozenset({'race_White', 'education-num_(13.0, 16.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7598,"frozenset({'race_White', 'native_country_aggregated_United-States'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7599,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'race_White', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7600,frozenset({'native_country_aggregated_United-States'}),"frozenset({'race_White', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7601,"frozenset({'relationship_Other-relative', 'education-num_(13.0, 16.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7603,"frozenset({'relationship_Other-relative', 'native_country_aggregated_United-States'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7604,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'relationship_Other-relative', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7605,frozenset({'native_country_aggregated_United-States'}),"frozenset({'relationship_Other-relative', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7606,"frozenset({'workclass_State-gov', 'occupation_aggregated_Prof-specialty'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7607,"frozenset({'workclass_State-gov', 'education-num_(13.0, 16.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7608,"frozenset({'occupation_aggregated_Prof-specialty', 'education-num_(13.0, 16.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7609,frozenset({'workclass_State-gov'}),"frozenset({'occupation_aggregated_Prof-specialty', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7610,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'workclass_State-gov', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7611,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'workclass_State-gov', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7612,"frozenset({'occupation_aggregated_Prof-specialty', 'race_White'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7615,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'race_White', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7617,"frozenset({'relationship_Other-relative', 'occupation_aggregated_Prof-specialty'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7618,"frozenset({'relationship_Other-relative', 'education-num_(13.0, 16.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7620,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'relationship_Other-relative', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7621,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'relationship_Other-relative', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7622,"frozenset({'workclass_State-gov', 'race_White'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7624,"frozenset({'race_White', 'education-num_(13.0, 16.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7625,frozenset({'workclass_State-gov'}),"frozenset({'race_White', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7626,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'workclass_State-gov', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7627,"frozenset({'workclass_State-gov', 'relationship_Other-relative'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7629,"frozenset({'relationship_Other-relative', 'education-num_(13.0, 16.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7630,frozenset({'workclass_State-gov'}),"frozenset({'relationship_Other-relative', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+7631,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'workclass_State-gov', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11468,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+11469,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+11470,frozenset({'education_Doctorate'}),"frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+11471,"frozenset({'age_education_interaction_(494.0, 1350.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+11472,frozenset({'marital-status_Never-married'}),"frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+11473,"frozenset({'age_education_interaction_(494.0, 1350.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+11474,"frozenset({'age_education_interaction_(494.0, 1350.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+11475,frozenset({'native_country_aggregated_United-States'}),"frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+11476,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+11477,"frozenset({'age_education_interaction_(494.0, 1350.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+11478,frozenset({'workclass_State-gov'}),"frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+11479,"frozenset({'age_education_interaction_(494.0, 1350.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+11482,"frozenset({'education_Doctorate', 'education-num_(13.0, 16.0]'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11483,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11485,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'education_Doctorate', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11487,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'education_Doctorate', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11488,"frozenset({'marital-status_Never-married', 'education-num_(13.0, 16.0]'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11489,"frozenset({'marital-status_Never-married', 'age_education_interaction_(494.0, 1350.0]'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11490,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11491,frozenset({'marital-status_Never-married'}),"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11492,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'marital-status_Never-married', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11493,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'marital-status_Never-married', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11494,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11495,"frozenset({'native_country_aggregated_United-States', 'education-num_(13.0, 16.0]'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11496,"frozenset({'native_country_aggregated_United-States', 'age_education_interaction_(494.0, 1350.0]'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11497,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'native_country_aggregated_United-States', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11498,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'native_country_aggregated_United-States', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11499,frozenset({'native_country_aggregated_United-States'}),"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11500,"frozenset({'occupation_aggregated_Prof-specialty', 'education-num_(13.0, 16.0]'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11504,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11505,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'occupation_aggregated_Prof-specialty', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11506,"frozenset({'workclass_State-gov', 'education-num_(13.0, 16.0]'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11507,"frozenset({'workclass_State-gov', 'age_education_interaction_(494.0, 1350.0]'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11508,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11509,frozenset({'workclass_State-gov'}),"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11510,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'workclass_State-gov', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11511,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'workclass_State-gov', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11512,"frozenset({'race_White', 'education-num_(13.0, 16.0]'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11514,"frozenset({'race_White', 'age_education_interaction_(494.0, 1350.0]'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11515,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'race_White', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11516,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'race_White', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11517,"frozenset({'relationship_Other-relative', 'education-num_(13.0, 16.0]'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11519,"frozenset({'relationship_Other-relative', 'age_education_interaction_(494.0, 1350.0]'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11520,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'relationship_Other-relative', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11521,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'relationship_Other-relative', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11522,"frozenset({'marital-status_Never-married', 'education_Doctorate'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11523,"frozenset({'marital-status_Never-married', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11524,"frozenset({'education_Doctorate', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11525,frozenset({'marital-status_Never-married'}),"frozenset({'education_Doctorate', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11526,frozenset({'education_Doctorate'}),"frozenset({'marital-status_Never-married', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11527,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'marital-status_Never-married', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11528,"frozenset({'education_Doctorate', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11529,"frozenset({'native_country_aggregated_United-States', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11530,"frozenset({'education_Doctorate', 'native_country_aggregated_United-States'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11531,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'education_Doctorate', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11532,frozenset({'education_Doctorate'}),"frozenset({'native_country_aggregated_United-States', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11533,frozenset({'native_country_aggregated_United-States'}),"frozenset({'education_Doctorate', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11534,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Doctorate'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11535,"frozenset({'occupation_aggregated_Prof-specialty', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11536,"frozenset({'education_Doctorate', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11537,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'education_Doctorate', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11539,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'occupation_aggregated_Prof-specialty', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11540,"frozenset({'workclass_State-gov', 'education_Doctorate'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11541,"frozenset({'workclass_State-gov', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11542,"frozenset({'education_Doctorate', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11543,frozenset({'workclass_State-gov'}),"frozenset({'education_Doctorate', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11544,frozenset({'education_Doctorate'}),"frozenset({'workclass_State-gov', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11545,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'workclass_State-gov', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11546,"frozenset({'education_Doctorate', 'race_White'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11548,"frozenset({'race_White', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11549,frozenset({'education_Doctorate'}),"frozenset({'race_White', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11550,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'education_Doctorate', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11551,"frozenset({'relationship_Other-relative', 'education_Doctorate'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11552,"frozenset({'relationship_Other-relative', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11554,frozenset({'education_Doctorate'}),"frozenset({'relationship_Other-relative', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11555,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'relationship_Other-relative', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11556,"frozenset({'marital-status_Never-married', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11557,"frozenset({'marital-status_Never-married', 'native_country_aggregated_United-States'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11558,"frozenset({'native_country_aggregated_United-States', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11559,frozenset({'marital-status_Never-married'}),"frozenset({'native_country_aggregated_United-States', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11560,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'marital-status_Never-married', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11561,frozenset({'native_country_aggregated_United-States'}),"frozenset({'marital-status_Never-married', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11562,"frozenset({'marital-status_Never-married', 'occupation_aggregated_Prof-specialty'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11563,"frozenset({'marital-status_Never-married', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11564,"frozenset({'occupation_aggregated_Prof-specialty', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11565,frozenset({'marital-status_Never-married'}),"frozenset({'occupation_aggregated_Prof-specialty', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11566,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'marital-status_Never-married', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11567,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'marital-status_Never-married', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11568,"frozenset({'marital-status_Never-married', 'workclass_State-gov'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11569,"frozenset({'marital-status_Never-married', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11570,"frozenset({'workclass_State-gov', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11571,frozenset({'marital-status_Never-married'}),"frozenset({'workclass_State-gov', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11572,frozenset({'workclass_State-gov'}),"frozenset({'marital-status_Never-married', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11573,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'marital-status_Never-married', 'workclass_State-gov'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11574,"frozenset({'marital-status_Never-married', 'race_White'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11576,"frozenset({'race_White', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11577,frozenset({'marital-status_Never-married'}),"frozenset({'race_White', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11578,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'marital-status_Never-married', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11579,"frozenset({'marital-status_Never-married', 'relationship_Other-relative'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11581,"frozenset({'relationship_Other-relative', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11582,frozenset({'marital-status_Never-married'}),"frozenset({'relationship_Other-relative', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11583,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'marital-status_Never-married', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11584,"frozenset({'occupation_aggregated_Prof-specialty', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11585,"frozenset({'native_country_aggregated_United-States', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11586,"frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11587,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11588,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'native_country_aggregated_United-States', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11589,frozenset({'native_country_aggregated_United-States'}),"frozenset({'occupation_aggregated_Prof-specialty', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11590,"frozenset({'workclass_State-gov', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11591,"frozenset({'workclass_State-gov', 'native_country_aggregated_United-States'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11592,"frozenset({'native_country_aggregated_United-States', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11593,frozenset({'workclass_State-gov'}),"frozenset({'native_country_aggregated_United-States', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11594,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'workclass_State-gov', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11595,frozenset({'native_country_aggregated_United-States'}),"frozenset({'workclass_State-gov', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11596,"frozenset({'race_White', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11598,"frozenset({'race_White', 'native_country_aggregated_United-States'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11599,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'race_White', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11600,frozenset({'native_country_aggregated_United-States'}),"frozenset({'race_White', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11601,"frozenset({'relationship_Other-relative', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11602,"frozenset({'relationship_Other-relative', 'native_country_aggregated_United-States'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11604,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'relationship_Other-relative', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11605,frozenset({'native_country_aggregated_United-States'}),"frozenset({'relationship_Other-relative', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11606,"frozenset({'workclass_State-gov', 'occupation_aggregated_Prof-specialty'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11607,"frozenset({'workclass_State-gov', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11608,"frozenset({'occupation_aggregated_Prof-specialty', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11609,frozenset({'workclass_State-gov'}),"frozenset({'occupation_aggregated_Prof-specialty', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11610,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'workclass_State-gov', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11611,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'workclass_State-gov', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11612,"frozenset({'occupation_aggregated_Prof-specialty', 'race_White'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11614,"frozenset({'race_White', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11615,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'race_White', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11616,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'occupation_aggregated_Prof-specialty', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11617,"frozenset({'relationship_Other-relative', 'occupation_aggregated_Prof-specialty'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11618,"frozenset({'relationship_Other-relative', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11620,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'relationship_Other-relative', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11621,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'relationship_Other-relative', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11622,"frozenset({'workclass_State-gov', 'race_White'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11624,"frozenset({'race_White', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11625,frozenset({'workclass_State-gov'}),"frozenset({'race_White', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11626,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'workclass_State-gov', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11627,"frozenset({'workclass_State-gov', 'relationship_Other-relative'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11629,"frozenset({'relationship_Other-relative', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11630,frozenset({'workclass_State-gov'}),"frozenset({'relationship_Other-relative', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+11631,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'workclass_State-gov', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23758,"frozenset({'age_(47.0, 90.0]'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+23759,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+23760,"frozenset({'age_(47.0, 90.0]'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+23761,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+23762,"frozenset({'age_(47.0, 90.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+23763,frozenset({'education_Doctorate'}),"frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+23764,frozenset({'marital-status_Never-married'}),"frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+23765,"frozenset({'age_(47.0, 90.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+23766,"frozenset({'age_(47.0, 90.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+23767,frozenset({'native_country_aggregated_United-States'}),"frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+23768,"frozenset({'age_(47.0, 90.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+23769,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+23770,frozenset({'workclass_State-gov'}),"frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+23771,"frozenset({'age_(47.0, 90.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,2,0.5
+23775,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23776,"frozenset({'age_(47.0, 90.0]', 'age_education_interaction_(494.0, 1350.0]'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23777,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'age_(47.0, 90.0]', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23778,"frozenset({'age_(47.0, 90.0]'})","frozenset({'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23779,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'age_(47.0, 90.0]', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23780,"frozenset({'age_(47.0, 90.0]', 'education_Doctorate'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23781,"frozenset({'age_(47.0, 90.0]', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23782,"frozenset({'education_Doctorate', 'age_education_interaction_(494.0, 1350.0]'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23783,"frozenset({'age_(47.0, 90.0]'})","frozenset({'education_Doctorate', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23784,frozenset({'education_Doctorate'}),"frozenset({'age_(47.0, 90.0]', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23785,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'age_(47.0, 90.0]', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23786,"frozenset({'marital-status_Never-married', 'age_(47.0, 90.0]'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23787,"frozenset({'marital-status_Never-married', 'age_education_interaction_(494.0, 1350.0]'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23788,"frozenset({'age_(47.0, 90.0]', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23789,frozenset({'marital-status_Never-married'}),"frozenset({'age_(47.0, 90.0]', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23790,"frozenset({'age_(47.0, 90.0]'})","frozenset({'marital-status_Never-married', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23791,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'marital-status_Never-married', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23792,"frozenset({'age_(47.0, 90.0]', 'native_country_aggregated_United-States'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23793,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'native_country_aggregated_United-States'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23794,"frozenset({'age_(47.0, 90.0]', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23795,frozenset({'native_country_aggregated_United-States'}),"frozenset({'age_(47.0, 90.0]', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23796,"frozenset({'age_(47.0, 90.0]'})","frozenset({'age_education_interaction_(494.0, 1350.0]', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23797,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'age_(47.0, 90.0]', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23799,"frozenset({'age_(47.0, 90.0]', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23800,"frozenset({'occupation_aggregated_Prof-specialty', 'age_education_interaction_(494.0, 1350.0]'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23801,"frozenset({'age_(47.0, 90.0]'})","frozenset({'occupation_aggregated_Prof-specialty', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23802,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'age_(47.0, 90.0]', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23803,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'age_(47.0, 90.0]', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23804,"frozenset({'workclass_State-gov', 'age_(47.0, 90.0]'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23805,"frozenset({'workclass_State-gov', 'age_education_interaction_(494.0, 1350.0]'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23806,"frozenset({'age_(47.0, 90.0]', 'age_education_interaction_(494.0, 1350.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23807,frozenset({'workclass_State-gov'}),"frozenset({'age_(47.0, 90.0]', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23808,"frozenset({'age_(47.0, 90.0]'})","frozenset({'workclass_State-gov', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23809,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'workclass_State-gov', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23810,"frozenset({'age_(47.0, 90.0]', 'race_White'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23812,"frozenset({'race_White', 'age_education_interaction_(494.0, 1350.0]'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23813,"frozenset({'age_(47.0, 90.0]'})","frozenset({'race_White', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23814,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'age_(47.0, 90.0]', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23815,"frozenset({'relationship_Other-relative', 'age_(47.0, 90.0]'})","frozenset({'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23816,"frozenset({'relationship_Other-relative', 'age_education_interaction_(494.0, 1350.0]'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23818,"frozenset({'age_(47.0, 90.0]'})","frozenset({'relationship_Other-relative', 'age_education_interaction_(494.0, 1350.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23819,"frozenset({'age_education_interaction_(494.0, 1350.0]'})","frozenset({'relationship_Other-relative', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23821,"frozenset({'age_(47.0, 90.0]', 'education-num_(13.0, 16.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23822,"frozenset({'education_Doctorate', 'education-num_(13.0, 16.0]'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23823,"frozenset({'age_(47.0, 90.0]'})","frozenset({'education_Doctorate', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23825,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'age_(47.0, 90.0]', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23826,"frozenset({'marital-status_Never-married', 'age_(47.0, 90.0]'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23827,"frozenset({'marital-status_Never-married', 'education-num_(13.0, 16.0]'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23828,"frozenset({'age_(47.0, 90.0]', 'education-num_(13.0, 16.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23829,frozenset({'marital-status_Never-married'}),"frozenset({'age_(47.0, 90.0]', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23830,"frozenset({'age_(47.0, 90.0]'})","frozenset({'marital-status_Never-married', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23831,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'marital-status_Never-married', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23832,"frozenset({'age_(47.0, 90.0]', 'education-num_(13.0, 16.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23833,"frozenset({'native_country_aggregated_United-States', 'education-num_(13.0, 16.0]'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23834,"frozenset({'age_(47.0, 90.0]', 'native_country_aggregated_United-States'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23835,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'age_(47.0, 90.0]', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23836,"frozenset({'age_(47.0, 90.0]'})","frozenset({'native_country_aggregated_United-States', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23837,frozenset({'native_country_aggregated_United-States'}),"frozenset({'age_(47.0, 90.0]', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23838,"frozenset({'age_(47.0, 90.0]', 'occupation_aggregated_Prof-specialty'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23839,"frozenset({'age_(47.0, 90.0]', 'education-num_(13.0, 16.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23840,"frozenset({'occupation_aggregated_Prof-specialty', 'education-num_(13.0, 16.0]'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23841,"frozenset({'age_(47.0, 90.0]'})","frozenset({'occupation_aggregated_Prof-specialty', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23842,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'age_(47.0, 90.0]', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23843,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'age_(47.0, 90.0]', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23844,"frozenset({'workclass_State-gov', 'age_(47.0, 90.0]'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23845,"frozenset({'workclass_State-gov', 'education-num_(13.0, 16.0]'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23846,"frozenset({'age_(47.0, 90.0]', 'education-num_(13.0, 16.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23847,frozenset({'workclass_State-gov'}),"frozenset({'age_(47.0, 90.0]', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23848,"frozenset({'age_(47.0, 90.0]'})","frozenset({'workclass_State-gov', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23849,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'workclass_State-gov', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23850,"frozenset({'age_(47.0, 90.0]', 'race_White'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23852,"frozenset({'race_White', 'education-num_(13.0, 16.0]'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23853,"frozenset({'age_(47.0, 90.0]'})","frozenset({'race_White', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23854,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'age_(47.0, 90.0]', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23855,"frozenset({'relationship_Other-relative', 'age_(47.0, 90.0]'})","frozenset({'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23856,"frozenset({'relationship_Other-relative', 'education-num_(13.0, 16.0]'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23858,"frozenset({'age_(47.0, 90.0]'})","frozenset({'relationship_Other-relative', 'education-num_(13.0, 16.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23859,"frozenset({'education-num_(13.0, 16.0]'})","frozenset({'relationship_Other-relative', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23860,"frozenset({'marital-status_Never-married', 'age_(47.0, 90.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23861,"frozenset({'marital-status_Never-married', 'education_Doctorate'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23862,"frozenset({'age_(47.0, 90.0]', 'education_Doctorate'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23863,frozenset({'marital-status_Never-married'}),"frozenset({'age_(47.0, 90.0]', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23864,"frozenset({'age_(47.0, 90.0]'})","frozenset({'marital-status_Never-married', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23865,frozenset({'education_Doctorate'}),"frozenset({'marital-status_Never-married', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23866,"frozenset({'age_(47.0, 90.0]', 'education_Doctorate'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23867,"frozenset({'age_(47.0, 90.0]', 'native_country_aggregated_United-States'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23868,"frozenset({'education_Doctorate', 'native_country_aggregated_United-States'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23869,"frozenset({'age_(47.0, 90.0]'})","frozenset({'education_Doctorate', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23870,frozenset({'education_Doctorate'}),"frozenset({'age_(47.0, 90.0]', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23871,frozenset({'native_country_aggregated_United-States'}),"frozenset({'age_(47.0, 90.0]', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23872,"frozenset({'age_(47.0, 90.0]', 'occupation_aggregated_Prof-specialty'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23873,"frozenset({'age_(47.0, 90.0]', 'education_Doctorate'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23874,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Doctorate'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23875,"frozenset({'age_(47.0, 90.0]'})","frozenset({'occupation_aggregated_Prof-specialty', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23876,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'age_(47.0, 90.0]', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23877,frozenset({'education_Doctorate'}),"frozenset({'age_(47.0, 90.0]', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23878,"frozenset({'workclass_State-gov', 'age_(47.0, 90.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23879,"frozenset({'workclass_State-gov', 'education_Doctorate'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23880,"frozenset({'age_(47.0, 90.0]', 'education_Doctorate'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23881,frozenset({'workclass_State-gov'}),"frozenset({'age_(47.0, 90.0]', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23882,"frozenset({'age_(47.0, 90.0]'})","frozenset({'workclass_State-gov', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23883,frozenset({'education_Doctorate'}),"frozenset({'workclass_State-gov', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23885,"frozenset({'age_(47.0, 90.0]', 'race_White'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23886,"frozenset({'education_Doctorate', 'race_White'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23887,"frozenset({'age_(47.0, 90.0]'})","frozenset({'education_Doctorate', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23888,frozenset({'education_Doctorate'}),"frozenset({'age_(47.0, 90.0]', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23889,"frozenset({'relationship_Other-relative', 'age_(47.0, 90.0]'})",frozenset({'education_Doctorate'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23890,"frozenset({'relationship_Other-relative', 'education_Doctorate'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23892,"frozenset({'age_(47.0, 90.0]'})","frozenset({'relationship_Other-relative', 'education_Doctorate'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23893,frozenset({'education_Doctorate'}),"frozenset({'relationship_Other-relative', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23894,"frozenset({'marital-status_Never-married', 'age_(47.0, 90.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23895,"frozenset({'marital-status_Never-married', 'native_country_aggregated_United-States'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23896,"frozenset({'age_(47.0, 90.0]', 'native_country_aggregated_United-States'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23897,frozenset({'marital-status_Never-married'}),"frozenset({'age_(47.0, 90.0]', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23898,"frozenset({'age_(47.0, 90.0]'})","frozenset({'marital-status_Never-married', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23899,frozenset({'native_country_aggregated_United-States'}),"frozenset({'marital-status_Never-married', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23900,"frozenset({'marital-status_Never-married', 'age_(47.0, 90.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23901,"frozenset({'marital-status_Never-married', 'occupation_aggregated_Prof-specialty'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23902,"frozenset({'age_(47.0, 90.0]', 'occupation_aggregated_Prof-specialty'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23903,frozenset({'marital-status_Never-married'}),"frozenset({'age_(47.0, 90.0]', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23904,"frozenset({'age_(47.0, 90.0]'})","frozenset({'marital-status_Never-married', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23905,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'marital-status_Never-married', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23906,"frozenset({'marital-status_Never-married', 'workclass_State-gov'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23907,"frozenset({'marital-status_Never-married', 'age_(47.0, 90.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23908,"frozenset({'workclass_State-gov', 'age_(47.0, 90.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23909,frozenset({'marital-status_Never-married'}),"frozenset({'workclass_State-gov', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23910,frozenset({'workclass_State-gov'}),"frozenset({'marital-status_Never-married', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23911,"frozenset({'age_(47.0, 90.0]'})","frozenset({'marital-status_Never-married', 'workclass_State-gov'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23913,"frozenset({'marital-status_Never-married', 'race_White'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23914,"frozenset({'age_(47.0, 90.0]', 'race_White'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23915,frozenset({'marital-status_Never-married'}),"frozenset({'age_(47.0, 90.0]', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23916,"frozenset({'age_(47.0, 90.0]'})","frozenset({'marital-status_Never-married', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23917,"frozenset({'marital-status_Never-married', 'relationship_Other-relative'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23919,"frozenset({'relationship_Other-relative', 'age_(47.0, 90.0]'})",frozenset({'marital-status_Never-married'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23920,frozenset({'marital-status_Never-married'}),"frozenset({'relationship_Other-relative', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23921,"frozenset({'age_(47.0, 90.0]'})","frozenset({'marital-status_Never-married', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23922,"frozenset({'age_(47.0, 90.0]', 'occupation_aggregated_Prof-specialty'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23923,"frozenset({'age_(47.0, 90.0]', 'native_country_aggregated_United-States'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23924,"frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23925,"frozenset({'age_(47.0, 90.0]'})","frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23926,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'age_(47.0, 90.0]', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23927,frozenset({'native_country_aggregated_United-States'}),"frozenset({'age_(47.0, 90.0]', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23928,"frozenset({'workclass_State-gov', 'age_(47.0, 90.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23929,"frozenset({'workclass_State-gov', 'native_country_aggregated_United-States'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23930,"frozenset({'age_(47.0, 90.0]', 'native_country_aggregated_United-States'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23931,frozenset({'workclass_State-gov'}),"frozenset({'age_(47.0, 90.0]', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23932,"frozenset({'age_(47.0, 90.0]'})","frozenset({'workclass_State-gov', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23933,frozenset({'native_country_aggregated_United-States'}),"frozenset({'workclass_State-gov', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23934,"frozenset({'age_(47.0, 90.0]', 'race_White'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23936,"frozenset({'race_White', 'native_country_aggregated_United-States'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23937,"frozenset({'age_(47.0, 90.0]'})","frozenset({'race_White', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23938,frozenset({'native_country_aggregated_United-States'}),"frozenset({'age_(47.0, 90.0]', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23939,"frozenset({'relationship_Other-relative', 'age_(47.0, 90.0]'})",frozenset({'native_country_aggregated_United-States'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23940,"frozenset({'relationship_Other-relative', 'native_country_aggregated_United-States'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23942,"frozenset({'age_(47.0, 90.0]'})","frozenset({'relationship_Other-relative', 'native_country_aggregated_United-States'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23943,frozenset({'native_country_aggregated_United-States'}),"frozenset({'relationship_Other-relative', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23944,"frozenset({'workclass_State-gov', 'age_(47.0, 90.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23945,"frozenset({'workclass_State-gov', 'occupation_aggregated_Prof-specialty'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23946,"frozenset({'age_(47.0, 90.0]', 'occupation_aggregated_Prof-specialty'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23947,frozenset({'workclass_State-gov'}),"frozenset({'age_(47.0, 90.0]', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23948,"frozenset({'age_(47.0, 90.0]'})","frozenset({'workclass_State-gov', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23949,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'workclass_State-gov', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23951,"frozenset({'age_(47.0, 90.0]', 'race_White'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23952,"frozenset({'occupation_aggregated_Prof-specialty', 'race_White'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23953,"frozenset({'age_(47.0, 90.0]'})","frozenset({'occupation_aggregated_Prof-specialty', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23954,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'age_(47.0, 90.0]', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23955,"frozenset({'relationship_Other-relative', 'age_(47.0, 90.0]'})",frozenset({'occupation_aggregated_Prof-specialty'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23956,"frozenset({'relationship_Other-relative', 'occupation_aggregated_Prof-specialty'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23958,"frozenset({'age_(47.0, 90.0]'})","frozenset({'relationship_Other-relative', 'occupation_aggregated_Prof-specialty'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23959,frozenset({'occupation_aggregated_Prof-specialty'}),"frozenset({'relationship_Other-relative', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23961,"frozenset({'workclass_State-gov', 'race_White'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23962,"frozenset({'age_(47.0, 90.0]', 'race_White'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23963,frozenset({'workclass_State-gov'}),"frozenset({'age_(47.0, 90.0]', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23964,"frozenset({'age_(47.0, 90.0]'})","frozenset({'workclass_State-gov', 'race_White'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23965,"frozenset({'workclass_State-gov', 'relationship_Other-relative'})","frozenset({'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23967,"frozenset({'relationship_Other-relative', 'age_(47.0, 90.0]'})",frozenset({'workclass_State-gov'}),0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23968,frozenset({'workclass_State-gov'}),"frozenset({'relationship_Other-relative', 'age_(47.0, 90.0]'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5
+23969,"frozenset({'age_(47.0, 90.0]'})","frozenset({'workclass_State-gov', 'relationship_Other-relative'})",0.5,0.5,0.5,1.0,2.0,0.25,inf,1.0,3,0.5

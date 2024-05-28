@@ -1,0 +1,66 @@
+Results for wife_age:
+F-value: 12.90754365945686
+P-value: 0.0003407831311132134
+Tukey-HSD Test Results:
+Multiple Comparison of Means - Tukey HSD, FWER=0.05 
+====================================================
+group1 group2 meandiff p-adj   lower   upper  reject
+----------------------------------------------------
+     0      1  -0.3845 0.0003 -0.5945 -0.1745   True
+----------------------------------------------------
+
+Results for num_children:
+F-value: 19.3724696854453
+P-value: 1.1731443503665376e-05
+Tukey-HSD Test Results:
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj  lower   upper  reject
+---------------------------------------------------
+     0      1  -0.4698   0.0 -0.6792 -0.2604   True
+---------------------------------------------------
+
+Results for wife_religion:
+F-value: 5.54946515931824
+P-value: 0.018649781986213025
+Tukey-HSD Test Results:
+Multiple Comparison of Means - Tukey HSD, FWER=0.05 
+====================================================
+group1 group2 meandiff p-adj   lower   upper  reject
+----------------------------------------------------
+     0      1  -0.2529 0.0186 -0.4635 -0.0423   True
+----------------------------------------------------
+
+Results for media_exposure:
+F-value: inf
+P-value: 0.0
+Tukey-HSD Test Results:
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj  lower   upper  reject
+---------------------------------------------------
+     0      1  -3.6903   0.0 -3.6903 -3.6903   True
+---------------------------------------------------
+
+Results for age_children_interaction:
+F-value: 20.309506703893014
+P-value: 7.244444252301315e-06
+Tukey-HSD Test Results:
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+===================================================
+group1 group2 meandiff p-adj  lower   upper  reject
+---------------------------------------------------
+     0      1  -0.4808   0.0 -0.6902 -0.2715   True
+---------------------------------------------------
+
+Results for edu_interaction:
+F-value: 152.78952355176833
+P-value: 4.3731553516758765e-33
+Tukey-HSD Test Results:
+Multiple Comparison of Means - Tukey HSD, FWER=0.05
+================================================
+group1 group2 meandiff p-adj lower  upper reject
+------------------------------------------------
+     0      1   1.2514   0.0 1.0527  1.45   True
+------------------------------------------------
+
