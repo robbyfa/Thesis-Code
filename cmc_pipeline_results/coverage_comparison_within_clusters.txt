@@ -1,40 +1,59 @@
     Cluster                                               Rule  Rule Coverage  \
-54        1  (num_children_(5.0, 16.0], age_children_intera...       0.233395   
-53        1  (num_children_(5.0, 16.0], age_children_intera...       0.153137   
-57        1  (num_children_(5.0, 16.0], age_children_intera...       0.153137   
-68        1  (num_children_(5.0, 16.0], age_children_intera...       0.153137   
-71        1  (num_children_(5.0, 16.0], husband_edu_4, age_...       0.153137   
-..      ...                                                ...            ...   
-24        0  (wife_edu_4, edu_interaction_(12.0, 16.0], wif...       0.021277   
-13        0  (husband_occupation_3, wife_edu_4, edu_interac...       0.021277   
-19        0  (wife_edu_4, age_children_interaction_(90.0, 1...       0.021277   
-12        0  (wife_edu_4, standard_of_living_index_4, edu_i...       0.021277   
-11        0  (wife_edu_4, standard_of_living_index_4, edu_i...       0.021277   
+5         4  (standard_of_living_index_4, edu_interaction_(...       0.433908   
+6         4  (standard_of_living_index_4, edu_interaction_(...       0.336207   
+4         4  (age_children_interaction_(168.0, 768.0], stan...       0.071839   
+8         4  (age_children_interaction_(44.0, 90.0], edu_in...       0.090517   
+9         4  (age_children_interaction_(44.0, 90.0], standa...       0.094828   
+3         4  (standard_of_living_index_4, age_children_inte...       0.094828   
+7         4  (age_children_interaction_(44.0, 90.0], edu_in...       0.110632   
+12        5  (age_children_interaction_(44.0, 90.0], husban...       0.090090   
+2         4  (standard_of_living_index_4, edu_interaction_(...       0.126437   
+13        5  (age_children_interaction_(44.0, 90.0], husban...       0.099099   
+10        5  (standard_of_living_index_4, age_children_inte...       0.103604   
+16        5  (husband_occupation_3, Cluster_(4.0, 5.0], sta...       0.166667   
+15        5  (husband_occupation_3, standard_of_living_inde...       0.166667   
+17        5  (husband_occupation_3, Cluster_(4.0, 5.0], sta...       0.166667   
+11        5  (husband_occupation_2, standard_of_living_inde...       0.162162   
+1         0  (age_children_interaction_(44.0, 90.0], standa...       0.042553   
+0         0  (age_children_interaction_(44.0, 90.0], standa...       0.053191   
+14        5  (husband_occupation_2, age_children_interactio...       0.139640   
 
     Cluster Mean Coverage  Coverage Difference from Mean  \
-54               0.079599                   1.537955e-01   
-53               0.079599                   7.353716e-02   
-57               0.079599                   7.353716e-02   
-68               0.079599                   7.353716e-02   
-71               0.079599                   7.353716e-02   
-..                    ...                            ...   
-24               0.021277                   6.938894e-18   
-13               0.021277                   6.938894e-18   
-19               0.021277                   6.938894e-18   
-12               0.021277                   6.938894e-18   
-11               0.021277                   6.938894e-18   
+5                0.169899                       0.264009   
+6                0.169899                       0.166307   
+4                0.169899                      -0.098060   
+8                0.169899                      -0.079382   
+9                0.169899                      -0.075072   
+3                0.169899                      -0.075072   
+7                0.169899                      -0.059267   
+12               0.136824                      -0.046734   
+2                0.169899                      -0.043463   
+13               0.136824                      -0.037725   
+10               0.136824                      -0.033221   
+16               0.136824                       0.029842   
+15               0.136824                       0.029842   
+17               0.136824                       0.029842   
+11               0.136824                       0.025338   
+1                0.047872                      -0.005319   
+0                0.047872                       0.005319   
+14               0.136824                       0.002815   
 
     Abs Coverage Difference  
-54             1.537955e-01  
-53             7.353716e-02  
-57             7.353716e-02  
-68             7.353716e-02  
-71             7.353716e-02  
-..                      ...  
-24             6.938894e-18  
-13             6.938894e-18  
-19             6.938894e-18  
-12             6.938894e-18  
-11             6.938894e-18  
-
-[92 rows x 6 columns]
+5                  0.264009  
+6                  0.166307  
+4                  0.098060  
+8                  0.079382  
+9                  0.075072  
+3                  0.075072  
+7                  0.059267  
+12                 0.046734  
+2                  0.043463  
+13                 0.037725  
+10                 0.033221  
+16                 0.029842  
+15                 0.029842  
+17                 0.029842  
+11                 0.025338  
+1                  0.005319  
+0                  0.005319  
+14                 0.002815  

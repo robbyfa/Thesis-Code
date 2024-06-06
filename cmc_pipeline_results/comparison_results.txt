@@ -1,10 +1,24 @@
 Cluster 0:
-  Support: U Statistic = 0.0, P-Value = 1.465677320443674e-13
-  Confidence: U Statistic = 1044.0, P-Value = 4.709102989641713e-08
-  Lift: U Statistic = 1296.0, P-Value = 6.260249190321986e-15
+  Support: U Statistic = 0.0, P-Value = 0.06190503957351713
+  Confidence: U Statistic = 3.0, P-Value = 0.42857142857142855
+  Lift: U Statistic = 12.0, P-Value = 0.07142857142857142
+  Coverage: U Statistic = 10.0, P-Value = 0.18135827590431353
 
-Cluster 1:
-  Support: U Statistic = 32.0, P-Value = 5.5582433878837855e-15
-  Confidence: U Statistic = 597.0, P-Value = 0.00089406842102649
-  Lift: U Statistic = 1988.0, P-Value = 4.454832224395789e-15
+Cluster 4:
+  Support: U Statistic = 23.0, P-Value = 0.9482477753591114
+  Confidence: U Statistic = 12.0, P-Value = 0.14185814185814188
+  Lift: U Statistic = 18.0, P-Value = 0.4908424908424909
+  Coverage: U Statistic = 47.0, P-Value = 0.0029376955849628574
+
+Cluster 5:
+  Support: U Statistic = 34.0, P-Value = 0.21492049329857288
+  Confidence: U Statistic = 12.0, P-Value = 0.1359056163822651
+  Lift: U Statistic = 30.0, P-Value = 0.47572895889174516
+  Coverage: U Statistic = 48.0, P-Value = 0.0018260152509149109
+
+Cluster 3:
+  Support: Not enough data for comparison
+  Confidence: Not enough data for comparison
+  Lift: Not enough data for comparison
+  Coverage: Not enough data for comparison
 

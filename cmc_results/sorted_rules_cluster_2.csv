@@ -1,0 +1,2 @@
+antecedents,consequents,antecedent support,consequent support,support,confidence,lift,leverage,conviction,zhangs_metric,total_items,coverage
+"frozenset({'husband_occupation_3', 'standard_of_living_index_4'})","frozenset({'edu_interaction_(6.0, 12.0]'})",0.15566037735849056,0.27358490566037735,0.07547169811320754,0.48484848484848486,1.7722048066875653,0.03288536845852617,1.4100998890122085,0.5160614525139665,3,0.15566037735849056

@@ -1,592 +1,363 @@
 ,cluster1_id,cluster2_id,rule,confidence_1,confidence_2,abs_difference_confidence,abs_coverage_difference
-298,0,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",0.6190567853705486,1.0,0.38094321462945135,0.18024547061374258
-299,0,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",0.6190567853705486,1.0,0.38094321462945135,0.18024547061374258
-300,0,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",0.6190567853705486,1.0,0.38094321462945135,0.18024547061374258
-292,0,2,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.7499518768046198,1.0,0.25004812319538017,0.18024547061374258
-291,0,2,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.7499518768046198,1.0,0.25004812319538017,0.18024547061374258
-290,0,2,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",0.7499518768046198,1.0,0.25004812319538017,0.18024547061374258
-289,0,2,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",0.7499518768046198,1.0,0.25004812319538017,0.18024547061374258
-281,0,2,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.8504331087584216,1.0,0.1495668912415784,0.18024547061374258
-284,0,2,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.8504331087584216,1.0,0.1495668912415784,0.18024547061374258
-297,0,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",0.6190567853705486,1.0,0.38094321462945135,0.18024547061374258
-282,0,2,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.8504331087584216,1.0,0.1495668912415784,0.18024547061374258
-283,0,2,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.8504331087584216,1.0,0.1495668912415784,0.18024547061374258
-574,2,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,0.7484311554078997,0.25156884459210027,0.1774999070637459
-590,2,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.8517903285345146,0.14820967146548536,0.1774999070637459
-577,2,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.7484311554078997,0.25156884459210027,0.1774999070637459
-578,2,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.7484311554078997,0.25156884459210027,0.1774999070637459
-585,2,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,0.8517903285345146,0.14820967146548536,0.1774999070637459
-586,2,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,0.8517903285345146,0.14820967146548536,0.1774999070637459
-589,2,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.8517903285345146,0.14820967146548536,0.1774999070637459
-573,2,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,0.7484311554078997,0.25156884459210027,0.1774999070637459
-250,0,2,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education-num_(10.0, 13.0]', 'education_Bachelors'})",1.0,0.793103448275862,0.206896551724138,0.17266365991578458
-258,0,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.15460444497271691
-259,0,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.15460444497271691
-260,0,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.15460444497271691
-269,0,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9226179018286814,1.0,0.07738209817131858,0.15460444497271691
-270,0,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9226179018286814,1.0,0.07738209817131858,0.15460444497271691
-257,0,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.15460444497271691
-271,0,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9226179018286814,1.0,0.07738209817131858,0.15460444497271691
-272,0,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9226179018286814,1.0,0.07738209817131858,0.15460444497271691
-275,0,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9226179018286814,1.0,0.07738209817131858,0.15460444497271691
-273,0,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9226179018286814,1.0,0.07738209817131858,0.15460444497271691
-274,0,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9226179018286814,1.0,0.07738209817131858,0.15460444497271691
-276,0,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9226179018286814,1.0,0.07738209817131858,0.15460444497271691
-557,2,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,0.9228497600590624,0.07715023994093761,0.15185888142272028
-558,2,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,0.9228497600590624,0.07715023994093761,0.15185888142272028
-570,2,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,0.9228497600590624,0.07715023994093761,0.15185888142272028
-569,2,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,0.9228497600590624,0.07715023994093761,0.15185888142272028
-566,2,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,0.9228497600590624,0.07715023994093761,0.15185888142272028
-565,2,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,0.9228497600590624,0.07715023994093761,0.15185888142272028
-562,2,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,0.9228497600590624,0.07715023994093761,0.15185888142272028
-561,2,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,0.9228497600590624,0.07715023994093761,0.15185888142272028
-551,2,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.15185888142272028
-552,2,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.15185888142272028
-553,2,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.15185888142272028
-554,2,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.15185888142272028
-248,0,2,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education_Bachelors', 'education-num_(10.0, 13.0]'})",0.7721463199647421,0.793103448275862,0.020957128311119844,0.15047291392900458
-280,0,2,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.14689496842471345
-279,0,2,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.14689496842471345
-278,0,2,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.14689496842471345
-277,0,2,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.14689496842471345
-187,0,1,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",1.0,0.48387096774193544,0.5161290322580645,0.14546262235709828
-588,2,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.1448589575088498
-587,2,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.1448589575088498
-584,2,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.1448589575088498
-583,2,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.1448589575088498
-442,1,2,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.8930232558139536,1.0,0.10697674418604641,0.13885279510279508
-449,1,2,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.7162790697674419,1.0,0.28372093023255807,0.13885279510279508
-465,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",0.7488372093023257,1.0,0.25116279069767433,0.13885279510279508
-464,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",0.7488372093023257,1.0,0.25116279069767433,0.13885279510279508
-448,1,2,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.7162790697674419,1.0,0.28372093023255807,0.13885279510279508
-459,1,2,"frozenset({'marital-status_Married-civ-spouse', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.6046511627906977,1.0,0.39534883720930225,0.13885279510279508
-451,1,2,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",0.7162790697674419,1.0,0.28372093023255807,0.13885279510279508
-450,1,2,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",0.7162790697674419,1.0,0.28372093023255807,0.13885279510279508
-458,1,2,"frozenset({'marital-status_Married-civ-spouse', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.6046511627906977,1.0,0.39534883720930225,0.13885279510279508
-456,1,2,"frozenset({'marital-status_Married-civ-spouse', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.6046511627906977,1.0,0.39534883720930225,0.13885279510279508
-457,1,2,"frozenset({'marital-status_Married-civ-spouse', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.6046511627906977,1.0,0.39534883720930225,0.13885279510279508
-441,1,2,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.8930232558139536,1.0,0.10697674418604641,0.13885279510279508
-466,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",0.7488372093023257,1.0,0.25116279069767433,0.13885279510279508
-467,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",0.7488372093023257,1.0,0.25116279069767433,0.13885279510279508
-440,1,2,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.8930232558139536,1.0,0.10697674418604641,0.13885279510279508
-443,1,2,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.8930232558139536,1.0,0.10697674418604641,0.13885279510279508
-171,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'native_country_aggregated_United-States'})",1.0,0.5023041474654378,0.49769585253456217,0.13859508007879112
-155,0,1,"frozenset({'education_Masters', 'race_White', 'education-num_(13.0, 16.0]'})",1.0,0.5023041474654378,0.49769585253456217,0.13795124799019984
-261,0,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.1373497449984702
-267,0,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.1373497449984702
-266,0,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.1373497449984702
-265,0,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.1373497449984702
-264,0,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.1373497449984702
-263,0,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.1373497449984702
-262,0,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.1373497449984702
-268,0,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.1373497449984702
-556,2,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.13486770220236338
-568,2,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.13486770220236338
-567,2,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.13486770220236338
-564,2,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.13486770220236338
-563,2,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.13486770220236338
-560,2,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.13486770220236338
-559,2,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.13486770220236338
-555,2,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.13486770220236338
-163,0,1,"frozenset({'education_Masters', 'race_White', 'education-num_(13.0, 16.0]'})",0.8956743002544529,0.5023041474654378,0.3933701527890151,0.1326718248637512
-195,0,1,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.7472434266327396,0.48387096774193544,0.26337245889080413,0.1326718248637512
-149,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]'})",1.0,0.5576036866359447,0.44239631336405527,0.1326718248637512
-179,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'native_country_aggregated_United-States'})",0.8829516539440203,0.5023041474654378,0.3806475064785825,0.1326718248637512
-185,0,1,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",1.0,0.532994923857868,0.46700507614213205,0.1285707304652064
-337,0,X,"frozenset({'education_Bachelors', 'workclass_Private', 'education-num_(10.0, 13.0]'})",0.46552636219361665,1.0,0.5344736378063834,0.12813158495466256
-332,0,X,"frozenset({'education_Bachelors', 'education-num_(10.0, 13.0]', 'sex_Male'})",0.47363780638335395,1.0,0.526362193616646,0.12496098213363903
-288,0,2,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.12448961174173638
-285,0,2,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,1.0,0.0,0.12448961174173638
-286,0,2,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,1.0,0.0,0.12448961174173638
-287,0,2,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.12448961174173638
-145,0,1,"frozenset({'occupation_aggregated_Prof-specialty', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.6043569922698524,0.543778801843318,0.06057819042653445,0.12219882288933281
-191,0,1,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.6191145467322557,0.48387096774193544,0.1352435789903203,0.12219882288933281
-576,2,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.12209565520406544
-575,2,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.12209565520406544
-572,2,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,1.0,0.0,0.12209565520406544
-571,2,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,1.0,0.0,0.12209565520406544
-249,0,2,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education-num_(10.0, 13.0]', 'education_Bachelors'})",1.0,1.0,0.0,0.12138160863373328
-437,1,2,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.11942711942711944
-436,1,2,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.11942711942711944
-439,1,2,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.11942711942711944
-438,1,2,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.11942711942711944
-153,0,1,"frozenset({'education_Masters', 'race_White', 'education-num_(13.0, 16.0]'})",1.0,0.558974358974359,0.441025641025641,0.11937016690911875
-143,0,1,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'occupation_aggregated_Prof-specialty', 'education-num_(13.0, 16.0]'})",0.5721889554224884,0.543778801843318,0.028410153579170427,0.11876505175017923
-169,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'native_country_aggregated_United-States'})",1.0,0.5706806282722513,0.4293193717277487,0.11663562061933166
-175,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'native_country_aggregated_United-States'})",0.6673076923076923,0.5023041474654378,0.16500354484225443,0.11631848981353231
-193,0,1,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.7472434266327396,0.532994923857868,0.21424850277487162,0.11577993297185932
-161,0,1,"frozenset({'education_Masters', 'race_White', 'education-num_(13.0, 16.0]'})",0.8956743002544529,0.558974358974359,0.33669994128009395,0.11409074378267012
-159,0,1,"frozenset({'education_Masters', 'race_White', 'education-num_(13.0, 16.0]'})",0.6550868486352358,0.5023041474654378,0.15278270116979797,0.11408653857308249
-408,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'Cluster_(0.0, 2.0]'})",1.0,1.0,0.0,0.11321176946176945
-416,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'Cluster_(0.0, 2.0]'})",1.0,1.0,0.0,0.11321176946176945
-412,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'Cluster_(0.0, 2.0]'})",1.0,1.0,0.0,0.11321176946176945
-432,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9255813953488372,1.0,0.07441860465116279,0.11321176946176945
-430,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9255813953488372,1.0,0.07441860465116279,0.11321176946176945
-433,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9255813953488372,1.0,0.07441860465116279,0.11321176946176945
-429,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9255813953488372,1.0,0.07441860465116279,0.11321176946176945
-434,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9255813953488372,1.0,0.07441860465116279,0.11321176946176945
-419,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'Cluster_(0.0, 2.0]'})",1.0,1.0,0.0,0.11321176946176945
-418,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'Cluster_(0.0, 2.0]'})",1.0,1.0,0.0,0.11321176946176945
-417,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'Cluster_(0.0, 2.0]'})",1.0,1.0,0.0,0.11321176946176945
-428,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9255813953488372,1.0,0.07441860465116279,0.11321176946176945
-415,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'Cluster_(0.0, 2.0]'})",1.0,1.0,0.0,0.11321176946176945
-414,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'Cluster_(0.0, 2.0]'})",1.0,1.0,0.0,0.11321176946176945
-413,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'Cluster_(0.0, 2.0]'})",1.0,1.0,0.0,0.11321176946176945
-411,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'Cluster_(0.0, 2.0]'})",1.0,1.0,0.0,0.11321176946176945
-404,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'Cluster_(0.0, 2.0]'})",1.0,1.0,0.0,0.11321176946176945
-435,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9255813953488372,1.0,0.07441860465116279,0.11321176946176945
-400,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.11321176946176945
-401,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.11321176946176945
-402,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.11321176946176945
-403,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.11321176946176945
-405,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'Cluster_(0.0, 2.0]'})",1.0,1.0,0.0,0.11321176946176945
-406,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'Cluster_(0.0, 2.0]'})",1.0,1.0,0.0,0.11321176946176945
-407,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'Cluster_(0.0, 2.0]'})",1.0,1.0,0.0,0.11321176946176945
-409,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'Cluster_(0.0, 2.0]'})",1.0,1.0,0.0,0.11321176946176945
-410,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'Cluster_(0.0, 2.0]'})",1.0,1.0,0.0,0.11321176946176945
-431,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9255813953488372,1.0,0.07441860465116279,0.11321176946176945
-213,0,1,"frozenset({'education_Masters', 'marital-status_Married-civ-spouse', 'education-num_(13.0, 16.0]'})",1.0,0.5301204819277109,0.4698795180722891,0.11165948010848861
-177,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'native_country_aggregated_United-States'})",0.8829516539440203,0.5706806282722513,0.312271025671769,0.11071236540429175
-183,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'native_country_aggregated_United-States'})",0.5773710482529117,0.5023041474654378,0.07506690078747391,0.10588840997835332
-151,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]'})",0.653910149750416,0.5576036866359447,0.09630646311447122,0.10588840997835332
-167,0,1,"frozenset({'education_Masters', 'race_White', 'education-num_(13.0, 16.0]'})",0.5856905158069884,0.5023041474654378,0.08338636834155055,0.10588840997835332
-147,0,1,"frozenset({'occupation_aggregated_Prof-specialty', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.4769828064337215,0.543778801843318,0.06679599540959646,0.10588840997835332
-199,0,1,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.4886300610094287,0.48387096774193544,0.004759093267493242,0.10588840997835332
-201,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'sex_Male'})",1.0,0.5180722891566264,0.4819277108433736,0.10539284777953334
-189,0,1,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.6191145467322557,0.532994923857868,0.08611962287438779,0.10530693099744093
-420,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.09969825594825593
-427,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.09969825594825593
-426,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.09969825594825593
-425,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.09969825594825593
-424,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.09969825594825593
-423,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.09969825594825593
-422,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.09969825594825593
-421,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.09969825594825593
-247,0,2,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education_Bachelors', 'education-num_(10.0, 13.0]'})",0.7721463199647421,1.0,0.22785368003525786,0.09919086264695329
-157,0,1,"frozenset({'education_Masters', 'race_White', 'education-num_(13.0, 16.0]'})",0.6550868486352358,0.558974358974359,0.09611248966087682,0.0955054574920014
-294,0,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",1.0,1.0,0.0,0.095302557058931
-296,0,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",1.0,1.0,0.0,0.095302557058931
-293,0,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",1.0,1.0,0.0,0.095302557058931
-295,0,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",1.0,1.0,0.0,0.095302557058931
-323,0,X,"frozenset({'race_White', 'education_Bachelors', 'education-num_(10.0, 13.0]'})",0.5963674836889438,1.0,0.40363251631105623,0.09516544536684093
-582,2,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",1.0,1.0,0.0,0.0947390436842085
-581,2,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",1.0,1.0,0.0,0.0947390436842085
-579,2,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",1.0,1.0,0.0,0.0947390436842085
-580,2,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",1.0,1.0,0.0,0.0947390436842085
-173,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'native_country_aggregated_United-States'})",0.6673076923076923,0.5706806282722513,0.09662706403544097,0.09435903035407285
-100,0,1,"frozenset({'marital-status_Married-civ-spouse', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.6046511627906977,0.39534883720930225,0.09372621881474572
-97,0,1,"frozenset({'marital-status_Married-civ-spouse', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,0.6046511627906977,0.39534883720930225,0.09372621881474572
-96,0,1,"frozenset({'marital-status_Married-civ-spouse', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,0.6046511627906977,0.39534883720930225,0.09372621881474572
-101,0,1,"frozenset({'marital-status_Married-civ-spouse', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.6046511627906977,0.39534883720930225,0.09372621881474572
-216,0,1,"frozenset({'education_Masters', 'marital-status_Married-civ-spouse', 'education-num_(13.0, 16.0]'})",0.6117755289788408,0.5301204819277109,0.08165504705112991,0.0935463373494535
-460,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",1.0,1.0,0.0,0.093244686994687
-461,1,2,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",1.0,1.0,0.0,0.093244686994687
-462,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",1.0,1.0,0.0,0.093244686994687
-463,1,2,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",1.0,1.0,0.0,0.093244686994687
-58,0,1,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",0.7499518768046198,1.0,0.25004812319538017,0.09291294578121773
-63,0,1,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.7499518768046198,1.0,0.25004812319538017,0.09291294578121773
-62,0,1,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.7499518768046198,1.0,0.25004812319538017,0.09291294578121773
-59,0,1,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",0.7499518768046198,1.0,0.25004812319538017,0.09291294578121773
-315,0,X,"frozenset({'education_Bachelors', 'education-num_(10.0, 13.0]', 'native_country_aggregated_United-States'})",0.6094163286898255,1.0,0.39058367131017446,0.09223873507051153
-520,1,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,0.7484311554078997,0.25156884459210027,0.09016738223122109
-521,1,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,0.7484311554078997,0.25156884459210027,0.09016738223122109
-516,1,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.7484311554078997,0.25156884459210027,0.09016738223122109
-517,1,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.7484311554078997,0.25156884459210027,0.09016738223122109
-219,0,1,"frozenset({'education_Masters', 'marital-status_Married-civ-spouse', 'education-num_(13.0, 16.0]'})",0.5640373197625106,0.5301204819277109,0.03391683783479971,0.08959750053942689
-207,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'sex_Male'})",0.6878710771840543,0.5180722891566264,0.16979878802742787,0.08959750053942689
-197,0,1,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.4886300610094287,0.532994923857868,0.04436486284843927,0.08899651808646143
-447,1,2,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,1.0,0.0,0.08733252483252484
-445,1,2,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.08733252483252484
-446,1,2,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,1.0,0.0,0.08733252483252484
-444,1,2,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.08733252483252484
-165,0,1,"frozenset({'education_Masters', 'race_White', 'education-num_(13.0, 16.0]'})",0.5856905158069884,0.558974358974359,0.0267161568326294,0.08730732889727223
-75,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",0.6190567853705486,1.0,0.38094321462945135,0.08700078361905556
-74,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",0.6190567853705486,1.0,0.38094321462945135,0.08700078361905556
-78,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",0.6190567853705486,1.0,0.38094321462945135,0.08700078361905556
-79,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",0.6190567853705486,1.0,0.38094321462945135,0.08700078361905556
-548,1,X,"frozenset({'race_White', 'relationship_Own-child', 'marital-status_Never-married'})",0.7777777777777778,0.7462110774317994,0.031566700345978416,0.08670351787501497
-398,0,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",0.6190567853705486,1.0,0.38094321462945135,0.08550642692953406
-396,0,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",0.6190567853705486,1.0,0.38094321462945135,0.08550642692953406
-397,0,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",0.6190567853705486,1.0,0.38094321462945135,0.08550642692953406
-395,0,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",0.6190567853705486,1.0,0.38094321462945135,0.08550642692953406
-544,1,X,"frozenset({'relationship_Own-child', 'workclass_Private', 'marital-status_Never-married'})",0.8266666666666665,0.7613667677046018,0.06529989896206478,0.08416973409123119
-181,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'native_country_aggregated_United-States'})",0.5773710482529117,0.5706806282722513,0.006690419980660445,0.08392895051889386
-204,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'sex_Male'})",0.6153262518968133,0.5180722891566264,0.09725396274018694,0.08363132318514756
-252,0,2,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education-num_(10.0, 13.0]', 'education_Bachelors'})",0.4522457408363449,0.793103448275862,0.3408577074395171,0.081582880449736
-144,0,1,"frozenset({'occupation_aggregated_Prof-specialty', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.6043569922698524,0.7151515151515151,0.1107945228816627,0.0782799039704139
-306,0,2,"frozenset({'education-num_(10.0, 13.0]', 'education_Bachelors', 'occupation_aggregated_Exec-managerial'})",1.0,1.0,0.0,0.07690766897565765
-331,0,X,"frozenset({'education_Bachelors', 'education-num_(10.0, 13.0]', 'sex_Male'})",0.47363780638335395,0.7110785749145925,0.23744076853123852,0.07683285726066638
-540,1,X,"frozenset({'relationship_Own-child', 'marital-status_Never-married', 'native_country_aggregated_United-States'})",0.8095238095238096,0.818958390741251,0.00943458121744134,0.07656838273987984
-223,0,1,"frozenset({'education_Masters', 'workclass_Private', 'education-num_(13.0, 16.0]'})",1.0,0.6115702479338844,0.38842975206611563,0.07605636314913936
-538,1,X,"frozenset({'relationship_Own-child', 'marital-status_Never-married'})",0.8117647058823529,0.8842656379167815,0.07250093203442853,0.07572378814528524
-550,1,X,"frozenset({'race_White', 'relationship_Own-child', 'marital-status_Never-married'})",0.6588235294117647,0.7462110774317994,0.08738754802003468,0.07572378814528524
-546,1,X,"frozenset({'relationship_Own-child', 'workclass_Private', 'marital-status_Never-married'})",0.7294117647058823,0.7613667677046018,0.03195500299871945,0.07572378814528524
-542,1,X,"frozenset({'relationship_Own-child', 'marital-status_Never-married', 'native_country_aggregated_United-States'})",0.8,0.818958390741251,0.01895839074125094,0.07572378814528524
-142,0,1,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'occupation_aggregated_Prof-specialty', 'education-num_(13.0, 16.0]'})",0.5721889554224884,0.7151515151515151,0.14296255972902672,0.07484613283126032
-324,0,X,"frozenset({'race_White', 'education_Bachelors', 'education-num_(10.0, 13.0]'})",0.5963674836889438,0.8754200672107537,0.27905258352180995,0.07406874198079971
-316,0,X,"frozenset({'education_Bachelors', 'education-num_(10.0, 13.0]', 'native_country_aggregated_United-States'})",0.6094163286898255,0.8927028324531924,0.28328650376336684,0.07406874198079971
-309,0,X,"frozenset({'education_Bachelors', 'education-num_(10.0, 13.0]'})",0.6831246693704813,1.0,0.31687533062951867,0.07406874198079971
-214,0,1,"frozenset({'education_Masters', 'marital-status_Married-civ-spouse', 'education-num_(13.0, 16.0]'})",1.0,0.7272727272727273,0.2727272727272727,0.07365272335173184
-311,0,X,"frozenset({'education_Bachelors', 'education-num_(10.0, 13.0]', 'native_country_aggregated_United-States'})",0.6746047237946516,1.0,0.32539527620534836,0.06871740276730953
-305,0,2,"frozenset({'education_Bachelors', 'education-num_(10.0, 13.0]', 'occupation_aggregated_Exec-managerial'})",0.8184059161873458,1.0,0.18159408381265418,0.0674218762037459
-202,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'sex_Male'})",1.0,0.7107438016528925,0.2892561983471075,0.06738609102277657
-455,1,2,"frozenset({'marital-status_Married-civ-spouse', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.06706225456225456
-454,1,2,"frozenset({'marital-status_Married-civ-spouse', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.06706225456225456
-452,1,2,"frozenset({'marital-status_Married-civ-spouse', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.06706225456225456
-453,1,2,"frozenset({'marital-status_Married-civ-spouse', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.06706225456225456
-539,1,X,"frozenset({'relationship_Own-child', 'marital-status_Never-married', 'native_country_aggregated_United-States'})",0.8095238095238096,0.8876941457586619,0.07817033623485226,0.06514608283337198
-222,0,1,"frozenset({'education_Masters', 'workclass_Private', 'education-num_(13.0, 16.0]'})",1.0,0.6851851851851852,0.31481481481481477,0.06507663341940961
-186,0,1,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",1.0,0.8677685950413223,0.1322314049586777,0.0643815412760172
-541,1,X,"frozenset({'relationship_Own-child', 'marital-status_Never-married', 'native_country_aggregated_United-States'})",0.8,0.8876941457586619,0.08769414575866186,0.06430148823877738
-254,0,2,"frozenset({'age_(37.0, 47.0]', 'education-num_(10.0, 13.0]', 'education_Bachelors'})",1.0,1.0,0.0,0.06411136864394654
-226,0,1,"frozenset({'education_Masters', 'workclass_Private', 'education-num_(13.0, 16.0]'})",0.6714443219404631,0.6115702479338844,0.05987407400657874,0.06326556565579228
-547,1,X,"frozenset({'race_White', 'relationship_Own-child', 'marital-status_Never-married'})",0.7777777777777778,0.8875778433300557,0.10980006555227795,0.06320853799614826
-319,0,X,"frozenset({'race_White', 'education_Bachelors', 'education-num_(10.0, 13.0]'})",0.6865611043442955,1.0,0.3134388956557045,0.06318845163347328
-210,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'sex_Male'})",0.4498058790904048,0.5180722891566264,0.06826641006622158,0.062814085654029
-543,1,X,"frozenset({'relationship_Own-child', 'workclass_Private', 'marital-status_Never-married'})",0.8266666666666665,0.8924418604651163,0.06577519379844976,0.06250394814757035
-146,0,1,"frozenset({'occupation_aggregated_Prof-specialty', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.4769828064337215,0.7151515151515151,0.2381687087177936,0.0619694910594344
-47,0,1,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.8504331087584216,1.0,0.1495668912415784,0.060818351186623126
-42,0,1,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.8504331087584216,1.0,0.1495668912415784,0.060818351186623126
-43,0,1,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.8504331087584216,1.0,0.1495668912415784,0.060818351186623126
-46,0,1,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.8504331087584216,1.0,0.1495668912415784,0.060818351186623126
-388,0,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.7499518768046198,1.0,0.25004812319538017,0.05814981540967712
-387,0,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.7499518768046198,1.0,0.25004812319538017,0.05814981540967712
-384,0,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",0.7499518768046198,1.0,0.25004812319538017,0.05814981540967712
-383,0,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",0.7499518768046198,1.0,0.25004812319538017,0.05814981540967712
-504,1,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,0.8517903285345146,0.14820967146548536,0.05807278763662649
-501,1,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.8517903285345146,0.14820967146548536,0.05807278763662649
-505,1,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,0.8517903285345146,0.14820967146548536,0.05807278763662649
-500,1,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.8517903285345146,0.14820967146548536,0.05807278763662649
-170,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'native_country_aggregated_United-States'})",1.0,0.9008264462809918,0.09917355371900816,0.05751399899771004
-154,0,1,"frozenset({'education_Masters', 'race_White', 'education-num_(13.0, 16.0]'})",1.0,0.9008264462809918,0.09917355371900816,0.056870166909118745
-217,0,1,"frozenset({'education_Masters', 'marital-status_Married-civ-spouse', 'education-num_(13.0, 16.0]'})",0.6117755289788408,0.7272727272727273,0.1154971982938865,0.05553958059269674
-335,0,X,"frozenset({'education_Bachelors', 'workclass_Private', 'education-num_(10.0, 13.0]'})",0.6641509433962265,1.0,0.3358490566037735,0.055335636804606764
-30,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9226179018286814,1.0,0.07738209817131858,0.05490618902446098
-31,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9226179018286814,1.0,0.07738209817131858,0.05490618902446098
-26,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9226179018286814,1.0,0.07738209817131858,0.05490618902446098
-27,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9226179018286814,1.0,0.07738209817131858,0.05490618902446098
-545,1,X,"frozenset({'relationship_Own-child', 'workclass_Private', 'marital-status_Never-married'})",0.7294117647058823,0.8924418604651163,0.163030095759234,0.054058002201624406
-378,0,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,0.7484311554078997,0.25156884459210027,0.05301029532200954
-377,0,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,0.7484311554078997,0.25156884459210027,0.05301029532200954
-381,0,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.7484311554078997,0.25156884459210027,0.05301029532200954
-382,0,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.7484311554078997,0.25156884459210027,0.05301029532200954
-225,0,1,"frozenset({'education_Masters', 'workclass_Private', 'education-num_(13.0, 16.0]'})",0.6714443219404631,0.6851851851851852,0.013740863244722124,0.052285835926062556
-549,1,X,"frozenset({'race_White', 'relationship_Own-child', 'marital-status_Never-married'})",0.6588235294117647,0.8875778433300557,0.22875431391829104,0.05222880826641853
-489,1,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,0.9228497600590624,0.07715023994093761,0.052160625474464345
-488,1,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,0.9228497600590624,0.07715023994093761,0.052160625474464345
-485,1,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,0.9228497600590624,0.07715023994093761,0.052160625474464345
-484,1,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,0.9228497600590624,0.07715023994093761,0.052160625474464345
-229,0,1,"frozenset({'education_Masters', 'workclass_Private', 'education-num_(13.0, 16.0]'})",0.5165394402035624,0.6115702479338844,0.09503080773032202,0.051590743782670125
-208,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'sex_Male'})",0.6878710771840543,0.7107438016528925,0.022872724468838257,0.051590743782670125
-178,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'native_country_aggregated_United-States'})",0.8829516539440203,0.9008264462809918,0.017874792336971534,0.051590743782670125
-194,0,1,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.7472434266327396,0.8677685950413223,0.12052516840858274,0.051590743782670125
-220,0,1,"frozenset({'education_Masters', 'marital-status_Married-civ-spouse', 'education-num_(13.0, 16.0]'})",0.5640373197625106,0.7272727272727273,0.1632354075102167,0.051590743782670125
-148,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]'})",1.0,1.0,0.0,0.051590743782670125
-162,0,1,"frozenset({'education_Masters', 'race_White', 'education-num_(13.0, 16.0]'})",0.8956743002544529,0.9008264462809918,0.005152146026538906,0.051590743782670125
-329,0,X,"frozenset({'education-num_(10.0, 13.0]', 'education_Bachelors', 'sex_Male'})",1.0,0.7110785749145925,0.2889214250854075,0.05128972836900139
-256,0,2,"frozenset({'education-num_(10.0, 13.0]', 'education_Bachelors', 'age_(47.0, 90.0]'})",1.0,1.0,0.0,0.051261140496267975
-338,0,X,"frozenset({'education-num_(10.0, 13.0]', 'workclass_Private', 'education_Bachelors'})",0.6814661848218896,1.0,0.3185338151781104,0.05100050074142537
-184,0,1,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",1.0,1.0,0.0,0.05086802776250368
-312,0,X,"frozenset({'education_Bachelors', 'education-num_(10.0, 13.0]', 'native_country_aggregated_United-States'})",0.6746047237946516,0.8927028324531924,0.21809810865854073,0.050547409677597716
-334,0,X,"frozenset({'education-num_(10.0, 13.0]', 'education_Bachelors', 'sex_Male'})",0.6933402168301498,1.0,0.3066597831698502,0.047829897920401834
-168,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.047378863862574915
-152,0,1,"frozenset({'education_Masters', 'race_White', 'education-num_(13.0, 16.0]'})",1.0,1.0,0.0,0.04673503177398362
-129,0,1,"frozenset({'education-num_(10.0, 13.0]', 'education_Bachelors', 'occupation_aggregated_Exec-managerial'})",1.0,0.9142857142857144,0.08571428571428563,0.045931981749970416
-212,0,1,"frozenset({'education_Masters', 'marital-status_Married-civ-spouse', 'education-num_(13.0, 16.0]'})",1.0,1.0,0.0,0.045781101730110234
-205,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'sex_Male'})",0.6153262518968133,0.7107438016528925,0.09541754975607919,0.045624566428390786
-234,0,2,"frozenset({'education_HS-grad', 'age_education_interaction_(261.0, 369.0]', 'age_(28.0, 37.0]'})",0.8889970788704967,1.0,0.11100292112950327,0.045427031262725306
-235,0,2,"frozenset({'education_HS-grad', 'age_education_interaction_(261.0, 369.0]', 'age_(28.0, 37.0]'})",0.8889970788704967,1.0,0.11100292112950327,0.045427031262725306
-303,0,2,"frozenset({'marital-status_Married-civ-spouse', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.04512657628804938
-304,0,2,"frozenset({'marital-status_Married-civ-spouse', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.04512657628804938
-301,0,2,"frozenset({'marital-status_Married-civ-spouse', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.04512657628804938
-302,0,2,"frozenset({'marital-status_Married-civ-spouse', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.04512657628804938
-328,0,X,"frozenset({'education_Bachelors', 'education-num_(10.0, 13.0]', 'sex_Male'})",0.7057277982133473,1.0,0.2942722017866527,0.044911192452121315
-534,1,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",0.7488372093023257,1.0,0.25116279069767433,0.04411375141858659
-535,1,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",0.7488372093023257,1.0,0.25116279069767433,0.04411375141858659
-536,1,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",0.7488372093023257,1.0,0.25116279069767433,0.04411375141858659
-537,1,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",0.7488372093023257,1.0,0.25116279069767433,0.04411375141858659
-120,0,1,"frozenset({'education-num_(9.0, 10.0]', 'marital-status_Never-married', 'education_Some-college'})",1.0,1.0,0.0,0.04401469619245823
-122,0,1,"frozenset({'education_Some-college', 'marital-status_Never-married', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.04401469619245823
-121,0,1,"frozenset({'education_Some-college', 'marital-status_Never-married', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.04401469619245823
-119,0,1,"frozenset({'education-num_(9.0, 10.0]', 'marital-status_Never-married', 'education_Some-college'})",1.0,1.0,0.0,0.04401469619245823
-73,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",1.0,0.7488372093023257,0.25116279069767433,0.0435502380438641
-69,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",1.0,0.7488372093023257,0.25116279069767433,0.0435502380438641
-72,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",1.0,0.7488372093023257,0.25116279069767433,0.0435502380438641
-68,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",1.0,0.7488372093023257,0.25116279069767433,0.0435502380438641
-308,0,2,"frozenset({'education-num_(10.0, 13.0]', 'education_Bachelors', 'occupation_aggregated_Sales'})",1.0,1.0,0.0,0.04283739552861367
-320,0,X,"frozenset({'race_White', 'education_Bachelors', 'education-num_(10.0, 13.0]'})",0.6865611043442955,0.8754200672107537,0.1888589628664582,0.04209174824743206
-253,0,2,"frozenset({'age_(37.0, 47.0]', 'education_Bachelors', 'education-num_(10.0, 13.0]'})",0.6797020484171321,1.0,0.3202979515828679,0.041963544796405974
-160,0,1,"frozenset({'education_Masters', 'race_White', 'education-num_(13.0, 16.0]'})",0.8956743002544529,1.0,0.10432569974554706,0.041455608647534996
-176,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'native_country_aggregated_United-States'})",0.8829516539440203,1.0,0.11704834605597969,0.041455608647534996
-77,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",0.6190567853705486,0.7488372093023257,0.12978042393177702,0.04139267551094747
-28,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9226179018286814,0.9255813953488372,0.002963493520155791,0.04139267551094747
-65,0,1,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.7499518768046198,0.7162790697674419,0.0336728070371779,0.04139267551094747
-64,0,1,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.7499518768046198,0.7162790697674419,0.0336728070371779,0.04139267551094747
-61,0,1,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",0.7499518768046198,0.7162790697674419,0.0336728070371779,0.04139267551094747
-60,0,1,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",0.7499518768046198,0.7162790697674419,0.0336728070371779,0.04139267551094747
-14,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.04139267551094747
-76,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",0.6190567853705486,0.7488372093023257,0.12978042393177702,0.04139267551094747
-44,0,1,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.8504331087584216,0.8930232558139536,0.04259014705553199,0.04139267551094747
-15,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.04139267551094747
-16,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.04139267551094747
-80,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",0.6190567853705486,0.7488372093023257,0.12978042393177702,0.04139267551094747
-17,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.04139267551094747
-49,0,1,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.8504331087584216,0.8930232558139536,0.04259014705553199,0.04139267551094747
-29,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9226179018286814,0.9255813953488372,0.002963493520155791,0.04139267551094747
-32,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9226179018286814,0.9255813953488372,0.002963493520155791,0.04139267551094747
-33,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9226179018286814,0.9255813953488372,0.002963493520155791,0.04139267551094747
-48,0,1,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.8504331087584216,0.8930232558139536,0.04259014705553199,0.04139267551094747
-45,0,1,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.8504331087584216,0.8930232558139536,0.04259014705553199,0.04139267551094747
-81,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",0.6190567853705486,0.7488372093023257,0.12978042393177702,0.04139267551094747
-190,0,1,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.6191145467322557,0.8677685950413223,0.24865404830906657,0.04111774180825172
-228,0,1,"frozenset({'education_Masters', 'workclass_Private', 'education-num_(13.0, 16.0]'})",0.5165394402035624,0.6851851851851852,0.16864574498162288,0.040611014052940396
-481,1,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.03864711196095083
-493,1,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9255813953488372,0.9228497600590624,0.0027316352897748253,0.03864711196095083
-492,1,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9255813953488372,0.9228497600590624,0.0027316352897748253,0.03864711196095083
-478,1,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.03864711196095083
-496,1,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9255813953488372,0.9228497600590624,0.0027316352897748253,0.03864711196095083
-480,1,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.03864711196095083
-525,1,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.7162790697674419,0.7484311554078997,0.032152085640457795,0.03864711196095083
-479,1,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.03864711196095083
-509,1,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.8930232558139536,0.8517903285345146,0.04123292727943895,0.03864711196095083
-497,1,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9255813953488372,0.9228497600590624,0.0027316352897748253,0.03864711196095083
-528,1,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",0.7162790697674419,0.7484311554078997,0.032152085640457795,0.03864711196095083
-508,1,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.8930232558139536,0.8517903285345146,0.04123292727943895,0.03864711196095083
-524,1,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.7162790697674419,0.7484311554078997,0.032152085640457795,0.03864711196095083
-529,1,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",0.7162790697674419,0.7484311554078997,0.032152085640457795,0.03864711196095083
-512,1,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.8930232558139536,0.8517903285345146,0.04123292727943895,0.03864711196095083
-513,1,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.8930232558139536,0.8517903285345146,0.04123292727943895,0.03864711196095083
-192,0,1,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.7472434266327396,1.0,0.25275657336726043,0.03807723026915661
-200,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'sex_Male'})",1.0,1.0,0.0,0.03782528021196576
-255,0,2,"frozenset({'education_Bachelors', 'education-num_(10.0, 13.0]', 'age_(47.0, 90.0]'})",0.7173717371737174,1.0,0.2826282628262826,0.03778358877509019
-23,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.03765148905021426
-22,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.03765148905021426
-18,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.03765148905021426
-19,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.03765148905021426
-55,0,1,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.037157086909211545
-54,0,1,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.037157086909211545
-51,0,1,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,1.0,0.0,0.037157086909211545
-50,0,1,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,1.0,0.0,0.037157086909211545
-128,0,1,"frozenset({'education_Bachelors', 'education-num_(10.0, 13.0]', 'occupation_aggregated_Exec-managerial'})",0.8184059161873458,0.9142857142857144,0.09587979809836855,0.03644618897805866
-221,0,1,"frozenset({'education_Masters', 'workclass_Private', 'education-num_(13.0, 16.0]'})",1.0,1.0,0.0,0.036360417203193406
-475,1,2,"frozenset({'native_country_aggregated_Other', 'race_Asian-Pac-Islander', 'Cluster_(0.0, 2.0]'})",0.6842105263157896,0.7499999999999999,0.06578947368421029,0.03628147378147379
-477,1,2,"frozenset({'native_country_aggregated_Other', 'race_Asian-Pac-Islander', 'Cluster_(0.0, 2.0]'})",0.6842105263157896,0.7499999999999999,0.06578947368421029,0.03628147378147379
-474,1,2,"frozenset({'native_country_aggregated_Other', 'race_Asian-Pac-Islander', 'Cluster_(0.0, 2.0]'})",0.6842105263157896,0.7499999999999999,0.06578947368421029,0.03628147378147379
-473,1,2,"frozenset({'native_country_aggregated_Other', 'race_Asian-Pac-Islander'})",0.6842105263157896,0.7499999999999999,0.06578947368421029,0.03628147378147379
-476,1,2,"frozenset({'native_country_aggregated_Other', 'race_Asian-Pac-Islander', 'Cluster_(0.0, 2.0]'})",0.6842105263157896,0.7499999999999999,0.06578947368421029,0.03628147378147379
-372,0,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.8504331087584216,1.0,0.1495668912415784,0.03538651310489277
-367,0,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.8504331087584216,1.0,0.1495668912415784,0.03538651310489277
-371,0,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.8504331087584216,1.0,0.1495668912415784,0.03538651310489277
-368,0,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.8504331087584216,1.0,0.1495668912415784,0.03538651310489277
-174,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'native_country_aggregated_United-States'})",0.6673076923076923,0.9008264462809918,0.23351875397329958,0.03523740873245122
-482,1,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.03516944625410745
-483,1,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.03516944625410745
-486,1,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.03516944625410745
-487,1,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.03516944625410745
-518,1,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,1.0,0.0,0.03476313037154061
-514,1,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.03476313037154061
-519,1,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,1.0,0.0,0.03476313037154061
-515,1,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.03476313037154061
-307,0,2,"frozenset({'education_Bachelors', 'education-num_(10.0, 13.0]', 'occupation_aggregated_Sales'})",0.7550761421319797,1.0,0.2449238578680203,0.03455342265540567
-158,0,1,"frozenset({'education_Masters', 'race_White', 'education-num_(13.0, 16.0]'})",0.6550868486352358,0.9008264462809918,0.24573959764575604,0.0330054574920014
-239,0,2,"frozenset({'relationship_Not-in-family', 'education_Bachelors', 'education-num_(10.0, 13.0]'})",0.7033158813263525,1.0,0.2966841186736475,0.031048114617519718
-399,1,2,"frozenset({'education_Bachelors', 'education-num_(10.0, 13.0]', 'occupation_aggregated_Exec-managerial'})",0.9142857142857144,1.0,0.08571428571428563,0.030975687225687235
-366,0,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.8517903285345146,0.14820967146548536,0.030604938639032464
-365,0,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.8517903285345146,0.14820967146548536,0.030604938639032464
-362,0,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,0.8517903285345146,0.14820967146548536,0.030604938639032464
-361,0,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,0.8517903285345146,0.14820967146548536,0.030604938639032464
-251,0,2,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education-num_(10.0, 13.0]', 'education_Bachelors'})",0.4522457408363449,1.0,0.547754259163655,0.0303008291676847
-236,0,2,"frozenset({'education_HS-grad', 'age_education_interaction_(261.0, 369.0]', 'age_(28.0, 37.0]'})",0.8889970788704967,0.7142857142857143,0.17471136458478242,0.02833301416870821
-471,1,2,"frozenset({'education_HS-grad', 'age_education_interaction_(261.0, 369.0]', 'age_(28.0, 37.0]'})",0.9166666666666667,1.0,0.08333333333333326,0.028210903210903207
-470,1,2,"frozenset({'education_HS-grad', 'age_education_interaction_(261.0, 369.0]', 'age_(28.0, 37.0]'})",0.9166666666666667,1.0,0.08333333333333326,0.028210903210903207
-215,0,1,"frozenset({'education_Masters', 'marital-status_Married-civ-spouse', 'education-num_(13.0, 16.0]'})",0.6117755289788408,1.0,0.3882244710211592,0.027667958971075123
-188,0,1,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.6191145467322557,1.0,0.38088545326774426,0.027604228294738208
-38,0,1,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.027467848997594024
-39,0,1,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.027467848997594024
-34,0,1,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.027467848997594024
-35,0,1,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.027467848997594024
-503,1,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.025431838081730357
-502,1,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.025431838081730357
-499,1,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.025431838081730357
-498,1,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.025431838081730357
-85,0,1,"frozenset({'occupation_aggregated_Other', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.025353281107530393
-84,0,1,"frozenset({'occupation_aggregated_Other', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.025353281107530393
-83,0,1,"frozenset({'occupation_aggregated_Other', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.025353281107530393
-82,0,1,"frozenset({'occupation_aggregated_Other', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.025353281107530393
-172,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'native_country_aggregated_United-States'})",0.6673076923076923,1.0,0.33269230769230773,0.025102273597316094
-87,0,1,"frozenset({'relationship_Not-in-family', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.025077694872312435
-88,0,1,"frozenset({'relationship_Not-in-family', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.025077694872312435
-89,0,1,"frozenset({'relationship_Not-in-family', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.025077694872312435
-86,0,1,"frozenset({'relationship_Not-in-family', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.025077694872312435
-211,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'sex_Male'})",0.4498058790904048,0.7107438016528925,0.2609379225624877,0.024807328897272232
-182,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'native_country_aggregated_United-States'})",0.5773710482529117,0.9008264462809918,0.3234553980280801,0.024807328897272232
-166,0,1,"frozenset({'education_Masters', 'race_White', 'education-num_(13.0, 16.0]'})",0.5856905158069884,0.9008264462809918,0.31513593047400346,0.024807328897272232
-198,0,1,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.4886300610094287,0.8677685950413223,0.3791385340318936,0.024807328897272232
-150,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]'})",0.653910149750416,1.0,0.34608985024958405,0.024807328897272232
-243,0,2,"frozenset({'education_Bachelors', 'age_education_interaction_(369.0, 494.0]', 'age_(28.0, 37.0]'})",0.5914221218961625,1.0,0.4085778781038375,0.024775979450200408
-244,0,2,"frozenset({'education_Bachelors', 'age_education_interaction_(369.0, 494.0]', 'age_(28.0, 37.0]'})",0.5914221218961625,1.0,0.4085778781038375,0.024775979450200408
-322,0,X,"frozenset({'race_White', 'education-num_(10.0, 13.0]', 'education_Bachelors'})",1.0,0.8754200672107537,0.12457993278924628,0.024180034738231965
-24,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,0.9255813953488372,0.07441860465116279,0.024137975536700745
-20,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,0.9255813953488372,0.07441860465116279,0.024137975536700745
-25,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,0.9255813953488372,0.07441860465116279,0.024137975536700745
-21,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,0.9255813953488372,0.07441860465116279,0.024137975536700745
-218,0,1,"frozenset({'education_Masters', 'marital-status_Married-civ-spouse', 'education-num_(13.0, 16.0]'})",0.5640373197625106,1.0,0.4359626802374894,0.02371912216104851
-224,0,1,"frozenset({'education_Masters', 'workclass_Private', 'education-num_(13.0, 16.0]'})",0.6714443219404631,1.0,0.3285556780595369,0.02356961970984634
-156,0,1,"frozenset({'education_Masters', 'race_White', 'education-num_(13.0, 16.0]'})",0.6550868486352358,1.0,0.3449131513647642,0.02287032235686627
-206,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'sex_Male'})",0.6878710771840543,1.0,0.31212892281594573,0.02202993297185931
-95,0,1,"frozenset({'marital-status_Married-civ-spouse', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.021935678274205186
-99,0,1,"frozenset({'marital-status_Married-civ-spouse', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.021935678274205186
-94,0,1,"frozenset({'marital-status_Married-civ-spouse', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.021935678274205186
-98,0,1,"frozenset({'marital-status_Married-civ-spouse', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.021935678274205186
-7,0,1,"frozenset({'age_education_interaction_(369.0, 494.0]', 'education_Bachelors', 'age_(28.0, 37.0]'})",1.0,1.0,0.0,0.021740571050061136
-490,1,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9255813953488372,1.0,0.07441860465116279,0.021655932740593936
-491,1,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9255813953488372,1.0,0.07441860465116279,0.021655932740593936
-495,1,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9255813953488372,1.0,0.07441860465116279,0.021655932740593936
-494,1,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9255813953488372,1.0,0.07441860465116279,0.021655932740593936
-314,0,X,"frozenset({'education-num_(10.0, 13.0]', 'education_Bachelors', 'native_country_aggregated_United-States'})",1.0,0.8927028324531924,0.10729716754680763,0.021003796434514888
-230,0,1,"frozenset({'education_Masters', 'occupation_aggregated_Prof-specialty', 'education-num_(13.0, 16.0]'})",1.0,1.0,0.0,0.020570652741332626
-355,0,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9226179018286814,1.0,0.07738209817131858,0.019736742770353533
-356,0,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9226179018286814,1.0,0.07738209817131858,0.019736742770353533
-351,0,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9226179018286814,1.0,0.07738209817131858,0.019736742770353533
-352,0,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9226179018286814,1.0,0.07738209817131858,0.019736742770353533
-136,0,1,"frozenset({'relationship_Own-child', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.019270735453454996
-134,0,1,"frozenset({'relationship_Own-child', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.019270735453454996
-137,0,1,"frozenset({'relationship_Own-child', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.019270735453454996
-135,0,1,"frozenset({'relationship_Own-child', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.019270735453454996
-325,0,X,"frozenset({'race_White', 'education-num_(10.0, 13.0]', 'education_Bachelors'})",0.8729994837377388,1.0,0.12700051626226116,0.01803436115360374
-0,0,1,"frozenset({'education_HS-grad', 'age_education_interaction_(261.0, 369.0]', 'age_(28.0, 37.0]'})",0.8889970788704967,0.9166666666666667,0.027669587796170014,0.0172161280518221
-523,1,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.7162790697674419,1.0,0.28372093023255807,0.01675713989872965
-527,1,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",0.7162790697674419,1.0,0.28372093023255807,0.01675713989872965
-526,1,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",0.7162790697674419,1.0,0.28372093023255807,0.01675713989872965
-522,1,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.7162790697674419,1.0,0.28372093023255807,0.01675713989872965
-203,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'sex_Male'})",0.6153262518968133,1.0,0.38467374810318666,0.016063755617579972
-5,0,1,"frozenset({'education_Bachelors', 'age_education_interaction_(369.0, 494.0]', 'age_(28.0, 37.0]'})",0.8821548821548821,1.0,0.11784511784511786,0.01573147155654238
-468,1,2,"frozenset({'age_education_interaction_(369.0, 494.0]', 'education_Bachelors', 'age_(28.0, 37.0]'})",1.0,1.0,0.0,0.015440921690921691
-469,1,2,"frozenset({'age_education_interaction_(369.0, 494.0]', 'education_Bachelors', 'age_(28.0, 37.0]'})",1.0,1.0,0.0,0.015440921690921691
-317,0,X,"frozenset({'education-num_(10.0, 13.0]', 'education_Bachelors', 'native_country_aggregated_United-States'})",0.892101187403201,1.0,0.10789881259679901,0.015107650857274335
-164,0,1,"frozenset({'education_Masters', 'race_White', 'education-num_(13.0, 16.0]'})",0.5856905158069884,1.0,0.4143094841930116,0.014672193762137103
-180,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'native_country_aggregated_United-States'})",0.5773710482529117,1.0,0.42262895174708826,0.014672193762137103
-350,0,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,0.9228497600590624,0.07715023994093761,0.014509136424250085
-345,0,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,0.9228497600590624,0.07715023994093761,0.014509136424250085
-346,0,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,0.9228497600590624,0.07715023994093761,0.014509136424250085
-349,0,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,0.9228497600590624,0.07715023994093761,0.014509136424250085
-53,0,1,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,0.7162790697674419,0.28372093023255807,0.014363183361058712
-52,0,1,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,0.7162790697674419,0.28372093023255807,0.014363183361058712
-56,0,1,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.7162790697674419,0.28372093023255807,0.014363183361058712
-57,0,1,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.7162790697674419,0.28372093023255807,0.014363183361058712
-227,0,1,"frozenset({'education_Masters', 'workclass_Private', 'education-num_(13.0, 16.0]'})",0.5165394402035624,1.0,0.48346055979643765,0.011894797836724182
-196,0,1,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]', 'education-num_(13.0, 16.0]'})",0.4886300610094287,1.0,0.5113699389905713,0.011293815383758718
-472,1,2,"frozenset({'education_HS-grad', 'age_education_interaction_(261.0, 369.0]', 'age_(28.0, 37.0]'})",0.9166666666666667,0.7142857142857143,0.20238095238095244,0.011116886116886111
-237,0,2,"frozenset({'age_education_interaction_(369.0, 494.0]', 'education-num_(10.0, 13.0]', 'age_(28.0, 37.0]'})",0.8538840937114675,1.0,0.14611590628853255,0.009790650017278905
-238,0,2,"frozenset({'age_education_interaction_(369.0, 494.0]', 'education-num_(10.0, 13.0]', 'age_(28.0, 37.0]'})",0.8538840937114675,1.0,0.14611590628853255,0.009790650017278905
-6,0,1,"frozenset({'education_Bachelors', 'age_education_interaction_(369.0, 494.0]', 'age_(28.0, 37.0]'})",0.5914221218961625,1.0,0.4085778781038375,0.009335057759278717
-240,0,2,"frozenset({'education-num_(10.0, 13.0]', 'relationship_Not-in-family', 'education_Bachelors'})",1.0,1.0,0.0,0.009157823605415671
-41,0,1,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.8930232558139536,0.10697674418604641,0.008042173321918367
-36,0,1,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,0.8930232558139536,0.10697674418604641,0.008042173321918367
-37,0,1,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,0.8930232558139536,0.10697674418604641,0.008042173321918367
-40,0,1,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,0.8930232558139536,0.10697674418604641,0.008042173321918367
-245,0,2,"frozenset({'age_education_interaction_(369.0, 494.0]', 'education_Bachelors', 'age_(28.0, 37.0]'})",1.0,1.0,0.0,0.006299649359139445
-246,0,2,"frozenset({'age_education_interaction_(369.0, 494.0]', 'education_Bachelors', 'age_(28.0, 37.0]'})",1.0,1.0,0.0,0.006299649359139445
-507,1,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.8930232558139536,1.0,0.10697674418604641,0.006006162406054699
-510,1,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.8930232558139536,1.0,0.10697674418604641,0.006006162406054699
-511,1,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.8930232558139536,1.0,0.10697674418604641,0.006006162406054699
-506,1,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.8930232558139536,1.0,0.10697674418604641,0.006006162406054699
-12,0,1,"frozenset({'age_(37.0, 47.0]', 'education_Some-college', 'age_education_interaction_(369.0, 494.0]'})",1.0,1.0,0.0,0.005982635674562017
-114,0,1,"frozenset({'age_(37.0, 47.0]', 'education-num_(9.0, 10.0]', 'age_education_interaction_(369.0, 494.0]'})",1.0,1.0,0.0,0.005982635674562017
-115,0,1,"frozenset({'age_(37.0, 47.0]', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.005982635674562017
-116,0,1,"frozenset({'age_(37.0, 47.0]', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.005982635674562017
-118,0,1,"frozenset({'age_(37.0, 47.0]', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.005982635674562017
-117,0,1,"frozenset({'age_(37.0, 47.0]', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.005982635674562017
-126,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'age_(28.0, 37.0]'})",1.0,1.0,0.0,0.005055241953258946
-13,0,1,"frozenset({'education_Some-college', 'age_education_interaction_(261.0, 369.0]', 'age_(28.0, 37.0]'})",0.8764241893076249,0.9615384615384615,0.08511427223083656,0.005055241953258946
-123,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'age_(28.0, 37.0]'})",1.0,1.0,0.0,0.005055241953258946
-124,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'age_(28.0, 37.0]'})",1.0,1.0,0.0,0.005055241953258946
-125,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'age_(28.0, 37.0]'})",1.0,1.0,0.0,0.005055241953258946
-127,0,1,"frozenset({'education-num_(9.0, 10.0]', 'age_education_interaction_(261.0, 369.0]', 'age_(28.0, 37.0]'})",0.8764241893076249,0.9615384615384615,0.08511427223083656,0.005055241953258946
-91,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'age_education_interaction_(261.0, 369.0]'})",1.0,1.0,0.0,0.004923720398224647
-92,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'age_education_interaction_(261.0, 369.0]'})",1.0,1.0,0.0,0.004923720398224647
-90,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'age_education_interaction_(261.0, 369.0]'})",1.0,1.0,0.0,0.004923720398224647
-93,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'age_education_interaction_(261.0, 369.0]'})",1.0,1.0,0.0,0.004923720398224647
-106,0,1,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.004815472503149558
-107,0,1,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.004815472503149558
-108,0,1,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.004815472503149558
-109,0,1,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.004815472503149558
-209,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'sex_Male'})",0.4498058790904048,1.0,0.5501941209095952,0.004753481913538582
-231,0,1,"frozenset({'education_Masters', 'education-num_(13.0, 16.0]', 'occupation_aggregated_Prof-specialty'})",0.5114503816793893,1.0,0.4885496183206107,0.004152499460573118
-233,0,1,"frozenset({'education_Masters', 'occupation_aggregated_Prof-specialty', 'education-num_(13.0, 16.0]'})",0.5114503816793893,1.0,0.4885496183206107,0.004152499460573118
-104,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'age_(47.0, 90.0]'})",1.0,1.0,0.0,0.003559637412328634
-102,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'age_(47.0, 90.0]'})",1.0,1.0,0.0,0.003559637412328634
-105,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'age_(47.0, 90.0]'})",1.0,1.0,0.0,0.003559637412328634
-103,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'age_(47.0, 90.0]'})",1.0,1.0,0.0,0.003559637412328634
-130,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'occupation_aggregated_Exec-managerial'})",1.0,1.0,0.0,0.0032218430766589416
-131,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'occupation_aggregated_Exec-managerial'})",1.0,1.0,0.0,0.0032218430766589416
-132,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'occupation_aggregated_Exec-managerial'})",1.0,1.0,0.0,0.0032218430766589416
-133,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'occupation_aggregated_Exec-managerial'})",1.0,1.0,0.0,0.0032218430766589416
-327,0,X,"frozenset({'education_Bachelors', 'education-num_(10.0, 13.0]', 'sex_Male'})",0.7057277982133473,0.7110785749145925,0.005350776701245175,0.0032169324208513317
-330,0,X,"frozenset({'education-num_(10.0, 13.0]', 'education_Bachelors', 'sex_Male'})",1.0,1.0,0.0,0.003161603496028745
-321,0,X,"frozenset({'race_White', 'education-num_(10.0, 13.0]', 'education_Bachelors'})",1.0,1.0,0.0,0.0030833313521907435
-326,0,X,"frozenset({'race_White', 'education-num_(10.0, 13.0]', 'education_Bachelors'})",0.8729994837377388,0.8754200672107537,0.002420583473014881,0.0030623422324374816
-310,0,X,"frozenset({'education-num_(10.0, 13.0]', 'education_Bachelors'})",1.0,1.0,0.0,0.0030623422324374816
-318,0,X,"frozenset({'education-num_(10.0, 13.0]', 'education_Bachelors', 'native_country_aggregated_United-States'})",0.892101187403201,0.8927028324531924,0.0006016450499913839,0.0030623422324374816
-140,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'occupation_aggregated_Sales'})",1.0,1.0,0.0,0.0028454043149510576
-139,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'occupation_aggregated_Sales'})",1.0,1.0,0.0,0.0028454043149510576
-141,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'occupation_aggregated_Sales'})",1.0,1.0,0.0,0.0028454043149510576
-138,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'occupation_aggregated_Sales'})",1.0,1.0,0.0,0.0028454043149510576
-313,0,X,"frozenset({'education-num_(10.0, 13.0]', 'education_Bachelors', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.002833803344803071
-340,0,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.002745563549996638
-358,0,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9226179018286814,0.9228497600590624,0.00023185823038096576,0.002745563549996638
-390,0,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.7499518768046198,0.7484311554078997,0.0015207213967201039,0.002745563549996638
-389,0,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.7499518768046198,0.7484311554078997,0.0015207213967201039,0.002745563549996638
-386,0,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",0.7499518768046198,0.7484311554078997,0.0015207213967201039,0.002745563549996638
-385,0,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",0.7499518768046198,0.7484311554078997,0.0015207213967201039,0.002745563549996638
-374,0,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.8504331087584216,0.8517903285345146,0.0013572197760930438,0.002745563549996638
-373,0,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",0.8504331087584216,0.8517903285345146,0.0013572197760930438,0.002745563549996638
-370,0,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.8504331087584216,0.8517903285345146,0.0013572197760930438,0.002745563549996638
-369,0,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",0.8504331087584216,0.8517903285345146,0.0013572197760930438,0.002745563549996638
-357,0,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",0.9226179018286814,0.9228497600590624,0.00023185823038096576,0.002745563549996638
-341,0,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.002745563549996638
-342,0,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.002745563549996638
-353,0,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9226179018286814,0.9228497600590624,0.00023185823038096576,0.002745563549996638
-339,0,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.002745563549996638
-354,0,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",0.9226179018286814,0.9228497600590624,0.00023185823038096576,0.002745563549996638
-344,0,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.0024820427961068092
-343,0,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.0024820427961068092
-348,0,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.0024820427961068092
-347,0,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'native_country_aggregated_United-States'})",1.0,1.0,0.0,0.0024820427961068092
-380,0,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.002393956537670938
-375,0,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,1.0,0.0,0.002393956537670938
-376,0,X,"frozenset({'education-num_(9.0, 10.0]', 'workclass_Private', 'education_Some-college'})",1.0,1.0,0.0,0.002393956537670938
-379,0,X,"frozenset({'workclass_Private', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.002393956537670938
-66,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",1.0,1.0,0.0,0.0020578700642439884
-67,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",1.0,1.0,0.0,0.0020578700642439884
-70,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",1.0,1.0,0.0,0.0020578700642439884
-71,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",1.0,1.0,0.0,0.0020578700642439884
-359,0,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.0020360109158636674
-360,0,X,"frozenset({'race_White', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.0020360109158636674
-363,0,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.0020360109158636674
-364,0,X,"frozenset({'race_White', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.0020360109158636674
-336,0,X,"frozenset({'education-num_(10.0, 13.0]', 'workclass_Private', 'education_Bachelors'})",1.0,1.0,0.0,0.0019654190800185156
-11,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'occupation_aggregated_Craft-repair'})",1.0,1.0,0.0,0.001819260671951893
-10,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'occupation_aggregated_Craft-repair'})",1.0,1.0,0.0,0.001819260671951893
-9,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'occupation_aggregated_Craft-repair'})",1.0,1.0,0.0,0.001819260671951893
-8,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'occupation_aggregated_Craft-repair'})",1.0,1.0,0.0,0.001819260671951893
-532,1,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",1.0,1.0,0.0,0.0014943566895214977
-531,1,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",1.0,1.0,0.0,0.0014943566895214977
-533,1,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",1.0,1.0,0.0,0.0014943566895214977
-530,1,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",1.0,1.0,0.0,0.0014943566895214977
-2,0,1,"frozenset({'hours-per-week_(45.0, 99.0]', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.0012266161345481433
-3,0,1,"frozenset({'hours-per-week_(45.0, 99.0]', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.0012266161345481433
-4,0,1,"frozenset({'hours-per-week_(45.0, 99.0]', 'education_Some-college', 'education-num_(9.0, 10.0]'})",1.0,1.0,0.0,0.0012266161345481433
-1,0,1,"frozenset({'hours-per-week_(45.0, 99.0]', 'education-num_(9.0, 10.0]', 'education_Some-college'})",1.0,1.0,0.0,0.0012266161345481433
-232,0,1,"frozenset({'education_Masters', 'occupation_aggregated_Prof-specialty', 'education-num_(13.0, 16.0]'})",0.546195652173913,1.0,0.45380434782608703,0.0009333390176166426
-393,0,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",1.0,1.0,0.0,0.0005635133747224907
-391,0,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",1.0,1.0,0.0,0.0005635133747224907
-392,0,X,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'sex_Male'})",1.0,1.0,0.0,0.0005635133747224907
-394,0,X,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'sex_Male'})",1.0,1.0,0.0,0.0005635133747224907
-110,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'age_education_interaction_(369.0, 494.0]'})",1.0,1.0,0.0,0.00036396814017210233
-111,0,1,"frozenset({'education-num_(9.0, 10.0]', 'education_Some-college', 'age_education_interaction_(369.0, 494.0]'})",1.0,1.0,0.0,0.00036396814017210233
-112,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'age_education_interaction_(369.0, 494.0]'})",1.0,1.0,0.0,0.00036396814017210233
-113,0,1,"frozenset({'education_Some-college', 'education-num_(9.0, 10.0]', 'age_education_interaction_(369.0, 494.0]'})",1.0,1.0,0.0,0.00036396814017210233
-333,0,X,"frozenset({'education-num_(10.0, 13.0]', 'education_Bachelors', 'sex_Male'})",0.6933402168301498,0.7110785749145925,0.017738358084442685,0.00029822695257081255
-241,0,2,"frozenset({'education_Bachelors', 'age_education_interaction_(369.0, 494.0]', 'age_(28.0, 37.0]'})",0.8821548821548821,1.0,0.11784511784511786,0.0002905498656206873
-242,0,2,"frozenset({'education_Bachelors', 'age_education_interaction_(369.0, 494.0]', 'age_(28.0, 37.0]'})",0.8821548821548821,1.0,0.11784511784511786,0.0002905498656206873
+98,2,4,"frozenset({'marital-status_Never-married', 'relationship_Own-child'})",0.41452180980764025,0.7959183673469387,0.3813965575392984,0.2944637920328011
+30,2,5,"frozenset({'marital-status_Never-married', 'relationship_Own-child'})",0.41452180980764025,0.8214285714285714,0.40690676162093115,0.27339344849459124
+100,2,4,"frozenset({'native_country_aggregated_United-States', 'marital-status_Never-married', 'relationship_Own-child'})",0.43059145507070096,0.7865168539325843,0.35592539886188335,0.2614765360025957
+101,2,4,"frozenset({'native_country_aggregated_United-States', 'marital-status_Never-married', 'relationship_Own-child'})",0.43059145507070096,0.7142857142857142,0.28369425921501323,0.256801211327271
+106,2,4,"frozenset({'workclass_Private', 'marital-status_Never-married', 'relationship_Own-child'})",0.42854815056216394,0.813953488372093,0.3854053378099291,0.24244921916298354
+112,2,4,"frozenset({'race_White', 'marital-status_Never-married', 'relationship_Own-child'})",0.4266864588487548,0.7804878048780487,0.3538013460292939,0.2410649909648693
+32,2,5,"frozenset({'native_country_aggregated_United-States', 'marital-status_Never-married', 'relationship_Own-child'})",0.43059145507070096,0.8192771084337349,0.38868565336303396,0.23658776581819568
+107,2,4,"frozenset({'workclass_Private', 'marital-status_Never-married', 'relationship_Own-child'})",0.42854815056216394,0.7142857142857142,0.28573756372355025,0.2362154529292173
+33,2,5,"frozenset({'native_country_aggregated_United-States', 'marital-status_Never-married', 'relationship_Own-child'})",0.43059145507070096,0.8095238095238094,0.37893235445310847,0.23573086778906116
+113,2,4,"frozenset({'race_White', 'marital-status_Never-married', 'relationship_Own-child'})",0.4266864588487548,0.6530612244897959,0.2263747656410411,0.232753302653181
+38,2,5,"frozenset({'workclass_Private', 'marital-status_Never-married', 'relationship_Own-child'})",0.42854815056216394,0.8378378378378378,0.4092896872756739,0.22371408968235276
+44,2,5,"frozenset({'race_White', 'marital-status_Never-married', 'relationship_Own-child'})",0.4266864588487548,0.7887323943661971,0.36204593551744235,0.22282263349372006
+39,2,5,"frozenset({'workclass_Private', 'marital-status_Never-married', 'relationship_Own-child'})",0.42854815056216394,0.7380952380952381,0.3095470875330742,0.21514510939100745
+45,2,5,"frozenset({'race_White', 'marital-status_Never-married', 'relationship_Own-child'})",0.4266864588487548,0.6666666666666666,0.23998020781791185,0.21168295911497115
+361,4,6,"frozenset({'occupation_aggregated_Other', 'age_education_interaction_(261.0, 369.0]', 'education_HS-grad'})",0.5811965811965812,1.0,0.41880341880341876,0.18922077922077923
+358,4,6,"frozenset({'occupation_aggregated_Other', 'age_education_interaction_(261.0, 369.0]', 'education_HS-grad'})",0.5811965811965812,1.0,0.41880341880341876,0.18922077922077923
+359,4,6,"frozenset({'occupation_aggregated_Other', 'age_education_interaction_(261.0, 369.0]', 'education_HS-grad'})",0.5811965811965812,1.0,0.41880341880341876,0.18922077922077923
+360,4,6,"frozenset({'occupation_aggregated_Other', 'age_education_interaction_(261.0, 369.0]', 'education_HS-grad'})",0.5811965811965812,1.0,0.41880341880341876,0.18922077922077923
+323,5,1,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5317460317460317,0.7142857142857143,0.18253968253968256,0.15610924351284247
+50,2,5,"frozenset({'marital-status_Never-married', 'relationship_Own-child', 'sex_Male'})",0.41992187499999994,0.7954545454545454,0.37553267045454547,0.15393118307814418
+66,2,4,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Not-in-family'})",0.4606630380999506,0.6666666666666667,0.20600362856671617,0.14340265330253166
+321,5,1,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5726495726495726,0.7142857142857143,0.1416361416361417,0.1406850789884209
+324,5,1,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5726495726495726,0.7142857142857143,0.1416361416361417,0.1406850789884209
+340,4,1,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5253333333333333,0.7142857142857143,0.18895238095238098,0.13497613497613498
+354,4,6,"frozenset({'education_HS-grad', 'hours_per_week_binned_41-50', 'age_education_interaction_(261.0, 369.0]'})",0.5265486725663717,1.0,0.4734513274336283,0.1325974025974026
+357,4,6,"frozenset({'education_HS-grad', 'hours_per_week_binned_41-50', 'age_education_interaction_(261.0, 369.0]'})",0.5265486725663717,1.0,0.4734513274336283,0.1325974025974026
+356,4,6,"frozenset({'education_HS-grad', 'hours_per_week_binned_41-50', 'age_education_interaction_(261.0, 369.0]'})",0.5265486725663717,1.0,0.4734513274336283,0.1325974025974026
+355,4,6,"frozenset({'education_HS-grad', 'hours_per_week_binned_41-50', 'age_education_interaction_(261.0, 369.0]'})",0.5265486725663717,1.0,0.4734513274336283,0.1325974025974026
+55,2,5,"frozenset({'occupation_aggregated_Other', 'marital-status_Never-married', 'relationship_Own-child'})",0.4189895470383275,0.8611111111111112,0.44212156407278363,0.13028201623046812
+322,5,1,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.6146788990825688,0.7142857142857143,0.09960681520314552,0.12697471052226836
+52,2,5,"frozenset({'marital-status_Never-married', 'relationship_Own-child', 'sex_Male'})",0.4994192799070848,0.7954545454545454,0.2960352655474606,0.12342683199739185
+70,2,4,"frozenset({'race_White', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.497860962566845,0.6666666666666667,0.16880570409982176,0.12220867931544455
+338,4,1,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5677233429394812,0.7142857142857143,0.14656237134623307,0.12043068043068042
+116,2,4,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Own-child'})",0.7511614401858304,0.7804878048780487,0.029326364692218276,0.1185329426819087
+110,2,4,"frozenset({'workclass_Private', 'marital-status_Never-married', 'relationship_Own-child'})",0.7636469221835076,0.813953488372093,0.05030656618858542,0.11645502060398663
+104,2,4,"frozenset({'native_country_aggregated_United-States', 'marital-status_Never-married', 'relationship_Own-child'})",0.8222996515679443,0.7865168539325843,0.035782797635359964,0.11489657904554507
+53,2,5,"frozenset({'occupation_aggregated_Other', 'marital-status_Never-married', 'relationship_Own-child'})",0.46398713826366556,0.8611111111111112,0.3971239728474456,0.11465555417376372
+65,2,4,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Not-in-family'})",0.4606630380999506,0.5521472392638037,0.09148420116385314,0.11431174421162255
+1,2,5,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Not-in-family'})",0.4606630380999506,0.6464646464646464,0.18580160836469584,0.11399658379363437
+68,2,4,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Not-in-family'})",0.4606630380999506,0.5454545454545454,0.08479150735459484,0.11223382213370048
+341,4,1,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5969696969696969,0.7142857142857143,0.11731601731601737,0.11159951159951159
+99,2,4,"frozenset({'marital-status_Never-married', 'relationship_Own-child'})",0.8885017421602789,0.7959183673469387,0.09258337481334022,0.1102212543702204
+117,2,4,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Own-child'})",0.7511614401858304,0.6530612244897959,0.09810021569603455,0.1102212543702204
+111,2,4,"frozenset({'workclass_Private', 'marital-status_Never-married', 'relationship_Own-child'})",0.7636469221835076,0.7142857142857142,0.04936120789779341,0.1102212543702204
+105,2,4,"frozenset({'native_country_aggregated_United-States', 'marital-status_Never-married', 'relationship_Own-child'})",0.8222996515679443,0.7142857142857142,0.10801393728223008,0.1102212543702204
+102,2,4,"frozenset({'native_country_aggregated_United-States', 'marital-status_Never-married', 'relationship_Own-child'})",0.892530728017649,0.7865168539325843,0.10601387408506469,0.10221762330492562
+350,4,6,"frozenset({'workclass_Private', 'age_education_interaction_(261.0, 369.0]', 'education_HS-grad'})",0.4843205574912892,1.0,0.5156794425087108,0.10090909090909092
+352,4,6,"frozenset({'workclass_Private', 'age_education_interaction_(261.0, 369.0]', 'education_HS-grad'})",0.4843205574912892,1.0,0.5156794425087108,0.10090909090909092
+353,4,6,"frozenset({'workclass_Private', 'age_education_interaction_(261.0, 369.0]', 'education_HS-grad'})",0.4843205574912892,1.0,0.5156794425087108,0.10090909090909092
+351,4,6,"frozenset({'workclass_Private', 'age_education_interaction_(261.0, 369.0]', 'education_HS-grad'})",0.4843205574912892,1.0,0.5156794425087108,0.10090909090909092
+48,2,5,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Own-child'})",0.7511614401858304,0.7887323943661971,0.03757095418036671,0.10029058521075945
+42,2,5,"frozenset({'workclass_Private', 'marital-status_Never-married', 'relationship_Own-child'})",0.7636469221835076,0.8378378378378378,0.07419091565433023,0.09771989112335586
+103,2,4,"frozenset({'native_country_aggregated_United-States', 'marital-status_Never-married', 'relationship_Own-child'})",0.892530728017649,0.7142857142857142,0.1782450137319348,0.09754229862960095
+339,4,1,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.652317880794702,0.7142857142857143,0.061967833491012314,0.09705405705405704
+69,2,4,"frozenset({'race_White', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.497860962566845,0.5521472392638037,0.054286276696958735,0.09311777022453543
+114,2,4,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Own-child'})",0.8933011049723757,0.7804878048780487,0.112813300094327,0.09289431631342362
+5,2,5,"frozenset({'race_White', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.497860962566845,0.6464646464646464,0.14860368389780143,0.09280260980654725
+108,2,4,"frozenset({'workclass_Private', 'marital-status_Never-married', 'relationship_Own-child'})",0.8963871847307431,0.813953488372093,0.08243369635865005,0.09259425518806075
+0,2,5,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Not-in-family'})",0.4606630380999506,0.5739910313901345,0.11332799329018395,0.09257413306527104
+72,2,4,"frozenset({'race_White', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.497860962566845,0.5454545454545454,0.047593582887700436,0.09103984814661337
+36,2,5,"frozenset({'native_country_aggregated_United-States', 'marital-status_Never-married', 'relationship_Own-child'})",0.8222996515679443,0.8192771084337349,0.0030225431342093545,0.09000780886114507
+43,2,5,"frozenset({'workclass_Private', 'marital-status_Never-married', 'relationship_Own-child'})",0.7636469221835076,0.7380952380952381,0.025551684088269466,0.08915091083201053
+49,2,5,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Own-child'})",0.7511614401858304,0.6666666666666666,0.08449477351916379,0.08915091083201053
+31,2,5,"frozenset({'marital-status_Never-married', 'relationship_Own-child'})",0.8885017421602789,0.8214285714285714,0.06707317073170749,0.08915091083201053
+37,2,5,"frozenset({'native_country_aggregated_United-States', 'marital-status_Never-married', 'relationship_Own-child'})",0.8222996515679443,0.8095238095238094,0.012775842044134844,0.08915091083201053
+67,2,4,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Not-in-family'})",0.4606630380999506,0.48,0.01933696190004941,0.0888571987570771
+109,2,4,"frozenset({'workclass_Private', 'marital-status_Never-married', 'relationship_Own-child'})",0.8963871847307431,0.7142857142857142,0.1821014704450289,0.08636048895429452
+115,2,4,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Own-child'})",0.8933011049723757,0.6530612244897959,0.24023988048257983,0.08458262800173533
+127,2,1,"frozenset({'occupation_aggregated_Craft-repair', 'education_HS-grad', 'sex_Male'})",0.448526863084922,0.8333333333333334,0.38480647024841136,0.0836950236688236
+337,4,1,"frozenset({'education_HS-grad', 'age_education_interaction_(261.0, 369.0]', 'sex_Male'})",0.5,0.7142857142857143,0.2142857142857143,0.08354756354756354
+3,2,5,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Not-in-family'})",0.4606630380999506,0.5470085470085471,0.08634550890859649,0.08314825474479118
+325,5,1,"frozenset({'occupation_aggregated_Craft-repair', 'education_HS-grad', 'sex_Male'})",0.45806451612903226,0.8333333333333334,0.3752688172043011,0.08153714323380133
+77,2,4,"frozenset({'hours_per_week_binned_41-50', 'marital-status_Never-married', 'relationship_Not-in-family'})",0.4935880659513216,0.656084656084656,0.16249659013333445,0.08058677917946189
+345,4,6,"frozenset({'education_HS-grad', 'age_education_interaction_(261.0, 369.0]', 'race_White'})",0.4954128440366972,1.0,0.5045871559633028,0.08012987012987013
+342,4,6,"frozenset({'education_HS-grad', 'age_education_interaction_(261.0, 369.0]', 'race_White'})",0.4954128440366972,1.0,0.5045871559633028,0.08012987012987013
+344,4,6,"frozenset({'education_HS-grad', 'age_education_interaction_(261.0, 369.0]', 'race_White'})",0.4954128440366972,1.0,0.5045871559633028,0.08012987012987013
+343,4,6,"frozenset({'education_HS-grad', 'age_education_interaction_(261.0, 369.0]', 'race_White'})",0.4954128440366972,1.0,0.5045871559633028,0.08012987012987013
+34,2,5,"frozenset({'native_country_aggregated_United-States', 'marital-status_Never-married', 'relationship_Own-child'})",0.892530728017649,0.8192771084337349,0.07325361958391408,0.07732885312052562
+35,2,5,"frozenset({'native_country_aggregated_United-States', 'marital-status_Never-married', 'relationship_Own-child'})",0.892530728017649,0.8095238095238094,0.08300691849383957,0.07647195509139108
+175,5,4,"frozenset({'race_White', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.507936507936508,0.6666666666666667,0.15873015873015872,0.07567856308216206
+128,2,1,"frozenset({'occupation_aggregated_Craft-repair', 'education_HS-grad', 'sex_Male'})",0.448526863084922,0.7142857142857143,0.2657588512007923,0.07514801512181504
+46,2,5,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Own-child'})",0.8933011049723757,0.7887323943661971,0.10456871060617856,0.07465195884227438
+40,2,5,"frozenset({'workclass_Private', 'marital-status_Never-married', 'relationship_Own-child'})",0.8963871847307431,0.8378378378378378,0.05854934689290525,0.07385912570742997
+326,5,1,"frozenset({'occupation_aggregated_Craft-repair', 'education_HS-grad', 'sex_Male'})",0.45806451612903226,0.7142857142857143,0.25622119815668204,0.07299013468679277
+4,2,5,"frozenset({'race_White', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.497860962566845,0.5739910313901345,0.07613006882328954,0.07138015907818393
+74,2,4,"frozenset({'workclass_Private', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.6066449814126395,0.5992217898832685,0.007423191529370987,0.06785965227810459
+2,2,5,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Not-in-family'})",0.4606630380999506,0.507936507936508,0.04727346983655745,0.0677240902203696
+71,2,4,"frozenset({'race_White', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.497860962566845,0.48,0.017860962566844996,0.06766322476998998
+329,4,1,"frozenset({'occupation_aggregated_Craft-repair', 'education_HS-grad', 'sex_Male'})",0.46929824561403505,0.8333333333333334,0.3640350877192983,0.06715950715950716
+189,5,4,"frozenset({'workclass_Private', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.4572649572649572,0.5992217898832685,0.14195683261831127,0.06700764531098721
+76,2,4,"frozenset({'hours_per_week_binned_41-50', 'marital-status_Never-married', 'relationship_Not-in-family'})",0.4935880659513216,0.5714285714285714,0.0778405054772498,0.06604132463400733
+41,2,5,"frozenset({'workclass_Private', 'marital-status_Never-married', 'relationship_Own-child'})",0.8963871847307431,0.7380952380952381,0.15829194663550494,0.06529014541608465
+12,2,5,"frozenset({'hours_per_week_binned_41-50', 'marital-status_Never-married', 'relationship_Not-in-family'})",0.4935880659513216,0.7293233082706767,0.2357352423193551,0.06480115948638718
+73,2,4,"frozenset({'workclass_Private', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.6066449814126395,0.5833333333333334,0.02331164807930608,0.06422328864174096
+47,2,5,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Own-child'})",0.8933011049723757,0.6666666666666666,0.22663443830570906,0.06351228446352546
+62,2,5,"frozenset({'native_country_aggregated_United-States', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.7444831591173056,0.7851239669421487,0.04064080782484314,0.06340207520545067
+188,5,4,"frozenset({'workclass_Private', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.4572649572649572,0.5833333333333334,0.12606837606837618,0.06337128167462358
+327,4,1,"frozenset({'occupation_aggregated_Craft-repair', 'education_HS-grad', 'sex_Male'})",0.4863636363636364,0.8333333333333334,0.346969696969697,0.063003663003663
+233,5,4,"frozenset({'hours_per_week_binned_41-50', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.5041322314049587,0.7848101265822784,0.2806778951773198,0.06264570048631746
+58,2,5,"frozenset({'race_White', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.7394766780432309,0.7851239669421487,0.04564728889891778,0.06255993054371212
+7,2,5,"frozenset({'race_White', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.497860962566845,0.5470085470085471,0.049147584441702086,0.06195428075770407
+124,2,4,"frozenset({'native_country_aggregated_United-States', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.7444831591173056,0.7794871794871795,0.035004020369873934,0.06101611497887348
+179,5,4,"frozenset({'race_White', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.5470085470085471,0.6666666666666667,0.11965811965811968,0.06025439855774048
+120,2,4,"frozenset({'race_White', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.7394766780432309,0.7487179487179486,0.009241270674717694,0.060173970317134916
+159,5,4,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5317460317460317,0.652317880794702,0.12057184904867024,0.059055186458785436
+334,4,1,"frozenset({'occupation_aggregated_Craft-repair', 'race_White', 'education_HS-grad'})",0.4517543859649123,0.7142857142857143,0.262531328320802,0.05861249861249861
+333,4,1,"frozenset({'occupation_aggregated_Craft-repair', 'race_White', 'education_HS-grad'})",0.4517543859649123,0.7142857142857143,0.262531328320802,0.05861249861249861
+330,4,1,"frozenset({'occupation_aggregated_Craft-repair', 'education_HS-grad', 'sex_Male'})",0.46929824561403505,0.7142857142857143,0.24498746867167925,0.05861249861249861
+346,4,6,"frozenset({'education_HS-grad', 'race_White', 'age_education_interaction_(261.0, 369.0]'})",0.4378378378378378,1.0,0.5621621621621622,0.057792207792207784
+347,4,6,"frozenset({'education_HS-grad', 'race_White', 'age_education_interaction_(261.0, 369.0]'})",0.4378378378378378,1.0,0.5621621621621622,0.057792207792207784
+348,4,6,"frozenset({'education_HS-grad', 'race_White', 'age_education_interaction_(261.0, 369.0]'})",0.4378378378378378,1.0,0.5621621621621622,0.057792207792207784
+349,4,6,"frozenset({'education_HS-grad', 'race_White', 'age_education_interaction_(261.0, 369.0]'})",0.4378378378378378,1.0,0.5621621621621622,0.057792207792207784
+60,2,5,"frozenset({'race_White', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.6605691056910569,0.7851239669421487,0.12455486125109183,0.05764742001690384
+64,2,5,"frozenset({'native_country_aggregated_United-States', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.6514227642276423,0.7851239669421487,0.13370120271450636,0.05764742001690384
+56,2,5,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.7306910569105691,0.8677685950413223,0.13707753813075318,0.05764742001690384
+126,2,4,"frozenset({'native_country_aggregated_United-States', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.6514227642276423,0.7794871794871795,0.12806441525953716,0.05526145979032664
+118,2,4,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.7306910569105691,0.8307692307692307,0.10007817385866158,0.05526145979032664
+122,2,4,"frozenset({'race_White', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.6605691056910569,0.7487179487179486,0.08814884302689174,0.05526145979032664
+328,4,1,"frozenset({'occupation_aggregated_Craft-repair', 'education_HS-grad', 'sex_Male'})",0.4863636363636364,0.7142857142857143,0.22792207792207791,0.05445665445665445
+123,2,4,"frozenset({'native_country_aggregated_United-States', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.7444831591173056,0.8444444444444444,0.09996128532713888,0.053223907186665684
+61,2,5,"frozenset({'native_country_aggregated_United-States', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.7444831591173056,0.8715596330275229,0.12707647391021737,0.05311929885583627
+57,2,5,"frozenset({'race_White', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.7394766780432309,0.8715596330275229,0.132082954984292,0.05227715419409771
+246,5,4,"frozenset({'workclass_Private', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.4876033057851239,0.7878787878787878,0.30027548209366395,0.05225609009670707
+51,2,5,"frozenset({'marital-status_Never-married', 'relationship_Own-child', 'sex_Male'})",0.900523560209424,0.7954545454545454,0.10506901475487862,0.05165739249145006
+93,2,4,"frozenset({'age_education_interaction_(261.0, 369.0]', 'marital-status_Never-married', 'relationship_Not-in-family'})",0.5422740524781341,0.7093023255813954,0.1670282731032613,0.051609881650117456
+167,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'race_White'})",0.5739910313901345,0.6666666666666667,0.09267563527653222,0.050828520237260616
+119,2,4,"frozenset({'race_White', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.7394766780432309,0.8248587570621468,0.08538207901891592,0.050823320966485556
+336,4,1,"frozenset({'occupation_aggregated_Craft-repair', 'native_country_aggregated_United-States', 'education_HS-grad'})",0.48341232227488146,0.7142857142857143,0.23087339201083285,0.049781329781329785
+335,4,1,"frozenset({'occupation_aggregated_Craft-repair', 'native_country_aggregated_United-States', 'education_HS-grad'})",0.48341232227488146,0.7142857142857143,0.23087339201083285,0.049781329781329785
+92,2,4,"frozenset({'age_education_interaction_(261.0, 369.0]', 'marital-status_Never-married', 'relationship_Not-in-family'})",0.5422740524781341,0.6559139784946236,0.11363992601648953,0.04797351801375382
+125,2,4,"frozenset({'native_country_aggregated_United-States', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.6514227642276423,0.8444444444444444,0.1930216802168021,0.04746925199811885
+63,2,5,"frozenset({'native_country_aggregated_United-States', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.6514227642276423,0.8715596330275229,0.2201368687998806,0.04736464366728944
+59,2,5,"frozenset({'race_White', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.6605691056910569,0.8715596330275229,0.21099052733646606,0.04736464366728944
+331,4,1,"frozenset({'occupation_aggregated_Craft-repair', 'race_White', 'education_HS-grad'})",0.5,0.7142857142857143,0.2142857142857143,0.047183927183927186
+332,4,1,"frozenset({'occupation_aggregated_Craft-repair', 'race_White', 'education_HS-grad'})",0.5,0.7142857142857143,0.2142857142857143,0.047183927183927186
+174,5,4,"frozenset({'race_White', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.507936507936508,0.5521472392638037,0.044210731327295694,0.04658765399125295
+6,2,5,"frozenset({'race_White', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.497860962566845,0.507936507936508,0.010075545369663041,0.04653011623328249
+121,2,4,"frozenset({'race_White', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.6605691056910569,0.8248587570621468,0.16428965137108997,0.045910810439677284
+8,2,5,"frozenset({'workclass_Private', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.6066449814126395,0.5879120879120878,0.01873289350055163,0.045410704482113096
+134,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'Cluster_(2.0, 6.0]'})",0.5793650793650794,0.6303030303030303,0.05093795093795084,0.04450973191333088
+161,5,4,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5317460317460317,0.5969696969696969,0.06522366522366518,0.04450973191333088
+131,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married'})",0.5793650793650794,0.6303030303030303,0.05093795093795084,0.04450973191333088
+177,5,4,"frozenset({'race_White', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.507936507936508,0.5454545454545454,0.037518037518037395,0.04450973191333088
+142,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'Cluster_(2.0, 6.0]'})",0.5793650793650794,0.6303030303030303,0.05093795093795084,0.04450973191333088
+144,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'Cluster_(2.0, 6.0]'})",0.5793650793650794,0.6303030303030303,0.05093795093795084,0.04450973191333088
+136,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'Cluster_(2.0, 6.0]'})",0.5793650793650794,0.6303030303030303,0.05093795093795084,0.04450973191333088
+54,2,5,"frozenset({'occupation_aggregated_Other', 'marital-status_Never-married', 'relationship_Own-child'})",0.8962732919254659,0.8611111111111112,0.03516218081435474,0.04447683236221697
+26,2,5,"frozenset({'age_education_interaction_(261.0, 369.0]', 'marital-status_Never-married', 'relationship_Not-in-family'})",0.5422740524781341,0.7704918032786886,0.2282177508005545,0.04401442654823562
+9,2,5,"frozenset({'workclass_Private', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.6066449814126395,0.5815217391304347,0.02512324228220475,0.04369690842384402
+151,5,4,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5726495726495726,0.652317880794702,0.07966830814512937,0.043631021934363856
+163,5,4,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5726495726495726,0.652317880794702,0.07966830814512937,0.043631021934363856
+192,5,4,"frozenset({'hours_per_week_binned_41-50', 'marital-status_Never-married', 'relationship_Not-in-family'})",0.5987654320987653,0.656084656084656,0.05731922398589073,0.04063566253797618
+244,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.43809523809523815,0.8105263157894737,0.3724310776942355,0.04062364370847661
+11,2,5,"frozenset({'hours_per_week_binned_41-50', 'marital-status_Never-married', 'relationship_Not-in-family'})",0.4935880659513216,0.5987654320987653,0.10517736614744372,0.03995111664148571
+79,2,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'sex_Male'})",0.6303253941630326,0.6377551020408162,0.007429707877783631,0.03765033132863206
+230,5,4,"frozenset({'marital-status_Married-civ-spouse', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.6363636363636364,0.84375,0.20738636363636365,0.037191155031772005
+243,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.8363636363636364,0.4753086419753087,0.3610549943883277,0.03702645255344483
+158,5,4,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5317460317460317,0.5677233429394812,0.03597731119344949,0.03567856308216205
+25,2,5,"frozenset({'age_education_interaction_(261.0, 369.0]', 'marital-status_Never-married', 'relationship_Not-in-family'})",0.5422740524781341,0.6619718309859155,0.1196977785077814,0.035445446256890285
+14,2,5,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'sex_Male'})",0.6303253941630326,0.6507936507936508,0.020468256630618242,0.03149936147586273
+178,5,4,"frozenset({'race_White', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.5470085470085471,0.5521472392638037,0.005138692255256649,0.031163489466831368
+95,2,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'age_education_interaction_(261.0, 369.0]'})",0.6901669758812616,0.7093023255813954,0.019135349700133752,0.030977337437522706
+75,2,4,"frozenset({'workclass_Private', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.6066449814126395,0.4666666666666667,0.13997831474597278,0.029937574356026675
+155,5,4,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.6146788990825688,0.652317880794702,0.0376389817121332,0.029920653468211322
+171,5,4,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Not-in-family'})",0.6464646464646464,0.6666666666666667,0.020202020202020332,0.029406069508897292
+266,5,4,"frozenset({'race_White', 'marital-status_Never-married', 'relationship_Own-child'})",0.6666666666666666,0.7804878048780487,0.11382113821138207,0.029382031849898176
+190,5,4,"frozenset({'workclass_Private', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.4572649572649572,0.4666666666666667,0.00940170940170948,0.0290855673889093
+181,5,4,"frozenset({'race_White', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.5470085470085471,0.5454545454545454,0.0015540015540016494,0.0290855673889093
+133,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married'})",0.6239316239316239,0.6303030303030303,0.0063714063714063185,0.0290855673889093
+146,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'Cluster_(2.0, 6.0]'})",0.6239316239316239,0.6303030303030303,0.0063714063714063185,0.0290855673889093
+165,5,4,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5726495726495726,0.5969696969696969,0.024320124320124314,0.0290855673889093
+148,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'Cluster_(2.0, 6.0]'})",0.6239316239316239,0.6303030303030303,0.0063714063714063185,0.0290855673889093
+140,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'Cluster_(2.0, 6.0]'})",0.6239316239316239,0.6303030303030303,0.0063714063714063185,0.0290855673889093
+138,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'Cluster_(2.0, 6.0]'})",0.6239316239316239,0.6303030303030303,0.0063714063714063185,0.0290855673889093
+153,5,4,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5726495726495726,0.5969696969696969,0.024320124320124314,0.0290855673889093
+94,2,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'age_education_interaction_(261.0, 369.0]'})",0.6901669758812616,0.6559139784946236,0.03425299738663801,0.027340973801159067
+262,5,4,"frozenset({'workclass_Private', 'marital-status_Never-married', 'relationship_Own-child'})",0.7380952380952381,0.813953488372093,0.07585825027685489,0.0273041097719761
+78,2,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'sex_Male'})",0.6303253941630326,0.5787037037037036,0.05162169045932896,0.027260720939021668
+213,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'age_education_interaction_(369.0, 494.0]'})",0.8947368421052632,0.6260869565217392,0.268649885583524,0.027178134633147485
+191,5,4,"frozenset({'hours_per_week_binned_41-50', 'marital-status_Never-married', 'relationship_Not-in-family'})",0.5987654320987653,0.5714285714285714,0.02733686067019392,0.026090207992521625
+258,5,4,"frozenset({'native_country_aggregated_United-States', 'marital-status_Never-married', 'relationship_Own-child'})",0.8095238095238094,0.7865168539325843,0.02300695559122512,0.025745668213534544
+172,5,4,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Not-in-family'})",0.6464646464646464,0.48,0.16646464646464643,0.02513938503655727
+256,5,4,"frozenset({'native_country_aggregated_United-States', 'marital-status_Never-married', 'relationship_Own-child'})",0.8192771084337349,0.7865168539325843,0.03276025450115061,0.024888770184400007
+186,5,4,"frozenset({'workclass_Private', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.5815217391304347,0.5992217898832685,0.017700050752833763,0.024162743854260565
+28,2,5,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'age_education_interaction_(261.0, 369.0]'})",0.6901669758812616,0.7704918032786886,0.08032482739742697,0.02338188233564087
+183,5,4,"frozenset({'workclass_Private', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.5879120879120878,0.5992217898832685,0.011309701971180641,0.022448947795991492
+166,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'race_White'})",0.5739910313901345,0.5521472392638037,0.021843792126330808,0.021737611146351504
+130,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married'})",0.5793650793650794,0.5546666666666666,0.024698412698412775,0.021133108536707496
+135,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'Cluster_(2.0, 6.0]'})",0.5793650793650794,0.5546666666666666,0.024698412698412775,0.021133108536707496
+137,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'Cluster_(2.0, 6.0]'})",0.5793650793650794,0.5546666666666666,0.024698412698412775,0.021133108536707496
+145,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'Cluster_(2.0, 6.0]'})",0.5793650793650794,0.5546666666666666,0.024698412698412775,0.021133108536707496
+143,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'Cluster_(2.0, 6.0]'})",0.5793650793650794,0.5546666666666666,0.024698412698412775,0.021133108536707496
+176,5,4,"frozenset({'race_White', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.507936507936508,0.48,0.027936507936508037,0.021133108536707496
+160,5,4,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5317460317460317,0.5253333333333333,0.0064126984126984254,0.021133108536707496
+252,5,4,"frozenset({'marital-status_Never-married', 'Cluster_(2.0, 6.0]', 'relationship_Own-child'})",0.8214285714285714,0.7959183673469387,0.025510204081632737,0.021070343538209864
+251,5,4,"frozenset({'marital-status_Never-married', 'relationship_Own-child'})",0.8214285714285714,0.7959183673469387,0.025510204081632737,0.021070343538209864
+255,5,4,"frozenset({'marital-status_Never-married', 'relationship_Own-child', 'Cluster_(2.0, 6.0]'})",0.8214285714285714,0.7959183673469387,0.025510204081632737,0.021070343538209864
+259,5,4,"frozenset({'native_country_aggregated_United-States', 'marital-status_Never-married', 'relationship_Own-child'})",0.8095238095238094,0.7142857142857142,0.09523809523809523,0.021070343538209864
+254,5,4,"frozenset({'marital-status_Never-married', 'relationship_Own-child', 'Cluster_(2.0, 6.0]'})",0.8214285714285714,0.7959183673469387,0.025510204081632737,0.021070343538209864
+263,5,4,"frozenset({'workclass_Private', 'marital-status_Never-married', 'relationship_Own-child'})",0.7380952380952381,0.7142857142857142,0.023809523809523947,0.021070343538209864
+253,5,4,"frozenset({'marital-status_Never-married', 'Cluster_(2.0, 6.0]', 'relationship_Own-child'})",0.8214285714285714,0.7959183673469387,0.025510204081632737,0.021070343538209864
+267,5,4,"frozenset({'race_White', 'marital-status_Never-married', 'relationship_Own-child'})",0.6666666666666666,0.6530612244897959,0.013605442176870763,0.021070343538209864
+208,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'sex_Male'})",0.5734265734265734,0.6377551020408162,0.06432852861424276,0.02071823634805639
+96,2,4,"frozenset({'occupation_aggregated_Craft-repair', 'education_HS-grad', 'sex_Male'})",0.448526863084922,0.4863636363636364,0.037836773278714375,0.0206913606651606
+185,5,4,"frozenset({'workclass_Private', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.5815217391304347,0.5833333333333334,0.0018115942028986698,0.020526380217896933
+162,5,4,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5726495726495726,0.5677233429394812,0.004926229710091379,0.02025439855774047
+150,5,4,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5726495726495726,0.5677233429394812,0.004926229710091379,0.02025439855774047
+257,5,4,"frozenset({'native_country_aggregated_United-States', 'marital-status_Never-married', 'relationship_Own-child'})",0.8192771084337349,0.7142857142857142,0.10499139414802072,0.020213445509075327
+232,5,4,"frozenset({'hours_per_week_binned_41-50', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.8591549295774648,0.7848101265822784,0.07434480299518631,0.019800799029590803
+169,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'race_White'})",0.5739910313901345,0.5454545454545454,0.028536485935589107,0.019659689068429437
+182,5,4,"frozenset({'workclass_Private', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.5879120879120878,0.5833333333333334,0.0045787545787544515,0.01881258415962786
+260,5,4,"frozenset({'workclass_Private', 'marital-status_Never-married', 'relationship_Own-child'})",0.8378378378378378,0.813953488372093,0.023884349465744803,0.018735129480630774
+249,5,4,"frozenset({'occupation_aggregated_Craft-repair', 'education_HS-grad', 'sex_Male'})",0.45806451612903226,0.4863636363636364,0.028299120234604125,0.01853348023013833
+264,5,4,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Own-child'})",0.7887323943661971,0.7804878048780487,0.008244589488148435,0.018242357471149245
+13,2,5,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'sex_Male'})",0.6303253941630326,0.5734265734265734,0.05689882073645913,0.01693209498057567
+97,2,4,"frozenset({'occupation_aggregated_Craft-repair', 'education_HS-grad', 'sex_Male'})",0.448526863084922,0.46929824561403505,0.020771382529113036,0.016535516509316436
+196,5,4,"frozenset({'marital-status_Never-married', 'age_education_interaction_(261.0, 369.0]', 'relationship_Not-in-family'})",0.6619718309859155,0.7093023255813954,0.04733049459547989,0.01616443539322717
+200,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'education_Bachelors'})",0.6571428571428573,0.8,0.1428571428571428,0.01582701788357315
+194,5,4,"frozenset({'hours_per_week_binned_41-50', 'marital-status_Never-married', 'relationship_Not-in-family'})",0.7293233082706767,0.656084656084656,0.07323865218602066,0.01578561969307471
+184,5,4,"frozenset({'workclass_Private', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.5879120879120878,0.4666666666666667,0.12124542124542115,0.01547313012608642
+157,5,4,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.6146788990825688,0.5969696969696969,0.017709202112871858,0.015375198922756766
+80,2,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'age_education_interaction_(369.0, 494.0]'})",0.6914225941422594,0.6260869565217392,0.06533563762052019,0.015013021039033951
+27,2,5,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'age_education_interaction_(261.0, 369.0]'})",0.6901669758812616,0.6619718309859155,0.028195144895346136,0.014812902044295535
+313,5,4,"frozenset({'marital-status_Married-civ-spouse', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.7358490566037735,0.9322033898305084,0.1963543332267349,0.014766244894779602
+87,2,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'education_Bachelors'})",0.6488427773343974,0.8,0.1511572226656026,0.014466781464067886
+250,5,4,"frozenset({'occupation_aggregated_Craft-repair', 'education_HS-grad', 'sex_Male'})",0.45806451612903226,0.46929824561403505,0.011233729485002786,0.014377636074294167
+316,5,4,"frozenset({'workclass_Self-emp-inc', 'hours_per_week_binned_51+', 'sex_Male'})",0.5909090909090909,0.5294117647058822,0.06149732620320869,0.014094080726471482
+187,5,4,"frozenset({'workclass_Private', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.5815217391304347,0.4666666666666667,0.11485507246376803,0.013759334067817347
+82,2,4,"frozenset({'hours_per_week_binned_51+', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.6802197802197802,0.5833333333333334,0.09688644688644688,0.013528804871557755
+129,5,4,"frozenset({'education_HS-grad', 'marital-status_Married-civ-spouse', 'age_education_interaction_(261.0, 369.0]'})",0.5231788079470198,0.4955357142857143,0.027643093661305462,0.013027966035678129
+204,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.7017543859649124,0.7681159420289855,0.06636155606407312,0.012999031816512532
+248,5,4,"frozenset({'hours_per_week_binned_51+', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.8421052631578948,0.8850574712643677,0.04295220810647293,0.012632680087692943
+195,5,4,"frozenset({'marital-status_Never-married', 'age_education_interaction_(261.0, 369.0]', 'relationship_Not-in-family'})",0.6619718309859155,0.6559139784946236,0.006057852491291871,0.012528071756863532
+261,5,4,"frozenset({'workclass_Private', 'marital-status_Never-married', 'relationship_Own-child'})",0.8378378378378378,0.7142857142857142,0.12355212355212364,0.012501363246864537
+212,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'age_education_interaction_(369.0, 494.0]'})",0.5151515151515151,0.8470588235294118,0.3319073083778966,0.012399425767035017
+20,2,5,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'education_Bachelors'})",0.6488427773343974,0.851851851851852,0.20300907451745454,0.012350132046647262
+16,2,5,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'age_education_interaction_(369.0, 494.0]'})",0.6914225941422594,0.8947368421052632,0.2033142479630038,0.012165113594113534
+15,2,5,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'age_education_interaction_(369.0, 494.0]'})",0.6914225941422594,0.5151515151515151,0.17627107899074423,0.011828031221653386
+227,5,4,"frozenset({'race_White', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.7851239669421487,0.8248587570621468,0.03973479011999814,0.011736609577226553
+300,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.7735849056603773,0.876923076923077,0.10333817126269973,0.011649361777896487
+214,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'age_education_interaction_(369.0, 494.0]'})",0.8947368421052632,0.8470588235294118,0.04767801857585141,0.011593719048731903
+318,5,4,"frozenset({'workclass_Self-emp-inc', 'hours_per_week_binned_51+', 'sex_Male'})",0.5571428571428572,0.5294117647058822,0.027731092436974913,0.010666488609933349
+320,5,4,"frozenset({'workclass_Self-emp-inc', 'hours_per_week_binned_51+', 'marital-status_Married-civ-spouse'})",0.5285714285714287,0.463235294117647,0.06533613445378167,0.010666488609933349
+276,5,4,"frozenset({'education_Prof-school', 'sex_Male', 'age_education_interaction_(494.0, 1350.0]'})",0.8113207547169811,0.8955223880597015,0.08420163334272046,0.010610400738935447
+292,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'sex_Male'})",0.7735849056603773,0.8208955223880597,0.04731061672768244,0.010610400738935447
+207,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'sex_Male'})",0.5734265734265734,0.5787037037037036,0.005277130277130171,0.010328625958445997
+223,5,4,"frozenset({'native_country_aggregated_United-States', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.7851239669421487,0.8444444444444444,0.05932047750229574,0.010178168018784989
+265,5,4,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Own-child'})",0.7887323943661971,0.6530612244897959,0.13567116987640127,0.009930669159460934
+229,5,4,"frozenset({'marital-status_Married-civ-spouse', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.875,0.84375,0.03125,0.008913520070332415
+199,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'education_Bachelors'})",0.6571428571428573,0.686868686868687,0.02972582972582971,0.00855429061084588
+21,2,5,"frozenset({'occupation_aggregated_Prof-specialty', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.6786127167630057,0.7017543859649124,0.023141669201906634,0.008373458082676422
+23,2,5,"frozenset({'occupation_aggregated_Prof-specialty', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.6770472895040369,0.7017543859649124,0.024707096460875433,0.008279886453594364
+297,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.836734693877551,0.876923076923077,0.04018838304552608,0.008221769661358354
+205,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.888888888888889,0.5888888888888889,0.30000000000000004,0.008192835442192771
+17,2,5,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'education_Bachelors'})",0.7324324324324324,0.6571428571428573,0.07528957528957514,0.00805060789887272
+301,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.7735849056603773,0.7916666666666667,0.018081761006289443,0.008012998141532848
+156,5,4,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.6146788990825688,0.5253333333333333,0.08934556574923547,0.008001424453866618
+226,5,4,"frozenset({'race_White', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.8715596330275229,0.7487179487179486,0.12284168430957432,0.007896816123037206
+222,5,4,"frozenset({'native_country_aggregated_United-States', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.8715596330275229,0.7794871794871795,0.09207245354034344,0.007896816123037206
+239,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States', 'education_Masters'})",0.4587155963302752,0.45641025641025634,0.0023053399200188562,0.007896816123037206
+241,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'race_White', 'education_Masters'})",0.4403669724770642,0.44102564102564096,0.0006586685485767685,0.007896816123037206
+85,2,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'education_Bachelors'})",0.7324324324324324,0.8,0.06756756756756765,0.00777640998470043
+198,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'age_education_interaction_(261.0, 369.0]'})",0.7704918032786886,0.7093023255813954,0.061189477697293215,0.007595455101881837
+288,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'race_White', 'education_Prof-school'})",0.7735849056603773,0.8219178082191781,0.04833290255880085,0.007493517622052331
+280,5,4,"frozenset({'race_White', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.8301886792452831,0.8904109589041096,0.06022227965882654,0.007493517622052331
+312,5,4,"frozenset({'marital-status_Married-civ-spouse', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.9512195121951219,0.6707317073170731,0.2804878048780488,0.007464583402886749
+315,5,4,"frozenset({'workclass_Self-emp-inc', 'hours_per_week_binned_51+', 'sex_Male'})",0.5909090909090909,0.5853658536585366,0.005543237250554389,0.007340833973224721
+86,2,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'education_Bachelors'})",0.6488427773343974,0.686868686868687,0.038025909534289526,0.007194054191340615
+309,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States', 'education_Prof-school'})",0.7358490566037735,0.8108108108108107,0.07496175420703721,0.006974037102571808
+305,5,4,"frozenset({'native_country_aggregated_United-States', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.8113207547169811,0.8918918918918919,0.08057113717491082,0.006974037102571808
+154,5,4,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.6146788990825688,0.5677233429394812,0.04695555614308755,0.006544030091587938
+88,2,4,"frozenset({'occupation_aggregated_Prof-specialty', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.6786127167630057,0.5888888888888889,0.08972382787411681,0.006283517175254799
+90,2,4,"frozenset({'occupation_aggregated_Prof-specialty', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.6770472895040369,0.5888888888888889,0.08815840061514801,0.006189945546172741
+210,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'sex_Male'})",0.6507936507936508,0.6377551020408162,0.013038548752834611,0.0061509698527693335
+245,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.43809523809523815,0.4753086419753087,0.03721340388007055,0.005818448903281814
+149,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'Cluster_(2.0, 6.0]'})",0.6239316239316239,0.5546666666666666,0.0692649572649573,0.005708944012285916
+139,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'Cluster_(2.0, 6.0]'})",0.6239316239316239,0.5546666666666666,0.0692649572649573,0.005708944012285916
+164,5,4,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5726495726495726,0.5253333333333333,0.047316239316239295,0.005708944012285916
+180,5,4,"frozenset({'race_White', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.5470085470085471,0.48,0.06700854700854708,0.005708944012285916
+152,5,4,"frozenset({'relationship_Not-in-family', 'native_country_aggregated_United-States', 'marital-status_Never-married'})",0.5726495726495726,0.5253333333333333,0.047316239316239295,0.005708944012285916
+147,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'Cluster_(2.0, 6.0]'})",0.6239316239316239,0.5546666666666666,0.0692649572649573,0.005708944012285916
+141,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'Cluster_(2.0, 6.0]'})",0.6239316239316239,0.5546666666666666,0.0692649572649573,0.005708944012285916
+132,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married'})",0.6239316239316239,0.5546666666666666,0.0692649572649573,0.005708944012285916
+18,2,5,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'education_Bachelors'})",0.7324324324324324,0.851851851851852,0.11941941941941958,0.005659760567279806
+290,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'sex_Male'})",0.8723404255319148,0.8208955223880597,0.05144490314385508,0.005469012564128246
+274,5,4,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education_Prof-school', 'sex_Male'})",0.9148936170212766,0.8955223880597015,0.01937122896157506,0.005469012564128246
+201,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'education_Bachelors'})",0.851851851851852,0.686868686868687,0.164983164983165,0.005156077855306647
+231,5,4,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education_Masters', 'sex_Male'})",0.8488372093023256,0.8409090909090909,0.007928118393234707,0.00512180193414126
+294,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.9111111111111111,0.876923076923077,0.03418803418803407,0.00479417754482022
+91,2,4,"frozenset({'occupation_aggregated_Prof-specialty', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.6770472895040369,0.7681159420289855,0.09106865252494856,0.004719145362918169
+89,2,4,"frozenset({'occupation_aggregated_Prof-specialty', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.6786127167630057,0.7681159420289855,0.08950322526597976,0.004625573733836111
+298,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.836734693877551,0.7916666666666667,0.04506802721088421,0.004585406024994715
+311,5,4,"frozenset({'marital-status_Married-civ-spouse', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.9512195121951219,0.9322033898305084,0.019016122364613475,0.004483468545165202
+209,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'sex_Male'})",0.6507936507936508,0.5787037037037036,0.0720899470899472,0.00423864053684106
+304,5,4,"frozenset({'native_country_aggregated_United-States', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.9555555555555555,0.8048780487804879,0.15067750677506764,0.004036991286348615
+308,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States', 'education_Prof-school'})",0.8666666666666666,0.7317073170731707,0.13495934959349587,0.004036991286348615
+296,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.9111111111111111,0.6951219512195121,0.21598915989159895,0.004036991286348615
+197,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'age_education_interaction_(261.0, 369.0]'})",0.7704918032786886,0.6559139784946236,0.11457782478406497,0.003959091465518198
+317,5,4,"frozenset({'workclass_Self-emp-inc', 'hours_per_week_binned_51+', 'sex_Male'})",0.5571428571428572,0.5853658536585366,0.02822299651567939,0.003913241856686588
+168,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'race_White'})",0.5739910313901345,0.48,0.09399103139013454,0.0037169343081939477
+211,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'age_education_interaction_(369.0, 494.0]'})",0.5151515151515151,0.6260869565217392,0.11093544137022404,0.003184989817380565
+268,5,4,"frozenset({'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.9245283018867925,0.8780487804878049,0.04647952139898759,0.0028181929467276517
+270,5,4,"frozenset({'education_Prof-school', 'Cluster_(2.0, 6.0]', 'age_education_interaction_(494.0, 1350.0]'})",0.9245283018867925,0.8780487804878049,0.04647952139898759,0.0028181929467276517
+285,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'Cluster_(2.0, 6.0]'})",0.8490566037735848,0.7926829268292682,0.05637367694431661,0.0028181929467276517
+284,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'Cluster_(2.0, 6.0]'})",0.8490566037735848,0.7926829268292682,0.05637367694431661,0.0028181929467276517
+271,5,4,"frozenset({'education_Prof-school', 'Cluster_(2.0, 6.0]', 'age_education_interaction_(494.0, 1350.0]'})",0.9245283018867925,0.8780487804878049,0.04647952139898759,0.0028181929467276517
+289,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'race_White', 'education_Prof-school'})",0.7735849056603773,0.7317073170731707,0.04187758858720658,0.0028181929467276517
+283,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'Cluster_(2.0, 6.0]'})",0.8490566037735848,0.7926829268292682,0.05637367694431661,0.0028181929467276517
+282,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'Cluster_(2.0, 6.0]'})",0.8490566037735848,0.7926829268292682,0.05637367694431661,0.0028181929467276517
+281,5,4,"frozenset({'race_White', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.8301886792452831,0.7926829268292682,0.03750575241601484,0.0028181929467276517
+314,5,4,"frozenset({'marital-status_Married-civ-spouse', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.7358490566037735,0.6707317073170731,0.06511734928670043,0.0028181929467276517
+310,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States', 'education_Prof-school'})",0.7358490566037735,0.7317073170731707,0.004141739530602817,0.0028181929467276517
+269,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school'})",0.8490566037735848,0.7926829268292682,0.05637367694431661,0.0028181929467276517
+272,5,4,"frozenset({'education_Prof-school', 'Cluster_(2.0, 6.0]', 'age_education_interaction_(494.0, 1350.0]'})",0.9245283018867925,0.8780487804878049,0.04647952139898759,0.0028181929467276517
+302,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.7735849056603773,0.6951219512195121,0.07846295444086515,0.0028181929467276517
+277,5,4,"frozenset({'education_Prof-school', 'sex_Male', 'age_education_interaction_(494.0, 1350.0]'})",0.8113207547169811,0.7317073170731707,0.07961343764381035,0.0028181929467276517
+306,5,4,"frozenset({'native_country_aggregated_United-States', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.8113207547169811,0.8048780487804879,0.006442705936493209,0.0028181929467276517
+273,5,4,"frozenset({'education_Prof-school', 'Cluster_(2.0, 6.0]', 'age_education_interaction_(494.0, 1350.0]'})",0.9245283018867925,0.8780487804878049,0.04647952139898759,0.0028181929467276517
+293,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'sex_Male'})",0.7735849056603773,0.6707317073170731,0.1028531983433042,0.0028181929467276517
+206,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.888888888888889,0.7681159420289855,0.12077294685990347,0.002716255466898139
+83,2,4,"frozenset({'hours_per_week_binned_51+', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.6802197802197802,0.8181818181818182,0.137962037962038,0.0025750912323383515
+247,5,4,"frozenset({'occupation_aggregated_Exec-managerial', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.8695652173913043,0.8169014084507042,0.052663808940600076,0.002534192457071635
+218,5,4,"frozenset({'Cluster_(2.0, 6.0]', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.8677685950413223,0.8307692307692307,0.036999364272091606,0.002385960226577194
+219,5,4,"frozenset({'Cluster_(2.0, 6.0]', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.8677685950413223,0.8307692307692307,0.036999364272091606,0.002385960226577194
+216,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Masters'})",0.45454545454545453,0.48717948717948717,0.03263403263403264,0.002385960226577194
+220,5,4,"frozenset({'Cluster_(2.0, 6.0]', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.8677685950413223,0.8307692307692307,0.036999364272091606,0.002385960226577194
+215,5,4,"frozenset({'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.8677685950413223,0.8307692307692307,0.036999364272091606,0.002385960226577194
+224,5,4,"frozenset({'native_country_aggregated_United-States', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.7851239669421487,0.7794871794871795,0.005636787454969205,0.002385960226577194
+217,5,4,"frozenset({'Cluster_(2.0, 6.0]', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.8677685950413223,0.8307692307692307,0.036999364272091606,0.002385960226577194
+236,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'Cluster_(2.0, 6.0]', 'education_Masters'})",0.45454545454545453,0.48717948717948717,0.03263403263403264,0.002385960226577194
+228,5,4,"frozenset({'race_White', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.7851239669421487,0.7487179487179486,0.03640601822420009,0.002385960226577194
+237,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'Cluster_(2.0, 6.0]', 'education_Masters'})",0.45454545454545453,0.48717948717948717,0.03263403263403264,0.002385960226577194
+234,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'Cluster_(2.0, 6.0]', 'education_Masters'})",0.45454545454545453,0.48717948717948717,0.03263403263403264,0.002385960226577194
+235,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'Cluster_(2.0, 6.0]', 'education_Masters'})",0.45454545454545453,0.48717948717948717,0.03263403263403264,0.002385960226577194
+278,5,4,"frozenset({'education_Prof-school', 'race_White', 'age_education_interaction_(494.0, 1350.0]'})",0.9361702127659575,0.8904109589041096,0.04575925386184787,0.0023521294472451312
+286,5,4,"frozenset({'education_Prof-school', 'race_White', 'occupation_aggregated_Prof-specialty'})",0.8723404255319148,0.8219178082191781,0.05042261731273667,0.0023521294472451312
+279,5,4,"frozenset({'education_Prof-school', 'race_White', 'age_education_interaction_(494.0, 1350.0]'})",0.9361702127659575,0.7926829268292682,0.14348728593668925,0.0023231952280795484
+291,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'sex_Male'})",0.8723404255319148,0.6707317073170731,0.20160871821484172,0.0023231952280795484
+275,5,4,"frozenset({'age_education_interaction_(494.0, 1350.0]', 'education_Prof-school', 'sex_Male'})",0.9148936170212766,0.7317073170731707,0.18318629994810587,0.0023231952280795484
+287,5,4,"frozenset({'education_Prof-school', 'race_White', 'occupation_aggregated_Prof-specialty'})",0.8723404255319148,0.7317073170731707,0.1406331084587441,0.0023231952280795484
+242,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.8363636363636364,0.8105263157894737,0.02583732057416277,0.0022212577482500356
+29,2,5,"frozenset({'occupation_aggregated_Craft-repair', 'education_HS-grad', 'sex_Male'})",0.448526863084922,0.45806451612903226,0.00953765304411025,0.002157880435022269
+202,5,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'education_Bachelors'})",0.851851851851852,0.8,0.05185185185185193,0.002116649417420624
+203,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.7017543859649124,0.5888888888888889,0.11286549707602345,0.0020899409074216224
+24,2,5,"frozenset({'occupation_aggregated_Prof-specialty', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.6770472895040369,0.888888888888889,0.21184159938485203,0.0020028898960200298
+22,2,5,"frozenset({'occupation_aggregated_Prof-specialty', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.6786127167630057,0.888888888888889,0.21027617212588323,0.0019093182669379719
+319,5,4,"frozenset({'workclass_Self-emp-inc', 'hours_per_week_binned_51+', 'marital-status_Married-civ-spouse'})",0.5285714285714287,0.5625,0.03392857142857131,0.0018010438575991258
+173,5,4,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Not-in-family'})",0.6464646464646464,0.5454545454545454,0.101010101010101,0.001762761659933887
+225,5,4,"frozenset({'race_White', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.8715596330275229,0.8248587570621468,0.04670087596537609,0.001453833227612153
+240,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'race_White', 'education_Masters'})",0.4403669724770642,0.4858757062146893,0.045508733737625096,0.001453833227612153
+19,2,5,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'education_Bachelors'})",0.6488427773343974,0.6571428571428573,0.008300079808459815,0.0013602364195052646
+193,5,4,"frozenset({'hours_per_week_binned_41-50', 'marital-status_Never-married', 'relationship_Not-in-family'})",0.7293233082706767,0.5714285714285714,0.1578947368421053,0.0012401651476201536
+295,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.9111111111111111,0.7916666666666667,0.11944444444444435,0.0011578139084565814
+10,2,5,"frozenset({'workclass_Private', 'relationship_Not-in-family', 'marital-status_Never-married'})",0.6066449814126395,0.4572649572649572,0.14938002414768226,0.0008520069671173747
+299,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.836734693877551,0.6951219512195121,0.1416127426580388,0.0006093991698104817
+81,2,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'age_education_interaction_(369.0, 494.0]'})",0.6914225941422594,0.8470588235294118,0.15563622938715238,0.0005713945453816316
+84,2,4,"frozenset({'relationship_Not-in-family', 'marital-status_Never-married', 'education_Bachelors'})",0.7324324324324324,0.686868686868687,0.04556374556374543,0.0005036827119731593
+170,5,4,"frozenset({'marital-status_Never-married', 'race_White', 'relationship_Not-in-family'})",0.6464646464646464,0.5521472392638037,0.0943174072008427,0.0003151604179881806
+307,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States', 'education_Prof-school'})",0.8666666666666666,0.8108108108108107,0.05585585585585584,0.00011885286949554069
+303,5,4,"frozenset({'native_country_aggregated_United-States', 'education_Prof-school', 'age_education_interaction_(494.0, 1350.0]'})",0.9555555555555555,0.8918918918918919,0.0636636636636636,0.00011885286949554069
+238,5,4,"frozenset({'occupation_aggregated_Prof-specialty', 'native_country_aggregated_United-States', 'education_Masters'})",0.4587155963302752,0.4944444444444444,0.03572884811416921,0.00010460833082941157
+221,5,4,"frozenset({'native_country_aggregated_United-States', 'education_Masters', 'age_education_interaction_(494.0, 1350.0]'})",0.8715596330275229,0.8444444444444444,0.027115188583078487,0.00010460833082941157

@@ -1,0 +1,19 @@
+antecedents,consequents,antecedent support,consequent support,support,confidence,lift,leverage,conviction,zhangs_metric,total_items,coverage
+"frozenset({'husband_occupation_2', 'edu_interaction_(6.0, 12.0]'})",frozenset({'standard_of_living_index_3'}),0.125,0.25,0.125,1.0,4.0,0.09375,inf,0.8571428571428571,3,0.125
+"frozenset({'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",frozenset({'husband_occupation_2'}),0.125,0.25,0.125,1.0,4.0,0.09375,inf,0.8571428571428571,3,0.125
+"frozenset({'husband_occupation_2', 'age_children_interaction_(87.0, 164.0]'})",frozenset({'standard_of_living_index_3'}),0.125,0.25,0.125,1.0,4.0,0.09375,inf,0.8571428571428571,3,0.125
+"frozenset({'husband_occupation_2', 'standard_of_living_index_2'})","frozenset({'age_children_interaction_(164.0, 768.0]'})",0.125,0.25,0.125,1.0,4.0,0.09375,inf,0.8571428571428571,3,0.125
+"frozenset({'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_2'})","frozenset({'age_children_interaction_(164.0, 768.0]'})",0.125,0.25,0.125,1.0,4.0,0.09375,inf,0.8571428571428571,3,0.125
+"frozenset({'husband_occupation_3', 'edu_interaction_(12.0, 16.0]'})",frozenset({'standard_of_living_index_3'}),0.125,0.25,0.125,1.0,4.0,0.09375,inf,0.8571428571428571,3,0.125
+"frozenset({'husband_occupation_3', 'standard_of_living_index_3'})","frozenset({'edu_interaction_(12.0, 16.0]'})",0.125,0.25,0.125,1.0,4.0,0.09375,inf,0.8571428571428571,3,0.125
+"frozenset({'age_children_interaction_(87.0, 164.0]', 'edu_interaction_(12.0, 16.0]'})",frozenset({'standard_of_living_index_3'}),0.125,0.25,0.125,1.0,4.0,0.09375,inf,0.8571428571428571,3,0.125
+frozenset({'standard_of_living_index_4'}),"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]'})",0.125,0.375,0.125,1.0,2.6666666666666665,0.078125,inf,0.7142857142857143,3,0.125
+"frozenset({'husband_occupation_2', 'standard_of_living_index_3'})","frozenset({'edu_interaction_(6.0, 12.0]'})",0.125,0.5,0.125,1.0,2.0,0.0625,inf,0.5714285714285714,3,0.125
+"frozenset({'husband_occupation_2', 'age_children_interaction_(87.0, 164.0]'})","frozenset({'edu_interaction_(6.0, 12.0]'})",0.125,0.5,0.125,1.0,2.0,0.0625,inf,0.5714285714285714,3,0.125
+"frozenset({'age_children_interaction_(164.0, 768.0]'})",frozenset({'standard_of_living_index_2'}),0.25,0.5,0.25,1.0,2.0,0.125,inf,0.6666666666666666,2,0.25
+"frozenset({'husband_occupation_2', 'age_children_interaction_(164.0, 768.0]'})",frozenset({'standard_of_living_index_2'}),0.125,0.5,0.125,1.0,2.0,0.0625,inf,0.5714285714285714,3,0.125
+"frozenset({'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(12.0, 16.0]'})",frozenset({'standard_of_living_index_2'}),0.125,0.5,0.125,1.0,2.0,0.0625,inf,0.5714285714285714,3,0.125
+frozenset({'standard_of_living_index_4'}),"frozenset({'edu_interaction_(6.0, 12.0]'})",0.125,0.5,0.125,1.0,2.0,0.0625,inf,0.5714285714285714,2,0.125
+"frozenset({'husband_occupation_3', 'standard_of_living_index_4'})","frozenset({'edu_interaction_(6.0, 12.0]'})",0.125,0.5,0.125,1.0,2.0,0.0625,inf,0.5714285714285714,3,0.125
+"frozenset({'standard_of_living_index_4', 'age_children_interaction_(87.0, 164.0]'})","frozenset({'edu_interaction_(6.0, 12.0]'})",0.125,0.5,0.125,1.0,2.0,0.0625,inf,0.5714285714285714,3,0.125
+frozenset({'standard_of_living_index_4'}),"frozenset({'age_children_interaction_(87.0, 164.0]', 'edu_interaction_(6.0, 12.0]'})",0.125,0.5,0.125,1.0,2.0,0.0625,inf,0.5714285714285714,3,0.125
