@@ -1,3 +1,14 @@
 ,cluster1_id,cluster2_id,rule,confidence_1,confidence_2,abs_difference_confidence,abs_coverage_difference
-0,4,5,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(90.0, 168.0]'})",0.6022727272727273,0.8260869565217391,0.22381422924901184,0.022833178005591814
-1,4,5,"frozenset({'standard_of_living_index_4', 'age_children_interaction_(90.0, 168.0]', 'edu_interaction_(12.0, 16.0]'})",0.8030303030303031,0.8260869565217391,0.02305665349143604,0.008776017396707053
+6,3,X,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.7692307692307693,0.6116504854368933,0.157580283793876,0.05080954905188367
+1,3,7,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.7692307692307693,0.6388888888888888,0.13034188034188043,0.04680796071336263
+10,7,X,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.8518518518518517,0.6116504854368933,0.24020136641495848,0.037963852489464434
+11,7,X,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.6388888888888888,0.802547770700637,0.16365888181174815,0.029263856332218938
+8,3,X,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.5882352941176471,0.6116504854368933,0.023415191319246187,0.023412288777911072
+3,3,7,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.5882352941176471,0.6388888888888888,0.05065359477124176,0.019410700439390027
+5,3,X,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.7692307692307693,0.802547770700637,0.03331700146986771,0.01754410438114369
+2,3,7,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.5882352941176471,0.8518518518518517,0.26361655773420467,0.014551563711553361
+0,3,7,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.7692307692307693,0.8518518518518517,0.08262108262108248,0.01284569656241924
+7,3,X,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.5882352941176471,0.802547770700637,0.2143124765829899,0.00985315589282891
+4,3,X,"frozenset({'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4'})",0.7272727272727273,0.7623762376237624,0.035103510351035094,0.006774916534144276
+9,7,X,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.8518518518518517,0.802547770700637,0.04930408115121476,0.004698407818724451
+12,7,X,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.6388888888888888,0.6116504854368933,0.027238403451995574,0.004001588338521045

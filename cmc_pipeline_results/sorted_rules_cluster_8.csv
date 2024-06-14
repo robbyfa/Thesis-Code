@@ -1,0 +1,6 @@
+antecedents,consequents,antecedent support,consequent support,support,confidence,lift,leverage,conviction,zhangs_metric,total_items,coverage
+"frozenset({'edu_interaction_(6.0, 12.0]'})",frozenset({'standard_of_living_index_4'}),0.2,0.8,0.2,1.0,1.25,0.03999999999999998,inf,0.24999999999999983,2,0.2
+"frozenset({'edu_interaction_(6.0, 12.0]', 'husband_occupation_4'})",frozenset({'standard_of_living_index_4'}),0.2,0.8,0.2,1.0,1.25,0.03999999999999998,inf,0.24999999999999983,3,0.2
+"frozenset({'edu_interaction_(6.0, 12.0]'})","frozenset({'husband_occupation_4', 'standard_of_living_index_4'})",0.2,0.8,0.2,1.0,1.25,0.03999999999999998,inf,0.24999999999999983,3,0.2
+"frozenset({'edu_interaction_(6.0, 12.0]', 'Cluster_(5.0, 8.0]'})",frozenset({'standard_of_living_index_4'}),0.2,0.8,0.2,1.0,1.25,0.03999999999999998,inf,0.24999999999999983,3,0.2
+"frozenset({'edu_interaction_(6.0, 12.0]'})","frozenset({'Cluster_(5.0, 8.0]', 'standard_of_living_index_4'})",0.2,0.8,0.2,1.0,1.25,0.03999999999999998,inf,0.24999999999999983,3,0.2

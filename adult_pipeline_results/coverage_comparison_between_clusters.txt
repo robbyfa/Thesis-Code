@@ -1,3 +1,40 @@
-Empty DataFrame
-Columns: [Cluster, Rule, Coverage Cluster, Coverage Global, Coverage Difference, Abs Coverage Difference]
-Index: []
+     Cluster                                               Rule  \
+82         3  (relationship_Own-child, marital-status_Never-...   
+362        2  (relationship_Not-in-family, native_country_ag...   
+251        5  (relationship_Own-child, marital-status_Never-...   
+355        2  (relationship_Not-in-family, marital-status_Ne...   
+83         3  (marital-status_Never-married, relationship_Ow...   
+..       ...                                                ...   
+306        5  (relationship_Not-in-family, race_White, marit...   
+151        4  (relationship_Not-in-family, occupation_aggreg...   
+113        4  (relationship_Not-in-family, education_Bachelo...   
+152        4  (relationship_Not-in-family, occupation_aggreg...   
+43         3  (relationship_Not-in-family, education_Bachelo...   
+
+     Coverage Cluster  Coverage Global  Coverage Difference  \
+82           0.052177         0.322766            -0.270589   
+362          0.058065         0.322766            -0.264702   
+251          0.069156         0.322766            -0.253610   
+355          0.070968         0.322766            -0.251799   
+83           0.047658         0.289048            -0.241390   
+..                ...              ...                  ...   
+306          0.219917         0.220407            -0.000490   
+151          0.040600         0.040163             0.000437   
+113          0.052071         0.052498            -0.000427   
+152          0.040975         0.041367            -0.000392   
+43           0.052588         0.052498             0.000090   
+
+     Abs Coverage Difference  
+82                  0.270589  
+362                 0.264702  
+251                 0.253610  
+355                 0.251799  
+83                  0.241390  
+..                       ...  
+306                 0.000490  
+151                 0.000437  
+113                 0.000427  
+152                 0.000392  
+43                  0.000090  
+
+[371 rows x 6 columns]

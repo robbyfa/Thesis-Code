@@ -1,0 +1,11 @@
+Cluster,Rule,Coverage Cluster,Coverage Global,Coverage Difference,Abs Coverage Difference
+3,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.08904109589041095,0.13985064494229463,-0.05080954905188367,0.05080954905188367
+7,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.1018867924528302,0.13985064494229463,-0.037963852489464434,0.037963852489464434
+7,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.13584905660377358,0.10658520027155464,0.029263856332218938,0.029263856332218938
+3,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.11643835616438356,0.13985064494229463,-0.023412288777911072,0.023412288777911072
+3,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.08904109589041095,0.10658520027155464,-0.01754410438114369,0.01754410438114369
+3,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.11643835616438356,0.10658520027155464,0.00985315589282891,0.00985315589282891
+3,"frozenset({'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4'})",0.07534246575342465,0.06856754921928038,0.006774916534144276,0.006774916534144276
+7,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.1018867924528302,0.10658520027155464,-0.004698407818724451,0.004698407818724451
+7,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.13584905660377358,0.13985064494229463,-0.004001588338521045,0.004001588338521045
+-1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4'})",0.07142857142857142,0.06856754921928038,0.0028610222092910476,0.0028610222092910476

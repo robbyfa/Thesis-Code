@@ -1,36 +1,36 @@
-Cluster 2:
-  Support: U Statistic = 134.0, P-Value = 0.06095041425085235
-  Confidence: U Statistic = 157.0, P-Value = 0.13711085504963846
-  Lift: U Statistic = 494.0, P-Value = 6.314316974228766e-05
-  Coverage: U Statistic = 498.0, P-Value = 4.746096659175131e-05
-
-Cluster 5:
-  Support: U Statistic = 165.0, P-Value = 0.009555275738076912
-  Confidence: U Statistic = 418.0, P-Value = 0.8324868504870904
-  Lift: U Statistic = 882.0, P-Value = 3.458373773376103e-05
-  Coverage: U Statistic = 882.0, P-Value = 3.3223452272108196e-05
+Cluster 3:
+  Support: U Statistic = 4290.0, P-Value = 0.01387782376121753
+  Confidence: U Statistic = 5741.0, P-Value = 0.36453777010270316
+  Lift: U Statistic = 6542.0, P-Value = 0.005662643433178365
+  Coverage: U Statistic = 4265.0, P-Value = 0.01177984542862321
 
 Cluster 4:
-  Support: U Statistic = 151.0, P-Value = 0.022699808904645315
-  Confidence: U Statistic = 253.0, P-Value = 0.2990540507711277
-  Lift: U Statistic = 678.0, P-Value = 3.93546216444227e-05
-  Coverage: U Statistic = 678.0, P-Value = 3.8309849755638564e-05
+  Support: U Statistic = 4004.0, P-Value = 0.5869297564794531
+  Confidence: U Statistic = 4224.0, P-Value = 0.947932772350232
+  Lift: U Statistic = 4277.0, P-Value = 0.8316523497804098
+  Coverage: U Statistic = 4013.0, P-Value = 0.6042503865100078
 
-Cluster 1:
-  Support: U Statistic = 0.0, P-Value = 9.57472672773807e-06
-  Confidence: U Statistic = 66.0, P-Value = 1.0
-  Lift: U Statistic = 132.0, P-Value = 0.00023008902864164046
-  Coverage: U Statistic = 132.0, P-Value = 4.291207894567118e-05
+Cluster 5:
+  Support: U Statistic = 5933.0, P-Value = 0.05382576943337717
+  Confidence: U Statistic = 8910.0, P-Value = 0.00020204149531180784
+  Lift: U Statistic = 9202.0, P-Value = 1.952229825733237e-05
+  Coverage: U Statistic = 5172.0, P-Value = 0.0007443825528541928
+
+Cluster 2:
+  Support: U Statistic = 854.0, P-Value = 0.02877751898106305
+  Confidence: U Statistic = 1897.0, P-Value = 1.055182387369103e-05
+  Lift: U Statistic = 2393.0, P-Value = 4.6219820171040934e-14
+  Coverage: U Statistic = 453.0, P-Value = 2.326827665585489e-06
 
 Cluster -1:
-  Support: U Statistic = 468.0, P-Value = 2.7227285609607394e-07
-  Confidence: U Statistic = 1404.0, P-Value = 7.90260183127785e-54
-  Lift: U Statistic = 1404.0, P-Value = 7.90260183127785e-54
-  Coverage: U Statistic = 1404.0, P-Value = 7.708353714857471e-54
+  Support: U Statistic = 25754.0, P-Value = 3.2469129921179203e-32
+  Confidence: U Statistic = 32600.0, P-Value = 2.970264639361041e-92
+  Lift: U Statistic = 32600.0, P-Value = 2.969917098782511e-92
+  Coverage: U Statistic = 17930.0, P-Value = 0.04168598411329379
 
 Cluster 6:
-  Support: U Statistic = 1272.0, P-Value = 4.970788823172148e-49
-  Confidence: U Statistic = 1272.0, P-Value = 4.978594282529483e-49
-  Lift: U Statistic = 1272.0, P-Value = 4.978594282529483e-49
-  Coverage: U Statistic = 1272.0, P-Value = 4.8437197079587124e-49
+  Support: U Statistic = 21200.0, P-Value = 2.380727718912466e-66
+  Confidence: U Statistic = 21200.0, P-Value = 2.3867408338903166e-66
+  Lift: U Statistic = 20988.0, P-Value = 8.557219950817444e-64
+  Coverage: U Statistic = 18868.0, P-Value = 4.5645519624120503e-41
 

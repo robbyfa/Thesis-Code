@@ -1,1 +1,1 @@
-Best Parameters: {'epsilon': 3.0945475991811424, 'min_samples': 4, 'silhouette': 0.4046043531253859}, Best Silhouette Score: 0.4046043531253859
+Best Parameters: {'epsilon': 2.393369097964607, 'min_samples': 6, 'silhouette': 0.33287232534725236}, Best Silhouette Score: 0.33287232534725236
