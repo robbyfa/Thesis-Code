@@ -1,0 +1,109 @@
+{3:        antecedent support  consequent support   support  confidence      lift  \
+count            8.000000            8.000000  8.000000    8.000000  8.000000   
+mean             0.166524            0.387272  0.096747    0.607547  1.566041   
+std              0.135460            0.047679  0.072409    0.105193  0.162729   
+min              0.075342            0.328767  0.047945    0.456311  1.387945   
+25%              0.086758            0.333333  0.053653    0.559852  1.465085   
+50%              0.104452            0.409247  0.061644    0.594118  1.496000   
+75%              0.171518            0.428082  0.104737    0.662126  1.715358   
+max              0.428082            0.428082  0.213470    0.769231  1.796923   
+
+       leverage  conviction  zhangs_metric  total_items  coverage  
+count  8.000000    8.000000       8.000000      8.00000  8.000000  
+mean   0.033805    1.653912       0.435987      2.75000  0.166524  
+std    0.023634    0.423086       0.096721      0.46291  0.135460  
+min    0.013738    1.234589       0.311414      2.00000  0.075342  
+25%    0.016914    1.404793       0.349562      2.75000  0.086758  
+50%    0.026111    1.521366       0.465875      3.00000  0.104452  
+75%    0.040476    1.738544       0.492161      3.00000  0.171518  
+max    0.070776    2.478311       0.579718      3.00000  0.428082  , 4:        antecedent support  consequent support   support  confidence      lift  \
+count            8.000000            8.000000  8.000000    8.000000  8.000000   
+mean             0.125000            0.363511  0.077206    0.627152  1.750577   
+std              0.034488            0.072536  0.019847    0.107882  0.272198   
+min              0.084559            0.264706  0.051471    0.466667  1.565566   
+25%              0.095588            0.330882  0.055147    0.590909  1.575758   
+50%              0.123162            0.375000  0.084559    0.606265  1.646041   
+75%              0.161765            0.380515  0.095588    0.652174  1.789041   
+max              0.161765            0.496324  0.095588    0.851852  2.365217   
+
+       leverage  conviction  zhangs_metric  total_items  coverage  
+count  8.000000    8.000000       8.000000     8.000000  8.000000  
+mean   0.031292    1.863555       0.476686     2.875000  0.125000  
+std    0.004928    0.660548       0.068971     0.353553  0.034488  
+min    0.022275    1.378676       0.418131     2.000000  0.084559  
+25%    0.029314    1.527778       0.435897     3.000000  0.095588  
+50%    0.033379    1.560633       0.449626     3.000000  0.123162  
+75%    0.034926    1.923713       0.491658     3.000000  0.161765  
+max    0.035291    3.399816       0.630522     3.000000  0.161765  , 1:        antecedent support  consequent support  support  confidence  lift  \
+count                 0.0                 0.0      0.0         0.0   0.0   
+mean                  NaN                 NaN      NaN         NaN   NaN   
+std                   NaN                 NaN      NaN         NaN   NaN   
+min                   NaN                 NaN      NaN         NaN   NaN   
+25%                   NaN                 NaN      NaN         NaN   NaN   
+50%                   NaN                 NaN      NaN         NaN   NaN   
+75%                   NaN                 NaN      NaN         NaN   NaN   
+max                   NaN                 NaN      NaN         NaN   NaN   
+
+       leverage  conviction  zhangs_metric  total_items  
+count       0.0         0.0            0.0          0.0  
+mean        NaN         NaN            NaN          NaN  
+std         NaN         NaN            NaN          NaN  
+min         NaN         NaN            NaN          NaN  
+25%         NaN         NaN            NaN          NaN  
+50%         NaN         NaN            NaN          NaN  
+75%         NaN         NaN            NaN          NaN  
+max         NaN         NaN            NaN          NaN  , 5:        antecedent support  consequent support  support  confidence  lift  \
+count                 0.0                 0.0      0.0         0.0   0.0   
+mean                  NaN                 NaN      NaN         NaN   NaN   
+std                   NaN                 NaN      NaN         NaN   NaN   
+min                   NaN                 NaN      NaN         NaN   NaN   
+25%                   NaN                 NaN      NaN         NaN   NaN   
+50%                   NaN                 NaN      NaN         NaN   NaN   
+75%                   NaN                 NaN      NaN         NaN   NaN   
+max                   NaN                 NaN      NaN         NaN   NaN   
+
+       leverage  conviction  zhangs_metric  total_items  
+count       0.0         0.0            0.0          0.0  
+mean        NaN         NaN            NaN          NaN  
+std         NaN         NaN            NaN          NaN  
+min         NaN         NaN            NaN          NaN  
+25%         NaN         NaN            NaN          NaN  
+50%         NaN         NaN            NaN          NaN  
+75%         NaN         NaN            NaN          NaN  
+max         NaN         NaN            NaN          NaN  , 6:        antecedent support  consequent support  support  confidence  lift  \
+count                 0.0                 0.0      0.0         0.0   0.0   
+mean                  NaN                 NaN      NaN         NaN   NaN   
+std                   NaN                 NaN      NaN         NaN   NaN   
+min                   NaN                 NaN      NaN         NaN   NaN   
+25%                   NaN                 NaN      NaN         NaN   NaN   
+50%                   NaN                 NaN      NaN         NaN   NaN   
+75%                   NaN                 NaN      NaN         NaN   NaN   
+max                   NaN                 NaN      NaN         NaN   NaN   
+
+       leverage  conviction  zhangs_metric  total_items  
+count       0.0         0.0            0.0          0.0  
+mean        NaN         NaN            NaN          NaN  
+std         NaN         NaN            NaN          NaN  
+min         NaN         NaN            NaN          NaN  
+25%         NaN         NaN            NaN          NaN  
+50%         NaN         NaN            NaN          NaN  
+75%         NaN         NaN            NaN          NaN  
+max         NaN         NaN            NaN          NaN  , -1:        antecedent support  consequent support    support  confidence  \
+count           29.000000           29.000000  29.000000        29.0   
+mean             0.097701            0.442529   0.097701         1.0   
+std              0.032035            0.099860   0.032035         0.0   
+min              0.083333            0.250000   0.083333         1.0   
+25%              0.083333            0.416667   0.083333         1.0   
+50%              0.083333            0.500000   0.083333         1.0   
+75%              0.083333            0.500000   0.083333         1.0   
+max              0.166667            0.500000   0.166667         1.0   
+
+            lift   leverage  conviction  zhangs_metric  total_items   coverage  
+count  29.000000  29.000000        29.0      29.000000         29.0  29.000000  
+mean    2.427586   0.054837         inf       0.619122          3.0   0.097701  
+std     0.775931   0.022298         NaN       0.116632          0.0   0.032035  
+min     2.000000   0.041667         inf       0.545455          3.0   0.083333  
+25%     2.000000   0.041667         NaN       0.545455          3.0   0.083333  
+50%     2.000000   0.041667         NaN       0.545455          3.0   0.083333  
+75%     2.400000   0.062500         NaN       0.636364          3.0   0.083333  
+max     4.000000   0.125000         inf       0.900000          3.0   0.166667  }

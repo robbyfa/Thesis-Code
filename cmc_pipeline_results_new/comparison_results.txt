@@ -1,0 +1,36 @@
+Cluster 3:
+  Support: U Statistic = 51.0, P-Value = 0.590153892758381
+  Confidence: U Statistic = 25.0, P-Value = 0.1288402000476304
+  Lift: U Statistic = 17.0, P-Value = 0.02593210023550581
+  Coverage: U Statistic = 56.0, P-Value = 0.3419012671851517
+
+Cluster 4:
+  Support: U Statistic = 63.0, P-Value = 0.124781143239929
+  Confidence: U Statistic = 29.0, P-Value = 0.23016558886022376
+  Lift: U Statistic = 27.0, P-Value = 0.172303589459065
+  Coverage: U Statistic = 65.0, P-Value = 0.08951666516058551
+
+Cluster 1:
+  Support: Not enough data for comparison
+  Confidence: Not enough data for comparison
+  Lift: Not enough data for comparison
+  Coverage: Not enough data for comparison
+
+Cluster 5:
+  Support: Not enough data for comparison
+  Confidence: Not enough data for comparison
+  Lift: Not enough data for comparison
+  Coverage: Not enough data for comparison
+
+Cluster 6:
+  Support: Not enough data for comparison
+  Confidence: Not enough data for comparison
+  Lift: Not enough data for comparison
+  Coverage: Not enough data for comparison
+
+Cluster -1:
+  Support: U Statistic = 247.0, P-Value = 0.0028804090974104434
+  Confidence: U Statistic = 319.0, P-Value = 9.311557851220973e-10
+  Lift: U Statistic = 276.0, P-Value = 0.00014286952019030324
+  Coverage: U Statistic = 175.0, P-Value = 0.607434701919378
+

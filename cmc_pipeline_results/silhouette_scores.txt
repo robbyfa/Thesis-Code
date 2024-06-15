@@ -1,1 +1,1 @@
-Silhouette Score: 0.27553967448810335
+Silhouette Score: 0.3220422040017593
