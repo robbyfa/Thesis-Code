@@ -1,18 +1,16 @@
 Cluster,Rule,Coverage Cluster,Coverage Global,Coverage Difference,Abs Coverage Difference
-3,"frozenset({'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4'})",0.3333333333333333,0.46435845213849286,-0.13102511880515955,0.13102511880515955
-3,"frozenset({'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4'})",0.4280821917808219,0.3693143245078072,0.058767867273014696,0.058767867273014696
-3,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.08904109589041095,0.13985064494229463,-0.05080954905188367,0.05080954905188367
-4,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.09926470588235294,0.13985064494229463,-0.04058593905994169,0.04058593905994169
-3,"frozenset({'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4'})",0.4280821917808219,0.46435845213849286,-0.03627626035767095,0.03627626035767095
-3,"frozenset({'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4'})",0.3333333333333333,0.3693143245078072,-0.0359809911744739,0.0359809911744739
-3,"frozenset({'age_children_interaction_(42.0, 87.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4'})",0.07990867579908675,0.109979633401222,-0.03007095760213524,0.03007095760213524
-4,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.13602941176470587,0.10658520027155464,0.029444211493151226,0.029444211493151226
-3,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.11643835616438356,0.13985064494229463,-0.023412288777911072,0.023412288777911072
-3,"frozenset({'standard_of_living_index_3', 'edu_interaction_(6.0, 12.0]', 'age_children_interaction_(42.0, 87.0]'})",0.11757990867579908,0.09572301425661914,0.021856894419179942,0.021856894419179942
-3,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.08904109589041095,0.10658520027155464,-0.01754410438114369,0.01754410438114369
--1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4'})",0.08333333333333333,0.06856754921928038,0.014765784114052952,0.014765784114052952
-3,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.11643835616438356,0.10658520027155464,0.00985315589282891,0.00985315589282891
-4,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.09926470588235294,0.10658520027155464,-0.007320494389201709,0.007320494389201709
-3,"frozenset({'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4'})",0.07534246575342465,0.06856754921928038,0.006774916534144276,0.006774916534144276
-4,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.13602941176470587,0.13985064494229463,-0.0038212331775887565,0.0038212331775887565
-3,"frozenset({'standard_of_living_index_3', 'edu_interaction_(6.0, 12.0]', 'age_children_interaction_(42.0, 87.0]'})",0.09246575342465753,0.09572301425661914,-0.0032572608319616086,0.0032572608319616086
+3,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.2134703196347032,0.10658520027155464,0.10688511936314855,0.10688511936314855
+3,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.2134703196347032,0.13985064494229463,0.07361967469240857,0.07361967469240857
+3,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.13013698630136986,0.06856754921928038,0.06156943708208948,0.06156943708208948
+6,"frozenset({'standard_of_living_index_4', 'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(12.0, 16.0]'})",0.11940298507462686,0.06856754921928038,0.050835435855346486,0.050835435855346486
+3,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.08904109589041095,0.13985064494229463,-0.05080954905188367,0.05080954905188367
+4,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.09926470588235294,0.13985064494229463,-0.04058593905994169,0.04058593905994169
+4,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.13602941176470587,0.10658520027155464,0.029444211493151226,0.029444211493151226
+3,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.11643835616438356,0.13985064494229463,-0.023412288777911072,0.023412288777911072
+6,"frozenset({'standard_of_living_index_4', 'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(12.0, 16.0]'})",0.08955223880597014,0.06856754921928038,0.020984689586689767,0.020984689586689767
+3,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.08904109589041095,0.10658520027155464,-0.01754410438114369,0.01754410438114369
+-1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.08333333333333333,0.06856754921928038,0.014765784114052952,0.014765784114052952
+3,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.11643835616438356,0.10658520027155464,0.00985315589282891,0.00985315589282891
+4,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.09926470588235294,0.10658520027155464,-0.007320494389201709,0.007320494389201709
+3,"frozenset({'standard_of_living_index_4', 'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(12.0, 16.0]'})",0.07534246575342465,0.06856754921928038,0.006774916534144276,0.006774916534144276
+4,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.13602941176470587,0.13985064494229463,-0.0038212331775887565,0.0038212331775887565

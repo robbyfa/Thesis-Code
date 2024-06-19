@@ -1,3 +1,0 @@
-antecedents,consequents,antecedent support,consequent support,support,confidence,lift,leverage,conviction,zhangs_metric,total_items,coverage
-"frozenset({'age_children_interaction_(44.0, 90.0]', 'edu_interaction_(6.0, 12.0]'})",frozenset({'standard_of_living_index_4'}),0.0425531914893617,0.19148936170212766,0.031914893617021274,0.75,3.9166666666666665,0.02376641014033499,3.2340425531914896,0.7777777777777777,3,0.0425531914893617
-"frozenset({'age_children_interaction_(44.0, 90.0]', 'standard_of_living_index_4'})","frozenset({'edu_interaction_(6.0, 12.0]'})",0.05319148936170213,0.18085106382978725,0.031914893617021274,0.6,3.317647058823529,0.022295156179266633,2.0478723404255317,0.7378277153558053,3,0.05319148936170213

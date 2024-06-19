@@ -1,0 +1,54 @@
+Cluster 3:
+  number_of_unique_rules: 24
+  total_coverage: 7.4200913242009126
+  average_confidence: 45.40515903522528
+  average_lift: 1.2047842461381335
+  average_support: 6.725646879756468
+  number_of_transactions: 876
+  number_of_unique_items: 10
+
+Cluster 4:
+  number_of_unique_rules: 22
+  total_coverage: 13.970588235294118
+  average_confidence: 50.63633943479169
+  average_lift: 1.3897771455666192
+  average_support: 11.898395721925134
+  number_of_transactions: 272
+  number_of_unique_items: 9
+
+Cluster 1:
+  number_of_unique_rules: 16
+  total_coverage: 19.801980198019802
+  average_confidence: 43.01194057168322
+  average_lift: 1.6449685934980054
+  average_support: 9.467821782178218
+  number_of_transactions: 101
+  number_of_unique_items: 9
+
+Cluster 5:
+  number_of_unique_rules: 10
+  total_coverage: 15.862068965517242
+  average_confidence: 50.200616749246386
+  average_lift: 1.4795918367346939
+  average_support: 11.931034482758621
+  number_of_transactions: 145
+  number_of_unique_items: 7
+
+Cluster 6:
+  number_of_unique_rules: 15
+  total_coverage: 14.925373134328357
+  average_confidence: 80.9658810325477
+  average_lift: 1.2884615384615383
+  average_support: 13.631840796019898
+  number_of_transactions: 67
+  number_of_unique_items: 8
+
+Cluster -1:
+  number_of_unique_rules: 21
+  total_coverage: 91.66666666666666
+  average_confidence: 100.0
+  average_lift: 2.0
+  average_support: 8.730158730158728
+  number_of_transactions: 12
+  number_of_unique_items: 9
+
