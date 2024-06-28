@@ -1,157 +1,157 @@
 Cluster,Rule,Rule Coverage,Cluster Mean Coverage,Coverage Difference from Mean,Abs Coverage Difference
+4,"frozenset({'Cluster_(3.0, 4.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.4963235294117647,0.21212121212121213,0.28420231729055256,0.28420231729055256
+4,"frozenset({'Cluster_(3.0, 4.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.4963235294117647,0.21212121212121213,0.28420231729055256,0.28420231729055256
 4,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.4963235294117647,0.21212121212121213,0.28420231729055256,0.28420231729055256
-4,"frozenset({'Cluster_(3.0, 4.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.4963235294117647,0.21212121212121213,0.28420231729055256,0.28420231729055256
-4,"frozenset({'Cluster_(3.0, 4.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.4963235294117647,0.21212121212121213,0.28420231729055256,0.28420231729055256
 3,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.4280821917808219,0.168161556860187,0.2599206349206349,0.2599206349206349
 3,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]'})",0.4257990867579909,0.168161556860187,0.25763752989780386,0.25763752989780386
-3,"frozenset({'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.3904109589041096,0.168161556860187,0.2222494020439226,0.2222494020439226
 3,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]'})",0.3904109589041096,0.168161556860187,0.2222494020439226,0.2222494020439226
-6,"frozenset({'husband_occupation_2', 'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4'})",0.40298507462686567,0.19734660033167495,0.20563847429519072,0.20563847429519072
+3,"frozenset({'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.3904109589041096,0.168161556860187,0.2222494020439226,0.2222494020439226
+6,"frozenset({'standard_of_living_index_4', 'husband_occupation_2', 'age_children_interaction_(87.0, 164.0]'})",0.40298507462686567,0.19734660033167495,0.20563847429519072,0.20563847429519072
 1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_3'})",0.43564356435643564,0.2301980198019802,0.20544554455445543,0.20544554455445543
-4,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.39705882352941174,0.21212121212121213,0.18493761140819961,0.18493761140819961
-4,"frozenset({'Cluster_(3.0, 4.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.39705882352941174,0.21212121212121213,0.18493761140819961,0.18493761140819961
-4,"frozenset({'Cluster_(3.0, 4.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.39705882352941174,0.21212121212121213,0.18493761140819961,0.18493761140819961
-6,"frozenset({'husband_occupation_2', 'Cluster_(4.0, 6.0]', 'age_children_interaction_(87.0, 164.0]'})",0.373134328358209,0.19734660033167495,0.17578772802653403,0.17578772802653403
-6,"frozenset({'husband_occupation_2', 'Cluster_(4.0, 6.0]', 'age_children_interaction_(87.0, 164.0]'})",0.373134328358209,0.19734660033167495,0.17578772802653403,0.17578772802653403
-6,"frozenset({'husband_occupation_2', 'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4'})",0.373134328358209,0.19734660033167495,0.17578772802653403,0.17578772802653403
-6,"frozenset({'husband_occupation_2', 'age_children_interaction_(87.0, 164.0]'})",0.373134328358209,0.19734660033167495,0.17578772802653403,0.17578772802653403
-3,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.3333333333333333,0.168161556860187,0.16517177647314632,0.16517177647314632
-1,"frozenset({'husband_occupation_2', 'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_3'})",0.06930693069306931,0.2301980198019802,-0.1608910891089109,0.1608910891089109
+4,"frozenset({'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4'})",0.39705882352941174,0.21212121212121213,0.18493761140819961,0.18493761140819961
+4,"frozenset({'Cluster_(3.0, 4.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4'})",0.39705882352941174,0.21212121212121213,0.18493761140819961,0.18493761140819961
+4,"frozenset({'Cluster_(3.0, 4.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4'})",0.39705882352941174,0.21212121212121213,0.18493761140819961,0.18493761140819961
+6,"frozenset({'Cluster_(4.0, 6.0]', 'age_children_interaction_(87.0, 164.0]', 'husband_occupation_2'})",0.373134328358209,0.19734660033167495,0.17578772802653403,0.17578772802653403
+6,"frozenset({'age_children_interaction_(87.0, 164.0]', 'husband_occupation_2'})",0.373134328358209,0.19734660033167495,0.17578772802653403,0.17578772802653403
+6,"frozenset({'age_children_interaction_(87.0, 164.0]', 'husband_occupation_2', 'standard_of_living_index_4'})",0.373134328358209,0.19734660033167495,0.17578772802653403,0.17578772802653403
+6,"frozenset({'Cluster_(4.0, 6.0]', 'husband_occupation_2', 'age_children_interaction_(87.0, 164.0]'})",0.373134328358209,0.19734660033167495,0.17578772802653403,0.17578772802653403
+3,"frozenset({'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4'})",0.3333333333333333,0.168161556860187,0.16517177647314632,0.16517177647314632
+1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'husband_occupation_2', 'standard_of_living_index_3'})",0.06930693069306931,0.2301980198019802,-0.1608910891089109,0.1608910891089109
 3,"frozenset({'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.3287671232876712,0.168161556860187,0.16060556642748422,0.16060556642748422
-6,"frozenset({'husband_occupation_2', 'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_4'})",0.04477611940298507,0.19734660033167495,-0.15257048092868988,0.15257048092868988
-6,"frozenset({'husband_occupation_2', 'age_children_interaction_(42.0, 87.0]', 'standard_of_living_index_4'})",0.04477611940298507,0.19734660033167495,-0.15257048092868988,0.15257048092868988
-6,"frozenset({'husband_occupation_2', 'age_children_interaction_(42.0, 87.0]', 'edu_interaction_(12.0, 16.0]'})",0.04477611940298507,0.19734660033167495,-0.15257048092868988,0.15257048092868988
-4,"frozenset({'husband_occupation_2', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.07352941176470588,0.21212121212121213,-0.13859180035650626,0.13859180035650626
-6,"frozenset({'husband_occupation_2', 'standard_of_living_index_4', 'edu_interaction_(6.0, 12.0]'})",0.05970149253731343,0.19734660033167495,-0.1376451077943615,0.1376451077943615
-6,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(6.0, 12.0]'})",0.05970149253731343,0.19734660033167495,-0.1376451077943615,0.1376451077943615
-4,"frozenset({'Cluster_(3.0, 4.0]', 'husband_occupation_2', 'edu_interaction_(6.0, 12.0]'})",0.3492647058823529,0.21212121212121213,0.1371434937611408,0.1371434937611408
-4,"frozenset({'husband_occupation_2', 'edu_interaction_(6.0, 12.0]'})",0.3492647058823529,0.21212121212121213,0.1371434937611408,0.1371434937611408
-4,"frozenset({'Cluster_(3.0, 4.0]', 'husband_occupation_2', 'edu_interaction_(6.0, 12.0]'})",0.3492647058823529,0.21212121212121213,0.1371434937611408,0.1371434937611408
+6,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_4', 'husband_occupation_2'})",0.04477611940298507,0.19734660033167495,-0.15257048092868988,0.15257048092868988
+6,"frozenset({'standard_of_living_index_4', 'husband_occupation_2', 'age_children_interaction_(42.0, 87.0]'})",0.04477611940298507,0.19734660033167495,-0.15257048092868988,0.15257048092868988
+6,"frozenset({'edu_interaction_(12.0, 16.0]', 'husband_occupation_2', 'age_children_interaction_(42.0, 87.0]'})",0.04477611940298507,0.19734660033167495,-0.15257048092868988,0.15257048092868988
+4,"frozenset({'edu_interaction_(12.0, 16.0]', 'husband_occupation_2', 'standard_of_living_index_4'})",0.07352941176470588,0.21212121212121213,-0.13859180035650626,0.13859180035650626
+6,"frozenset({'edu_interaction_(6.0, 12.0]', 'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4'})",0.05970149253731343,0.19734660033167495,-0.1376451077943615,0.1376451077943615
+6,"frozenset({'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_4', 'husband_occupation_2'})",0.05970149253731343,0.19734660033167495,-0.1376451077943615,0.1376451077943615
+4,"frozenset({'Cluster_(3.0, 4.0]', 'edu_interaction_(6.0, 12.0]', 'husband_occupation_2'})",0.3492647058823529,0.21212121212121213,0.1371434937611408,0.1371434937611408
+4,"frozenset({'Cluster_(3.0, 4.0]', 'edu_interaction_(6.0, 12.0]', 'husband_occupation_2'})",0.3492647058823529,0.21212121212121213,0.1371434937611408,0.1371434937611408
+4,"frozenset({'edu_interaction_(6.0, 12.0]', 'husband_occupation_2'})",0.3492647058823529,0.21212121212121213,0.1371434937611408,0.1371434937611408
 4,"frozenset({'husband_occupation_3', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_3'})",0.07720588235294118,0.21212121212121213,-0.13491532976827095,0.13491532976827095
-6,"frozenset({'husband_occupation_2', 'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4'})",0.3283582089552239,0.19734660033167495,0.13101160862354894,0.13101160862354894
-4,"frozenset({'husband_occupation_2', 'age_children_interaction_(42.0, 87.0]', 'edu_interaction_(6.0, 12.0]'})",0.08455882352941177,0.21212121212121213,-0.12756238859180036,0.12756238859180036
-4,"frozenset({'husband_occupation_2', 'age_children_interaction_(42.0, 87.0]', 'edu_interaction_(6.0, 12.0]'})",0.08455882352941177,0.21212121212121213,-0.12756238859180036,0.12756238859180036
-1,"frozenset({'husband_occupation_2', 'standard_of_living_index_2'})",0.3564356435643564,0.2301980198019802,0.1262376237623762,0.1262376237623762
-1,"frozenset({'husband_occupation_2', 'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_2'})",0.3564356435643564,0.2301980198019802,0.1262376237623762,0.1262376237623762
-4,"frozenset({'age_children_interaction_(42.0, 87.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_3'})",0.08823529411764706,0.21212121212121213,-0.12388591800356506,0.12388591800356506
+6,"frozenset({'standard_of_living_index_4', 'husband_occupation_2', 'age_children_interaction_(87.0, 164.0]'})",0.3283582089552239,0.19734660033167495,0.13101160862354894,0.13101160862354894
+4,"frozenset({'edu_interaction_(6.0, 12.0]', 'husband_occupation_2', 'age_children_interaction_(42.0, 87.0]'})",0.08455882352941177,0.21212121212121213,-0.12756238859180036,0.12756238859180036
+4,"frozenset({'husband_occupation_2', 'edu_interaction_(6.0, 12.0]', 'age_children_interaction_(42.0, 87.0]'})",0.08455882352941177,0.21212121212121213,-0.12756238859180036,0.12756238859180036
+1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_2', 'husband_occupation_2'})",0.3564356435643564,0.2301980198019802,0.1262376237623762,0.1262376237623762
+1,"frozenset({'standard_of_living_index_2', 'husband_occupation_2'})",0.3564356435643564,0.2301980198019802,0.1262376237623762,0.1262376237623762
+4,"frozenset({'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(42.0, 87.0]', 'standard_of_living_index_3'})",0.08823529411764706,0.21212121212121213,-0.12388591800356506,0.12388591800356506
 4,"frozenset({'husband_occupation_3', 'age_children_interaction_(42.0, 87.0]', 'standard_of_living_index_3'})",0.08823529411764706,0.21212121212121213,-0.12388591800356506,0.12388591800356506
-5,"frozenset({'husband_occupation_2', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.09655172413793103,0.2191570881226054,-0.12260536398467436,0.12260536398467436
+5,"frozenset({'edu_interaction_(6.0, 12.0]', 'husband_occupation_2', 'standard_of_living_index_3'})",0.09655172413793103,0.2191570881226054,-0.12260536398467436,0.12260536398467436
+5,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]', 'Cluster_(4.0, 6.0]'})",0.33793103448275863,0.2191570881226054,0.11877394636015323,0.11877394636015323
 5,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]'})",0.33793103448275863,0.2191570881226054,0.11877394636015323,0.11877394636015323
-5,"frozenset({'husband_occupation_3', 'Cluster_(4.0, 6.0]', 'edu_interaction_(6.0, 12.0]'})",0.33793103448275863,0.2191570881226054,0.11877394636015323,0.11877394636015323
-5,"frozenset({'husband_occupation_3', 'Cluster_(4.0, 6.0]', 'edu_interaction_(6.0, 12.0]'})",0.33793103448275863,0.2191570881226054,0.11877394636015323,0.11877394636015323
-4,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.09926470588235294,0.21212121212121213,-0.11285650623885919,0.11285650623885919
-4,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.09926470588235294,0.21212121212121213,-0.11285650623885919,0.11285650623885919
+5,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]', 'Cluster_(4.0, 6.0]'})",0.33793103448275863,0.2191570881226054,0.11877394636015323,0.11877394636015323
 4,"frozenset({'husband_occupation_3', 'age_children_interaction_(42.0, 87.0]', 'standard_of_living_index_3'})",0.09926470588235294,0.21212121212121213,-0.11285650623885919,0.11285650623885919
+4,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.09926470588235294,0.21212121212121213,-0.11285650623885919,0.11285650623885919
+4,"frozenset({'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4', 'age_children_interaction_(87.0, 164.0]'})",0.09926470588235294,0.21212121212121213,-0.11285650623885919,0.11285650623885919
 5,"frozenset({'husband_occupation_2', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.1103448275862069,0.2191570881226054,-0.1088122605363985,0.1088122605363985
-6,"frozenset({'standard_of_living_index_4', 'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(12.0, 16.0]'})",0.08955223880597014,0.19734660033167495,-0.1077943615257048,0.1077943615257048
-1,"frozenset({'husband_occupation_2', 'standard_of_living_index_2'})",0.33663366336633666,0.2301980198019802,0.10643564356435645,0.10643564356435645
-1,"frozenset({'husband_occupation_2', 'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_2'})",0.33663366336633666,0.2301980198019802,0.10643564356435645,0.10643564356435645
-3,"frozenset({'husband_occupation_2', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.06278538812785388,0.168161556860187,-0.10537616873233312,0.10537616873233312
-4,"frozenset({'age_children_interaction_(42.0, 87.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_3'})",0.11029411764705882,0.21212121212121213,-0.1018270944741533,0.1018270944741533
-6,"frozenset({'husband_occupation_2', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.29850746268656714,0.19734660033167495,0.10116086235489219,0.10116086235489219
+6,"frozenset({'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4'})",0.08955223880597014,0.19734660033167495,-0.1077943615257048,0.1077943615257048
+1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_2', 'husband_occupation_2'})",0.33663366336633666,0.2301980198019802,0.10643564356435645,0.10643564356435645
+1,"frozenset({'standard_of_living_index_2', 'husband_occupation_2'})",0.33663366336633666,0.2301980198019802,0.10643564356435645,0.10643564356435645
+3,"frozenset({'edu_interaction_(12.0, 16.0]', 'husband_occupation_2', 'standard_of_living_index_4'})",0.06278538812785388,0.168161556860187,-0.10537616873233312,0.10537616873233312
+4,"frozenset({'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_3', 'age_children_interaction_(42.0, 87.0]'})",0.11029411764705882,0.21212121212121213,-0.1018270944741533,0.1018270944741533
+6,"frozenset({'edu_interaction_(12.0, 16.0]', 'husband_occupation_2', 'standard_of_living_index_4'})",0.29850746268656714,0.19734660033167495,0.10116086235489219,0.10116086235489219
 3,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_2'})",0.06963470319634703,0.168161556860187,-0.09852685366383997,0.09852685366383997
 3,"frozenset({'husband_occupation_3', 'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_3'})",0.07191780821917808,0.168161556860187,-0.09624374864100892,0.09624374864100892
-5,"frozenset({'husband_occupation_3', 'age_children_interaction_(87.0, 164.0]', 'edu_interaction_(12.0, 16.0]'})",0.12413793103448276,0.2191570881226054,-0.09501915708812264,0.09501915708812264
+5,"frozenset({'husband_occupation_3', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.12413793103448276,0.2191570881226054,-0.09501915708812264,0.09501915708812264
 4,"frozenset({'husband_occupation_3', 'standard_of_living_index_4', 'edu_interaction_(6.0, 12.0]'})",0.11764705882352941,0.21212121212121213,-0.09447415329768272,0.09447415329768272
-3,"frozenset({'age_children_interaction_(42.0, 87.0]', 'edu_interaction_(6.0, 12.0]'})",0.2614155251141553,0.168161556860187,0.09325396825396828,0.09325396825396828
 3,"frozenset({'husband_occupation_3', 'age_children_interaction_(42.0, 87.0]'})",0.2614155251141553,0.168161556860187,0.09325396825396828,0.09325396825396828
-3,"frozenset({'standard_of_living_index_4', 'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(12.0, 16.0]'})",0.07534246575342465,0.168161556860187,-0.09281909110676234,0.09281909110676234
-3,"frozenset({'standard_of_living_index_4', 'age_children_interaction_(164.0, 768.0]'})",0.2591324200913242,0.168161556860187,0.0909708632311372,0.0909708632311372
-3,"frozenset({'age_children_interaction_(42.0, 87.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.07990867579908675,0.168161556860187,-0.08825288106110024,0.08825288106110024
-5,"frozenset({'husband_occupation_2', 'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_4'})",0.1310344827586207,0.2191570881226054,-0.0881226053639847,0.0881226053639847
-4,"frozenset({'age_children_interaction_(42.0, 87.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_3'})",0.125,0.21212121212121213,-0.08712121212121213,0.08712121212121213
-4,"frozenset({'husband_occupation_2', 'age_children_interaction_(42.0, 87.0]', 'standard_of_living_index_4'})",0.125,0.21212121212121213,-0.08712121212121213,0.08712121212121213
-4,"frozenset({'age_children_interaction_(42.0, 87.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.125,0.21212121212121213,-0.08712121212121213,0.08712121212121213
-3,"frozenset({'husband_occupation_3', 'age_children_interaction_(87.0, 164.0]', 'edu_interaction_(6.0, 12.0]'})",0.08561643835616438,0.168161556860187,-0.08254511850402262,0.08254511850402262
-1,"frozenset({'age_children_interaction_(87.0, 164.0]', 'edu_interaction_(6.0, 12.0]'})",0.1485148514851485,0.2301980198019802,-0.0816831683168317,0.0816831683168317
-1,"frozenset({'standard_of_living_index_4', 'edu_interaction_(6.0, 12.0]'})",0.1485148514851485,0.2301980198019802,-0.0816831683168317,0.0816831683168317
-3,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_2'})",0.08789954337899543,0.168161556860187,-0.08026201348119157,0.08026201348119157
-4,"frozenset({'husband_occupation_2', 'age_children_interaction_(42.0, 87.0]', 'edu_interaction_(6.0, 12.0]'})",0.1323529411764706,0.21212121212121213,-0.07976827094474154,0.07976827094474154
-3,"frozenset({'husband_occupation_3', 'age_children_interaction_(87.0, 164.0]', 'edu_interaction_(6.0, 12.0]'})",0.08904109589041095,0.168161556860187,-0.07912046096977604,0.07912046096977604
+3,"frozenset({'edu_interaction_(6.0, 12.0]', 'age_children_interaction_(42.0, 87.0]'})",0.2614155251141553,0.168161556860187,0.09325396825396828,0.09325396825396828
+3,"frozenset({'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4'})",0.07534246575342465,0.168161556860187,-0.09281909110676234,0.09281909110676234
+3,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_4'})",0.2591324200913242,0.168161556860187,0.0909708632311372,0.0909708632311372
+3,"frozenset({'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(42.0, 87.0]', 'standard_of_living_index_4'})",0.07990867579908675,0.168161556860187,-0.08825288106110024,0.08825288106110024
+5,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_4', 'husband_occupation_2'})",0.1310344827586207,0.2191570881226054,-0.0881226053639847,0.0881226053639847
+4,"frozenset({'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4', 'age_children_interaction_(42.0, 87.0]'})",0.125,0.21212121212121213,-0.08712121212121213,0.08712121212121213
+4,"frozenset({'husband_occupation_2', 'standard_of_living_index_4', 'age_children_interaction_(42.0, 87.0]'})",0.125,0.21212121212121213,-0.08712121212121213,0.08712121212121213
+4,"frozenset({'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(42.0, 87.0]', 'standard_of_living_index_3'})",0.125,0.21212121212121213,-0.08712121212121213,0.08712121212121213
+3,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]', 'age_children_interaction_(87.0, 164.0]'})",0.08561643835616438,0.168161556860187,-0.08254511850402262,0.08254511850402262
+1,"frozenset({'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_4'})",0.1485148514851485,0.2301980198019802,-0.0816831683168317,0.0816831683168317
+1,"frozenset({'edu_interaction_(6.0, 12.0]', 'age_children_interaction_(87.0, 164.0]'})",0.1485148514851485,0.2301980198019802,-0.0816831683168317,0.0816831683168317
+3,"frozenset({'husband_occupation_3', 'standard_of_living_index_2', 'edu_interaction_(6.0, 12.0]'})",0.08789954337899543,0.168161556860187,-0.08026201348119157,0.08026201348119157
+4,"frozenset({'edu_interaction_(6.0, 12.0]', 'husband_occupation_2', 'age_children_interaction_(42.0, 87.0]'})",0.1323529411764706,0.21212121212121213,-0.07976827094474154,0.07976827094474154
+3,"frozenset({'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4', 'age_children_interaction_(87.0, 164.0]'})",0.08904109589041095,0.168161556860187,-0.07912046096977604,0.07912046096977604
 3,"frozenset({'husband_occupation_3', 'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_3'})",0.08904109589041095,0.168161556860187,-0.07912046096977604,0.07912046096977604
-3,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.08904109589041095,0.168161556860187,-0.07912046096977604,0.07912046096977604
-3,"frozenset({'husband_occupation_2', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.09018264840182648,0.168161556860187,-0.07797890845836052,0.07797890845836052
-6,"frozenset({'standard_of_living_index_4', 'Cluster_(4.0, 6.0]', 'age_children_interaction_(164.0, 768.0]'})",0.11940298507462686,0.19734660033167495,-0.07794361525704809,0.07794361525704809
-6,"frozenset({'standard_of_living_index_4', 'Cluster_(4.0, 6.0]', 'age_children_interaction_(164.0, 768.0]'})",0.11940298507462686,0.19734660033167495,-0.07794361525704809,0.07794361525704809
-6,"frozenset({'standard_of_living_index_4', 'age_children_interaction_(164.0, 768.0]'})",0.11940298507462686,0.19734660033167495,-0.07794361525704809,0.07794361525704809
-6,"frozenset({'standard_of_living_index_4', 'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(12.0, 16.0]'})",0.11940298507462686,0.19734660033167495,-0.07794361525704809,0.07794361525704809
-3,"frozenset({'standard_of_living_index_4', 'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(6.0, 12.0]'})",0.091324200913242,0.168161556860187,-0.07683735594694499,0.07683735594694499
-4,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.13602941176470587,0.21212121212121213,-0.07609180035650626,0.07609180035650626
-4,"frozenset({'husband_occupation_2', 'standard_of_living_index_4', 'edu_interaction_(6.0, 12.0]'})",0.13602941176470587,0.21212121212121213,-0.07609180035650626,0.07609180035650626
+3,"frozenset({'husband_occupation_3', 'age_children_interaction_(87.0, 164.0]', 'edu_interaction_(6.0, 12.0]'})",0.08904109589041095,0.168161556860187,-0.07912046096977604,0.07912046096977604
+3,"frozenset({'edu_interaction_(6.0, 12.0]', 'husband_occupation_2', 'standard_of_living_index_3'})",0.09018264840182648,0.168161556860187,-0.07797890845836052,0.07797890845836052
+6,"frozenset({'age_children_interaction_(164.0, 768.0]', 'Cluster_(4.0, 6.0]', 'standard_of_living_index_4'})",0.11940298507462686,0.19734660033167495,-0.07794361525704809,0.07794361525704809
+6,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_4'})",0.11940298507462686,0.19734660033167495,-0.07794361525704809,0.07794361525704809
+6,"frozenset({'age_children_interaction_(164.0, 768.0]', 'Cluster_(4.0, 6.0]', 'standard_of_living_index_4'})",0.11940298507462686,0.19734660033167495,-0.07794361525704809,0.07794361525704809
+6,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.11940298507462686,0.19734660033167495,-0.07794361525704809,0.07794361525704809
+3,"frozenset({'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_4'})",0.091324200913242,0.168161556860187,-0.07683735594694499,0.07683735594694499
+4,"frozenset({'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_4', 'husband_occupation_2'})",0.13602941176470587,0.21212121212121213,-0.07609180035650626,0.07609180035650626
+4,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.13602941176470587,0.21212121212121213,-0.07609180035650626,0.07609180035650626
 3,"frozenset({'husband_occupation_3', 'age_children_interaction_(42.0, 87.0]', 'standard_of_living_index_3'})",0.09246575342465753,0.168161556860187,-0.07569580343552947,0.07569580343552947
-3,"frozenset({'age_children_interaction_(42.0, 87.0]', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.09246575342465753,0.168161556860187,-0.07569580343552947,0.07569580343552947
-1,"frozenset({'husband_occupation_2', 'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_2'})",0.15841584158415842,0.2301980198019802,-0.07178217821782179,0.07178217821782179
-3,"frozenset({'husband_occupation_2', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.09817351598173515,0.168161556860187,-0.06998804087845184,0.06998804087845184
--1,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_2'})",0.16666666666666666,0.09770114942528738,0.06896551724137928,0.06896551724137928
--1,"frozenset({'husband_occupation_2', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.16666666666666666,0.09770114942528738,0.06896551724137928,0.06896551724137928
--1,"frozenset({'husband_occupation_2', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.16666666666666666,0.09770114942528738,0.06896551724137928,0.06896551724137928
+3,"frozenset({'edu_interaction_(6.0, 12.0]', 'age_children_interaction_(42.0, 87.0]', 'standard_of_living_index_3'})",0.09246575342465753,0.168161556860187,-0.07569580343552947,0.07569580343552947
+1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_2', 'husband_occupation_2'})",0.15841584158415842,0.2301980198019802,-0.07178217821782179,0.07178217821782179
+3,"frozenset({'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4', 'husband_occupation_2'})",0.09817351598173515,0.168161556860187,-0.06998804087845184,0.06998804087845184
 -1,"frozenset({'husband_occupation_3', 'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_2'})",0.16666666666666666,0.09770114942528738,0.06896551724137928,0.06896551724137928
+-1,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_2'})",0.16666666666666666,0.09770114942528738,0.06896551724137928,0.06896551724137928
+-1,"frozenset({'edu_interaction_(6.0, 12.0]', 'husband_occupation_2', 'standard_of_living_index_3'})",0.16666666666666666,0.09770114942528738,0.06896551724137928,0.06896551724137928
 -1,"frozenset({'husband_occupation_2', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.16666666666666666,0.09770114942528738,0.06896551724137928,0.06896551724137928
-3,"frozenset({'husband_occupation_2', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.10159817351598173,0.168161556860187,-0.06656338334420527,0.06656338334420527
-3,"frozenset({'age_children_interaction_(42.0, 87.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.10388127853881278,0.168161556860187,-0.06428027832137422,0.06428027832137422
-4,"frozenset({'husband_occupation_2', 'edu_interaction_(6.0, 12.0]', 'Cluster_(3.0, 4.0]'})",0.2757352941176471,0.21212121212121213,0.06361408199643495,0.06361408199643495
-4,"frozenset({'Cluster_(3.0, 4.0]', 'husband_occupation_2', 'edu_interaction_(6.0, 12.0]'})",0.2757352941176471,0.21212121212121213,0.06361408199643495,0.06361408199643495
-4,"frozenset({'husband_occupation_2', 'edu_interaction_(6.0, 12.0]'})",0.2757352941176471,0.21212121212121213,0.06361408199643495,0.06361408199643495
-3,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4'})",0.23059360730593606,0.168161556860187,0.062432050445749065,0.062432050445749065
+-1,"frozenset({'edu_interaction_(6.0, 12.0]', 'husband_occupation_2', 'standard_of_living_index_3'})",0.16666666666666666,0.09770114942528738,0.06896551724137928,0.06896551724137928
+3,"frozenset({'edu_interaction_(6.0, 12.0]', 'husband_occupation_2', 'standard_of_living_index_3'})",0.10159817351598173,0.168161556860187,-0.06656338334420527,0.06656338334420527
+3,"frozenset({'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_4', 'age_children_interaction_(42.0, 87.0]'})",0.10388127853881278,0.168161556860187,-0.06428027832137422,0.06428027832137422
+4,"frozenset({'Cluster_(3.0, 4.0]', 'edu_interaction_(6.0, 12.0]', 'husband_occupation_2'})",0.2757352941176471,0.21212121212121213,0.06361408199643495,0.06361408199643495
+4,"frozenset({'Cluster_(3.0, 4.0]', 'edu_interaction_(6.0, 12.0]', 'husband_occupation_2'})",0.2757352941176471,0.21212121212121213,0.06361408199643495,0.06361408199643495
+4,"frozenset({'edu_interaction_(6.0, 12.0]', 'husband_occupation_2'})",0.2757352941176471,0.21212121212121213,0.06361408199643495,0.06361408199643495
 3,"frozenset({'age_children_interaction_(87.0, 164.0]', 'edu_interaction_(12.0, 16.0]'})",0.23059360730593606,0.168161556860187,0.062432050445749065,0.062432050445749065
-1,"frozenset({'age_children_interaction_(42.0, 87.0]', 'standard_of_living_index_4'})",0.16831683168316833,0.2301980198019802,-0.06188118811881188,0.06188118811881188
+3,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4'})",0.23059360730593606,0.168161556860187,0.062432050445749065,0.062432050445749065
+1,"frozenset({'standard_of_living_index_4', 'age_children_interaction_(42.0, 87.0]'})",0.16831683168316833,0.2301980198019802,-0.06188118811881188,0.06188118811881188
 5,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]'})",0.27586206896551724,0.2191570881226054,0.05670498084291184,0.05670498084291184
 5,"frozenset({'husband_occupation_3', 'Cluster_(4.0, 6.0]', 'edu_interaction_(6.0, 12.0]'})",0.27586206896551724,0.2191570881226054,0.05670498084291184,0.05670498084291184
 5,"frozenset({'husband_occupation_3', 'Cluster_(4.0, 6.0]', 'edu_interaction_(6.0, 12.0]'})",0.27586206896551724,0.2191570881226054,0.05670498084291184,0.05670498084291184
-4,"frozenset({'husband_occupation_2', 'standard_of_living_index_4', 'edu_interaction_(6.0, 12.0]'})",0.15808823529411764,0.21212121212121213,-0.05403297682709449,0.05403297682709449
-1,"frozenset({'husband_occupation_2', 'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_2'})",0.1782178217821782,0.2301980198019802,-0.051980198019802,0.051980198019802
-1,"frozenset({'husband_occupation_2', 'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_3'})",0.1782178217821782,0.2301980198019802,-0.051980198019802,0.051980198019802
-3,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.11643835616438356,0.168161556860187,-0.05172320069580344,0.05172320069580344
-3,"frozenset({'husband_occupation_3', 'age_children_interaction_(42.0, 87.0]', 'edu_interaction_(6.0, 12.0]'})",0.11757990867579908,0.168161556860187,-0.050581648184387915,0.050581648184387915
-3,"frozenset({'age_children_interaction_(42.0, 87.0]', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.11757990867579908,0.168161556860187,-0.050581648184387915,0.050581648184387915
-4,"frozenset({'Cluster_(3.0, 4.0]', 'standard_of_living_index_2', 'husband_occupation_3'})",0.16176470588235295,0.21212121212121213,-0.05035650623885918,0.05035650623885918
+4,"frozenset({'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_4', 'husband_occupation_2'})",0.15808823529411764,0.21212121212121213,-0.05403297682709449,0.05403297682709449
+1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_2', 'husband_occupation_2'})",0.1782178217821782,0.2301980198019802,-0.051980198019802,0.051980198019802
+1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'husband_occupation_2', 'standard_of_living_index_3'})",0.1782178217821782,0.2301980198019802,-0.051980198019802,0.051980198019802
+3,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.11643835616438356,0.168161556860187,-0.05172320069580344,0.05172320069580344
+3,"frozenset({'edu_interaction_(6.0, 12.0]', 'age_children_interaction_(42.0, 87.0]', 'standard_of_living_index_3'})",0.11757990867579908,0.168161556860187,-0.050581648184387915,0.050581648184387915
+3,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]', 'age_children_interaction_(42.0, 87.0]'})",0.11757990867579908,0.168161556860187,-0.050581648184387915,0.050581648184387915
 4,"frozenset({'husband_occupation_3', 'standard_of_living_index_2'})",0.16176470588235295,0.21212121212121213,-0.05035650623885918,0.05035650623885918
-4,"frozenset({'Cluster_(3.0, 4.0]', 'standard_of_living_index_2', 'husband_occupation_3'})",0.16176470588235295,0.21212121212121213,-0.05035650623885918,0.05035650623885918
+4,"frozenset({'Cluster_(3.0, 4.0]', 'husband_occupation_3', 'standard_of_living_index_2'})",0.16176470588235295,0.21212121212121213,-0.05035650623885918,0.05035650623885918
+4,"frozenset({'Cluster_(3.0, 4.0]', 'husband_occupation_3', 'standard_of_living_index_2'})",0.16176470588235295,0.21212121212121213,-0.05035650623885918,0.05035650623885918
 5,"frozenset({'husband_occupation_3', 'standard_of_living_index_4', 'edu_interaction_(6.0, 12.0]'})",0.1724137931034483,0.2191570881226054,-0.04674329501915711,0.04674329501915711
-3,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.2134703196347032,0.168161556860187,0.045308762774516204,0.045308762774516204
+3,"frozenset({'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.2134703196347032,0.168161556860187,0.045308762774516204,0.045308762774516204
 3,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.13013698630136986,0.168161556860187,-0.03802457055881714,0.03802457055881714
 3,"frozenset({'husband_occupation_3', 'age_children_interaction_(42.0, 87.0]', 'edu_interaction_(6.0, 12.0]'})",0.1312785388127854,0.168161556860187,-0.0368830180474016,0.0368830180474016
 3,"frozenset({'husband_occupation_3', 'standard_of_living_index_4', 'edu_interaction_(6.0, 12.0]'})",0.1312785388127854,0.168161556860187,-0.0368830180474016,0.0368830180474016
-5,"frozenset({'husband_occupation_3', 'standard_of_living_index_4', 'edu_interaction_(6.0, 12.0]'})",0.18620689655172415,0.2191570881226054,-0.03295019157088125,0.03295019157088125
-1,"frozenset({'husband_occupation_3', 'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_3'})",0.19801980198019803,0.2301980198019802,-0.03217821782178218,0.03217821782178218
+5,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_4'})",0.18620689655172415,0.2191570881226054,-0.03295019157088125,0.03295019157088125
+1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'husband_occupation_3', 'standard_of_living_index_3'})",0.19801980198019803,0.2301980198019802,-0.03217821782178218,0.03217821782178218
 1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_3'})",0.19801980198019803,0.2301980198019802,-0.03217821782178218,0.03217821782178218
-1,"frozenset({'husband_occupation_3', 'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_3'})",0.19801980198019803,0.2301980198019802,-0.03217821782178218,0.03217821782178218
-3,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_4', 'edu_interaction_(6.0, 12.0]'})",0.136986301369863,0.168161556860187,-0.03117525549032399,0.03117525549032399
-3,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.19406392694063926,0.168161556860187,0.025902370080452264,0.025902370080452264
-3,"frozenset({'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_2'})",0.15182648401826485,0.168161556860187,-0.01633507284192215,0.01633507284192215
+1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'husband_occupation_3', 'standard_of_living_index_3'})",0.19801980198019803,0.2301980198019802,-0.03217821782178218,0.03217821782178218
+3,"frozenset({'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_4'})",0.136986301369863,0.168161556860187,-0.03117525549032399,0.03117525549032399
+3,"frozenset({'husband_occupation_3', 'standard_of_living_index_3', 'edu_interaction_(6.0, 12.0]'})",0.19406392694063926,0.168161556860187,0.025902370080452264,0.025902370080452264
 3,"frozenset({'husband_occupation_3', 'standard_of_living_index_2'})",0.15182648401826485,0.168161556860187,-0.01633507284192215,0.01633507284192215
-3,"frozenset({'age_children_interaction_(42.0, 87.0]', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.15182648401826485,0.168161556860187,-0.01633507284192215,0.01633507284192215
 3,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.15182648401826485,0.168161556860187,-0.01633507284192215,0.01633507284192215
--1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_2'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'husband_occupation_2', 'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_3'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'husband_occupation_3', 'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_3'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+3,"frozenset({'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3', 'age_children_interaction_(42.0, 87.0]'})",0.15182648401826485,0.168161556860187,-0.01633507284192215,0.01633507284192215
+3,"frozenset({'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_2'})",0.15182648401826485,0.168161556860187,-0.01633507284192215,0.01633507284192215
 -1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_4', 'edu_interaction_(12.0, 16.0]'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'age_children_interaction_(87.0, 164.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_3'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'age_children_interaction_(87.0, 164.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_3'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'husband_occupation_3', 'standard_of_living_index_2'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
 -1,"frozenset({'husband_occupation_3', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_3'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'husband_occupation_3', 'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_2'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
 -1,"frozenset({'husband_occupation_3', 'age_children_interaction_(87.0, 164.0]', 'edu_interaction_(12.0, 16.0]'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'husband_occupation_3', 'age_children_interaction_(87.0, 164.0]', 'edu_interaction_(12.0, 16.0]'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'husband_occupation_3', 'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_3'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'husband_occupation_3', 'edu_interaction_(12.0, 16.0]', 'age_children_interaction_(87.0, 164.0]'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'husband_occupation_2', 'standard_of_living_index_3'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_3', 'age_children_interaction_(87.0, 164.0]'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'age_children_interaction_(87.0, 164.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_3'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'age_children_interaction_(87.0, 164.0]', 'husband_occupation_2', 'standard_of_living_index_3'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
 -1,"frozenset({'husband_occupation_3', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_3'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'husband_occupation_2', 'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_3'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'husband_occupation_3', 'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(6.0, 12.0]'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_2'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_2', 'husband_occupation_2'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'husband_occupation_3', 'standard_of_living_index_4', 'age_children_interaction_(87.0, 164.0]'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_4', 'age_children_interaction_(87.0, 164.0]'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'husband_occupation_3', 'standard_of_living_index_4', 'age_children_interaction_(87.0, 164.0]'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'edu_interaction_(6.0, 12.0]', 'age_children_interaction_(87.0, 164.0]', 'husband_occupation_2'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_4', 'husband_occupation_2'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'age_children_interaction_(164.0, 768.0]', 'husband_occupation_3', 'edu_interaction_(6.0, 12.0]'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_4', 'age_children_interaction_(87.0, 164.0]'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
 -1,"frozenset({'husband_occupation_3', 'standard_of_living_index_4', 'edu_interaction_(6.0, 12.0]'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'husband_occupation_3', 'age_children_interaction_(164.0, 768.0]', 'edu_interaction_(6.0, 12.0]'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'husband_occupation_2', 'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_2'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'husband_occupation_2', 'age_children_interaction_(87.0, 164.0]', 'edu_interaction_(6.0, 12.0]'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'husband_occupation_2', 'age_children_interaction_(164.0, 768.0]', 'standard_of_living_index_4'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4', 'edu_interaction_(6.0, 12.0]'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
+-1,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_4'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
 -1,"frozenset({'husband_occupation_3', 'edu_interaction_(12.0, 16.0]', 'standard_of_living_index_3'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'husband_occupation_3', 'standard_of_living_index_4', 'edu_interaction_(6.0, 12.0]'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
--1,"frozenset({'husband_occupation_3', 'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4'})",0.08333333333333333,0.09770114942528738,-0.014367816091954047,0.014367816091954047
-1,"frozenset({'age_children_interaction_(87.0, 164.0]', 'edu_interaction_(6.0, 12.0]'})",0.21782178217821782,0.2301980198019802,-0.012376237623762387,0.012376237623762387
-3,"frozenset({'husband_occupation_3', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.15639269406392695,0.168161556860187,-0.011768862796260049,0.011768862796260049
-6,"frozenset({'husband_occupation_2', 'age_children_interaction_(87.0, 164.0]', 'standard_of_living_index_4'})",0.208955223880597,0.19734660033167495,0.011608623548922059,0.011608623548922059
-5,"frozenset({'husband_occupation_2', 'Cluster_(4.0, 6.0]', 'age_children_interaction_(164.0, 768.0]'})",0.21379310344827587,0.2191570881226054,-0.005363984674329525,0.005363984674329525
-5,"frozenset({'husband_occupation_2', 'age_children_interaction_(164.0, 768.0]'})",0.21379310344827587,0.2191570881226054,-0.005363984674329525,0.005363984674329525
-5,"frozenset({'husband_occupation_2', 'Cluster_(4.0, 6.0]', 'age_children_interaction_(164.0, 768.0]'})",0.21379310344827587,0.2191570881226054,-0.005363984674329525,0.005363984674329525
+1,"frozenset({'edu_interaction_(6.0, 12.0]', 'age_children_interaction_(87.0, 164.0]'})",0.21782178217821782,0.2301980198019802,-0.012376237623762387,0.012376237623762387
+3,"frozenset({'husband_occupation_3', 'standard_of_living_index_3', 'edu_interaction_(6.0, 12.0]'})",0.15639269406392695,0.168161556860187,-0.011768862796260049,0.011768862796260049
+6,"frozenset({'age_children_interaction_(87.0, 164.0]', 'husband_occupation_2', 'standard_of_living_index_4'})",0.208955223880597,0.19734660033167495,0.011608623548922059,0.011608623548922059
+5,"frozenset({'age_children_interaction_(164.0, 768.0]', 'husband_occupation_2'})",0.21379310344827587,0.2191570881226054,-0.005363984674329525,0.005363984674329525
+5,"frozenset({'age_children_interaction_(164.0, 768.0]', 'Cluster_(4.0, 6.0]', 'husband_occupation_2'})",0.21379310344827587,0.2191570881226054,-0.005363984674329525,0.005363984674329525
+5,"frozenset({'edu_interaction_(6.0, 12.0]', 'Cluster_(4.0, 6.0]', 'standard_of_living_index_3'})",0.21379310344827587,0.2191570881226054,-0.005363984674329525,0.005363984674329525
+5,"frozenset({'edu_interaction_(6.0, 12.0]', 'Cluster_(4.0, 6.0]', 'standard_of_living_index_3'})",0.21379310344827587,0.2191570881226054,-0.005363984674329525,0.005363984674329525
 5,"frozenset({'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.21379310344827587,0.2191570881226054,-0.005363984674329525,0.005363984674329525
-5,"frozenset({'Cluster_(4.0, 6.0]', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.21379310344827587,0.2191570881226054,-0.005363984674329525,0.005363984674329525
-5,"frozenset({'Cluster_(4.0, 6.0]', 'edu_interaction_(6.0, 12.0]', 'standard_of_living_index_3'})",0.21379310344827587,0.2191570881226054,-0.005363984674329525,0.005363984674329525
+5,"frozenset({'age_children_interaction_(164.0, 768.0]', 'Cluster_(4.0, 6.0]', 'husband_occupation_2'})",0.21379310344827587,0.2191570881226054,-0.005363984674329525,0.005363984674329525

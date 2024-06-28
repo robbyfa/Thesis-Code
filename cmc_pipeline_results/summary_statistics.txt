@@ -10,7 +10,7 @@ Cluster 3:
 Cluster 4:
   number_of_unique_rules: 22
   total_coverage: 13.970588235294118
-  average_confidence: 50.63633943479169
+  average_confidence: 50.6363394347917
   average_lift: 1.3897771455666192
   average_support: 11.898395721925134
   number_of_transactions: 272
